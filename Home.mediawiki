@@ -1,0 +1,568 @@
+<blockquote> 
+This is the '''official BeagleBone Black Wiki''' maintained and supported by BeagleBoard.org a non-profit organization.<br />
+If you have any questions or issues with the content on this Wiki, contact [mailto:jkridner@beagleboard.org Jason Kridner] or the [mailto:beagleboard@googlegroups.com BeagleBoard Google Group mailing list].
+</blockquote>
+----
+
+
+==BeagleBone Black Description==
+The BeagleBone Black is the newest member of the BeagleBoard family. It is a lower-cost, high-expansion focused BeagleBoard using a low cost Sitara XAM3359AZCZ100 Cortex A8 ARM processor from Texas Instruments. It is similar to the Beaglebone,but with some features removed and some features added. The table below gives the high points on the differences between the BeagleBone and BeagleBone Black.<br>
+
+[[File:BBvsBBB.jpg]]
+
+===BeagleBone Black Features===
+
+The following table lists the key features of the BeagleBone Black.
+
+[[File:Features.jpg]]
+
+
+In the box is (1)BeagleBone Black board, (1)USB cable, and (1)card that should be read.
+
+===BeagleBone Black Picture===
+
+Here is a picture of the Rev A5A board.
+
+[[File:REV_A5A.jpg]]
+
+===BeagleBone Black Key Component Locations===
+
+Here are the locations of the key components on the Rev A5A.
+
+[[File:COMP_A5A.jpg]]
+
+===BeagleBone Black Connector and Switch Locations===
+
+Below is the location of the connectors and switches on the Rev A5A board.<br>
+The Power Button and Battery Connections are new additions to the Rev A5A.
+
+[[File:CONN_REVA5A.jpg]]
+
+==Frequently Asked Questions (FAQ)==
+
+*[[Beagleboard:BeagleBone_Black_FAQ | Beaglebone Black FAQ]]<br>
+
+List of frequently asked questions concerning the BeagleBone Black. It will be updated as more questions continued to be answered.
+
+==Terms of Use==
+
+UPDATED INFORMATION
+
+You may use the Beaglebone Black design materials as you choose. There are no licences involved in the usage of the BeagleBone Black design materials. We do not encourage the use of the board that we manufacture under the BeagleBoard.org logo in commercial products. We are not able to schedule parts and arrange for production for orders that we cannot see. Meeting demand is difficult as a result.<br>
+In addition, we will make revisions to the board as we find necessary and we will not continue to make older revisions. This can result in supply and compatibility issues for those using them in a product.<br>
+When used in a product, the end customer is responsible for its use in their product. BeagleBoard.org does not guarantee that it will work in any particular application or use case.<br>
+Changes in components used on the production of these boards such as memory devices, may affect operation of the board, either positively or negatively.<br> 
+
+ This work is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. To
+ view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/3.0/ creativecommons.org] or<br>
+ send a letter to:<br>
+ Creative Commons
+ 171 Second Street, Suite 300
+ San Francisco, California, 94105, USA.<br>
+
+ All derivative works released back into the public domain are to be attributed as based on the
+ work created by Gerald Coley of BeagleBoard.org.<br>
+
+ For more information, see [http://creativecommons.org/license/results-one?license_code=by-sa Creative Commons Attribution-ShareAlike 3.0 Unported License] <br>
+
+ALL design materials are Open Source and easily accessible. Everything is provided to build your own board. You can make changes as needed or use it as is. It is your product when you use these materials. <br>
+Feel free to build the board yourself at your contract manufacturer of choice.<br>
+
+If you have questions on any of this, you can contact [mailto:jkridner@beagleboard.org Jason Kridner] or the [mailto:beagleboard@googlegroups.com BeagleBoard Google Group mailing list].
+
+==Board Shipments==
+
+We have shipped a total '''286,810''' boards to date.<br>
+
+4/16......3,000<br>
+3/16......3,000<br>
+2/16......2,900<br>
+1/16......3,200<br>
+12/15.....2,800<br>
+11/15.....3,000<br>
+10/15.....2,500<br>
+09/15.....2,400<br>
+08/15.....3,000<br>
+07/15.....3,500<br>
+06/15.....4,297<br>
+05/15.....6,800<br>
+04/15.....7,104<br>
+03/15.....7,400<br>
+02/15.....6,028<br>
+01/15.....7,460<br>
+12/14.....5,274<br>
+11/14.....2,024<br>
+10/14....11,620<br>
+09/14....10,930<br>
+08/14.....6,797<br>
+07/14.....7,509<br>
+06/14....10,600<br>
+05/14.....7,500<br>
+04/14....11,297<br>
+03/14....12,698<br>
+02/14....13,050<br>
+01/14....13,575<br>
+12/13.....7,192<br>
+11/13.....9,298<br>
+10/13.....7,698<br>
+
+==Accessories==
+
+For a list of the confirmed working accessories please go to *[http://elinux.org/Beagleboard:BeagleBone_Black_Accessories Accessories Page]<br />
+Covered there are cables, power supplies, displays,etc. Anything that can be added to the BeagleBone Black.
+
+===Optional JTAG===
+
+There is no JTAG over USB support on the BeagleBone Black. The BeagleBone Black is different than the BeagleBone. JTAG is an uninstalled option.<br>
+
+To install the JTAG header, all you have to do is install P2 on the back of the board.<br>
+P2 is a Samtec FTR-110-03-G-D-06 connector and can be purchased from Samtec or any of their distributors.<br>
+
+If you are using Code Composer Studio, you will need a [http://processors.wiki.ti.com/index.php/File:BeagleBlack_400Mhz_4GbDDR.gel.tar.gz Gel File]<br>
+
+===Cape Support===
+
+BeagleBoard.org is not the maker of the various capes. For information on cape compatibility and support go to [https://beagleboard.org/cape BeagleBone Black Capes].
+
+===WIFI Adapters===
+
+NOTE: It is highly recommend that you use DC power when running these dongles due to the current requirements of the dongles.<br>
+            DONGLE                                    WORKS ON
+ [http://www.amazon.com/USB-N13-Wireless-N-Adapter-802-11b-Wireless/dp/B002UVNW5W ASUS USB-N13 802.11 b/g/n]           Angstrom Debian 8.2
+ [http://www.amazon.com/computers-accessories/dp/B005CLMJLU  EDIMAX EW-7811UN]          
+ [http://www.amazon.com/D-Link-Wireless-Network-Adapter-DWA-125/dp/B002KEA8OM/ref=sr_1_2?ie=UTF8&qid=1371742501&sr=8-2 D-Link DWA-125]                      [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]], [[Beagleboard:Desktops_On_Ubuntu/Debian#Debian_Wheezy_On_A_microSD_With_Gnome_Desktop | Debian Gnome Desktop]]
+ [http://www.amazon.com/D-Link-DWA-121-Wireless-N-Pico-Adapter/dp/B004P8K2JW/ref=sr_1_1?ie=UTF8&qid=1371742501&sr=8-1 D-Link DWA-121]                      Angstrom [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]], [[Beagleboard:Desktops_On_Ubuntu/Debian#Debian_Wheezy_On_A_microSD_With_Gnome_Desktop | Debian Gnome Desktop]]
+ [http://www.amazon.com/Belkin-Wireless-Adapter-Latest-Generation/dp/B004N625BE/ref=sr_1_2?ie=UTF8&qid=1371742934&sr=8-2 Belkin N150]                         [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]]
+ [http://www.amazon.com/TP-LINK-TL-WN721N-Wireless-Adapter-150Mbps/dp/B002ZDQHS4/ref=sr_1_1?ie=UTF8&qid=1371743079&sr=8-1 TP-Link TL-WN727N]                   [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]], [[Beagleboard:Desktops_On_Ubuntu/Debian#Debian_Wheezy_On_A_microSD_With_Gnome_Desktop | Debian Gnome Desktop]]
+ [http://www.amazon.com/Netgear-WNA1100-802-11n-Wi-Fi-Adapter/dp/B0036R9XRU/ref=sr_1_1?ie=UTF8&qid=1371743487&sr=8-1 Netgear WNA1100]                     [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]], [[Beagleboard:Desktops_On_Ubuntu/Debian#Debian_Wheezy_On_A_microSD_With_Gnome_Desktop | Debian Gnome Desktop]]
+ [http://www.amazon.com/KEEBOX-W150NUIEEE-Wireless-N-150-Adapter/dp/B004FM1X1O/ref=sr_1_1?ie=UTF8&qid=1371743962&sr=8-1 Keebox W150NU]                       [[Beagleboard:Installing_LXDE#LXDE#On#A#Micro#SD#with#Debian#Wheezy | Debian LXDE]], [[Beagleboard:Desktops_On_Ubuntu/Debian#Debian_Wheezy_On_A_microSD_With_Gnome_Desktop | Debian Gnome Desktop]]
+
+Note: Always run the board from 5VDC 1A minimum supply when using a Wifi Dongle. You may need to use a extension cable to move the dongle away from the planes of the PCB.<br />
+Sometimes standoffs will work. We also have had instances where when placed in a metal case, there can be Wifi issues as well.<br />
+You can also use a dongle with a real antenna on it such as [http:// http://www.logicsupply.com/uwn200/. Logic Supply] which will help<br />
+
+===Serial Debug Cable===
+
+For information on the serial debug cables go to [[Beagleboard:BeagleBone_Black_Serial | Serial Debug Cables]]<br>
+
+==Board Revisions and Changes==
+
+===Revision C (Production Version)===
+This revision increases the eMMC from 2GB to 4GB. We are making this change for several reasons:<br>
+
+1) Complaints from the community about lack of space left in the eMMC.<br>
+2) For those worried about their eMMC wearing out, the added space will help in the area of moving the data around to prevent wear out. Assuming of course you don't try and use it all.<br> 
+3) Concerns over the long-term availability of the 2GB device. 4GB is currently the low end of the offering. This also gives us two sources.<br>
+
+We are planning a price increase for the Rev C somewhere between $5 and $15. We are working to figure out where it needs to be. This is for several reasons:<br>
+
+1) To cover the increased cost of the 4G devices.<br>
+2) Currently there is $0 margin on these boards which limits our ability to bring more manufacturing capacity on line. Added some margin allows us to find more capacity.<br>
+3) Without margin, we cannot respond to component price increases due to market forces. This is of particular concern in the area of NAND and DDR3. We have been successful in fighting back some increases, but we don't know if that will continue.<br>
+
+===Revision B ===
+This version moves to the AM3358BZCZ100 processor as we are no longer able to get the limited production version of the AM3359AZCZ100. <br>
+No changes in features or operation of the board resulted from this change.<br>
+
+===Revision A6A===
+No changes in features or operation of the board.<br>
+
+1) Added optional zero ohm resistor to tie GND_OSC1 to system ground.<br>
+2) Changed C106 to a 1uF capacitor.<br>
+3) Changed C24 to a  2.2uF capacitor. This extends the reset signal to solve an issue where some boards would not boot on power up.<br>
+4) Removed R9 and installed R8. This change was based on an alert we just received from TI that there is a power sequencing issue with the TPS65217C power management IC and the power sequencing is incorrect. This change connects the VDDS rail to the VRTC rail. We do not believe at this time, that the issue is causing any issues with the boards, but we want to comply with the directive.
+
+===Revision A6===
+No changes in features or operation of the board.<br>
+
+1) Based on notification from TI, in random instances there could be a glitch in the SYS_RESETn signal from the processor where the SYS_RESETn signal was taken high for a momentary amount of time before it was supposed to. To prevent this, the signal was ORed with the PORZn (Power On reset).<br>
+2) Noise issues were observed in other designs where the clock oscillator was getting hit due to a suspected issue in ground bounce. A zero ohm resistor was added to connect the OSC_GND to the system ground. <br>
+3) Moved the enable for the VDD_3V3B regulator to VDD_3V3A rail. Change was made to reduce the delay between the ramp up of the 3.3V rails. No evidence of this being an issue, but it really needs to be as close to the same as possible.<br>
+
+===Revision A5C===
+Production had some fallout of boards when running the HDMI tests in the previous production run. Resistor values were tweaked to improve the test results.<br>
+No changes in features or operation of the board.<br>
+1) Changed R46,R47,R48 to a 0 ohm.<br> 
+2) Changed R45 to a 22 Ohm.<br>
+
+===Revision A5B===
+1) Updated the PCB to incorporate the modification that was being done on Rev A5A. There is NO DIFFERENCE AT ALL in functionality between REV A5A and REV A5B.<br>
+2) Made the LEDs dimmer for those that could not sleep due to the brightness of the LEDs.<br>
+
+===Revision A5A===
+1) Boards are built using the XAM3359AZCZ100 processor.<BR>
+2) PCB Change...LCD noise issue was resolved by adding 47pf bypass caps on some of the LCD signals.<BR>
+3) PCB Change...Added access to four battery charger signals on the TPS65217 (TS=Temperature Sense, BAT=Battery connection,BATT_SENSE=Battery voltage pin, GND=Ground). Pins are not populated but the four signals are in a 2x2 .1x.1 spacing.<BR>
+4) PCB Change...Added a power button which allows for wake up, power down, and sleep options. It also provides the ability to alert the processor before powering down to provide an orderly shutdown. It is expected that SW will be used in conjunction with the switch to control the various power modes and transitions from one to the other. By holding the button down for 8 seconds, it will force a power down of the board.<br>
+5) Added a 100K pull down resistor from J1 pin 1 to J1 pin 4 to fix the unterminated serial port issue.
+
+===Revision A4B===
+Added a 100K pull down resistor between pins 1 and 4 of J1 to fix the serial port issue.
+
+===Revision A4A===
+Incorporated the capacitors to fix the noise issue on the display
+
+===Revision A4===
+First prototype release version of the board. Limited distribution. One notable issue here is that the board has an AM3352 processor instead of an AM3359, despite how the part is marked. Part was mismarked as an AM3359. The SGX and PRU are not operational.
+
+==Tips and Pointers==
+
+
+===Expansion Header Pin Usage===
+There are several precautions that need to me taken when working with the expansion headers to prevent damage to the board.<br>
+
+ALL VOLTAGE LEVELS ARE 3.3V MAX. APPLICATION OF 5V TO ANY I/O PIN WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY.<br>
+ANALOG IN VOLTAGES ARE 1.8V MAX. APPLICATION OF >1.8V TO ANY A/D PIN WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY.<br>
+
+1) Do not apply any voltages to any I/O pins when the board is not powered on.<br>
+2) Do not drive any external signals into the I/O pins until after the SYS_RESETn signal is HI (3.3V).<br>
+3) Do not apply any voltages that are generated from external sources until SYS_RESETn signal is HI.<br>
+4) If voltages are generated from the VDD_5V signal, those supplies must not become active until after the SYS_RESETn signal is HI.<br>
+5) If you are applying signals from other boards into the expansion headers, make sure you power the board up after you power up the BeagleBone Black or make the connections after power is applied on both boards.<br>
+
+In the [https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_SRM.pdf?raw=true System Reference Manual] you will find reference to Boot Pins. These pins are connected to the expansion header.<br>
+If you load or terminate these pins to the point it affects their default setting, the board will not boot.<br>
+
+Powering the processor via its I/O pins can cause damage to the processor.<br>
+The expansion headers can be viewed on this [[Beagleboard:Cape_Expansion_Headers | Cape Expansion Headers]].<br>
+
+===Serial Header Usage===
+
+Power restrictions on the serial debug header are not an issue. On the board, there is a buffer that prevents damage from occurring by having the connector of the FTDI cable connected to the the header. It is safe to do and will not cause damage to the board when power is not applied to the board.<br>
+
+===Extremely Useful Links===
+[http://beagleboard.org/ BeagleBoard home page]<br>
+[http://beagleboard.org/Videos BeagleBoard How to Videos]<br>
+[http://hipstercircuits.com/ Hipster Cricuits]<br>
+[https://www.linux.com/learn/tutorials/725368-getting-started-with-the-beaglebone-black-a-1ghz-arm-linux-machine-for-45 Getting Started On BeagleBone Black]<br>
+[http://learn.adafruit.com/search?q=BeagleBone+Black Adafruit Tutorials] This site is well worth a visit. You may even decide to make it your home page!<br>
+[http://derekmolloy.ie/beaglebone/ Derek Molloy's Blog]<br>
+[http://www.youtube.com/watch?v=wui_wU1AeQc GPIO and Device Tree (Derek Molloy)]<br>
+[http://www.youtube.com/watch?v=vFv_-ykLppo C/C++ Introduction on BeagleBone (Derek Malloy)]<br>
+[http://hackaday.com/?s=BeagleBone+Black Hackaday] You can also subscribe to this. Should be checked often for the latest cool projects on BeagleBone Black<br>
+[http://lanceme.blogspot.de/2013/06/windows-7-internet-sharing-for.html Interent Sharing On Windows 7]<br>
+[http://www.crashcourse.ca/wiki/index.php/BeagleBone_Black Robert P. J. Day's Wiki]<br>
+[http://eewiki.net/display/linuxonarm/BeagleBone+Black Linuxonarm Wiki]<br>
+
+===Expanding the Storage Partition on microSD===
+If you have installed a Linux distribution on your microSD you can modify the root file system partition. You are then able to utilize all of the space on your microSD card regardless of the size of the default partition of your given image. Follow the instructions found on [[Beagleboard:Expanding_File_System_Partition_On_A_microSD | Expanding File System Partition on a MicroSD]].
+
+Note: The instructions on that page are general and are not guaranteed to work on every Linux distribution.
+
+===BoneScript===
+Bonescript is a Node.js library specifically optimized for the Beagle family, featuring familiar Arduino function calls, exported to the browser. The BoneScript library provides several functions useful for interacting with your hardware. The following [[Beagleboard:BoneScript | BoneScript]] provides a dozen of hardware demos that interact with the BeagleBone Black.
+
+===Connecting to the BeagleBone Black: Serial Connection, SSH, or USB ===
+ 
+In the following [[Beagleboard:Terminal_Shells | Terminal Shells]] page, there are instructions on how to connect to the BeagleBone Black through either a serial connection, SSH using an ethernet cable, or SSH to the BeagleBone's built-in IP address over a USB cable.
+
+===Creating a uSD card for Extra Storage===
+
+[[Beagleboard:MicroSD_As_Extra_Storage | MicroSD Card For Extra Storage]]
+
+==HDMI Issues==
+HDMI Issues..We have several people having issues getting the board to work with various TVs and Displays. RMA returns have shown no issues.<br>
+<br>
+If you are having issues a separate support page has been set up at [[Beagleboard:BeagleBoneBlack_HDMI | HDMI Issues]]<br>
+<br>
+
+==Known Issues==
+
+===WIKI Issues===
+
+If you find any issues with any information on this WIKI, please send the information to the discussion forum http://beagleboard.org/Community/Forums. <br>
+
+===Software=== 
+1) The microSD card cannot be used as a storage device when booting from microSD in the 3.8 kernel.<br>
+2) SGX support is not currently provided i the 3.8 kernel.
+3) The latest production image 6_20_2013 does not work on Lapdocks.
+
+You can find a list of reported issues and add additional ones by going to [http://bugs.elinux.org/projects/beagleboneblack Bug Tracker]
+
+===Hardware===
+
+Here are the known Hardware issues:
+
+====Wrong Processor REV A4,A4A====
+Processor is a AM3352 due to the incorrect part being marked as an AM3359.
+
+====Missing Cables REV A4,A4A====
+Does not ship with any cables. Rev A5 will ship with the USB cable.
+
+====Display Noise REV A4====
+If you look closely, you will notice some noise in the display. This is due to a termination issue on the board caused by too many connections to the LCD data pins. This will be fixed on the A5 revision.
+
+====Serial Debug CrashREV A4, A4A====
+Serial port can cause the system to crash if there is not a serial cable plugged into J1.
+
+====Improper Power Down....All Revisions====
+We have been noticing a very small number of boards that are experiencing power issues, where the LED flashes and the board does not power up. We have been chasing this for a while now and due to the small number of boards that have the issue and the fact that the issue can also be caused by having things connected to IO pins not powered correctly, it has been hard to nail down. Our initial take was that it was a manufacturing issue on some boards, but we could never prove that. Based on the latest information we have gathered, this appears to be an instance where the PMIC does not power down the processor in the right order due to the violent removal of the power cables, either USB or DC. So, we are recommending that the power button be used to power off the board or by issuing the Halt command. After that you can remove the power cable. If everyone follows this process, we should see a decrease in these issues, but it will take a while for the results, either good or bad, to show up. This will also help prevent the contamination of the eMMC and the SD cards by allowing the kernel to shutdown properly before power is removed.<br>
+
+Another issue that we have seen is that the power supply when plugged in will create a spike that exceeds the voltage rating of the PMIC or will cause the voltage to drop momentarily. This can occur after power up cycle has started. When this occurs, the PMIC will shutdown. This can cause the processor to be powered down before it is powered all the way up, damaging the processor. It is suggested that to prevent this that you use a well regulated power supply that can handle the current surge of the powering up process.
+
+== Software Resources==
+
+===Debian Beta Image===
+All boards now ship with the Debian image. The Debian is compatible with all versions of the BeagleBone Black<br>
+
+===MachineKit Debian Image with LinuxCNC and Xenomai===
+Building a CNC machine or 3D printer can be greatly simplified with this customized Linux distribution. http://blog.machinekit.io/p/machinekit_16.html<br>
+
+===Angstrom===
+It is highly recommended that you always use the latest version of the Software.<br>
+For instructions on updating the Angstrom Software on your BeagleBone Black go to [[Beagleboard:Updating_The_Software | Updating the Software]]<br>
+
+If you power off the board without using the Power Button to do it, you can corrupt the data in the eMMC Flash.<br>
+For instructions on reflashing the Angstrom Software on your BeagleBone Black go to [[Beagleboard:Updating_The_Software | Updating the Software]]<br> 
+
+Software Sources
+* Bootloader: http://www.denx.de/wiki/U-Boot/SourceCode (git://git.denx.de/u-boot.git)
+* Kernel: http://github.com/beagleboard/kernel/tree/3.8
+* Root file system: http://github.com/beagleboard/meta-beagleboard 
+
+To access the getting started guide do the following:<br>
+
+1) Go to http://github.com/jadonk/beaglebone-getting-started.<br>
+2) At the top of the page next to the "Clone in Windows" button, click the ZIP button.<br>
+3) Unzip that folder into a separate directory.<br>
+4) Open the readme file.<br>
+
+===Android===
+For instructions on how to get Android onto the board goto [http://elinux.org/Beagleboard:Android Android]<br>
+
+===FreeBSD===
+FreeBSD now has official support for BeagleBone Black: [https://wiki.freebsd.org/FreeBSD/arm/BeagleBoneBlack Project Page]<br>
+
+===Nintendo===
+If you want to turn your BeagleBone Black into a SNES (Super Nintendo Entertainment System) you can check that out at [http://elinux.org/Beagleboard:Super_Nintendo_(SNES)_on_Beagle_Bone_Black BeagleSNES]<br>
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org.
+
+===Gentoo===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org.
+[http://dev.gentoo.org/~armin76/arm/beagleboneblack/install.xml Gentoo]
+
+===ArchLinux===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org.
+[http://archlinuxarm.org/platforms/armv7/beaglebone-black ArchLinux]
+
+===LinuxCNC===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org. [http://permalink.gmane.org/gmane.linux.distributions.emc.user/43339 LinuxCNC]
+
+===Minix===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org. [http://wiki.minix3.org/en/DevelopersGuide/MinixOnARM Minix]
+
+===XNU===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org. [http://crna.cc/b/7 CNU]
+
+===Asterisk===
+This link is provided as a convenience and the software located at this link is not supported by BeagleBoard.org.
+[http://www.beaglebone-asterisk.org/downloads/ Asterisk] (Instructions [[Beagleboard:Asterisk_On_BeagleBone_Black | Asterisk on BeagleBone Black]]).
+
+===TI EZSDK===
+
+For information on how to install the latest EZSDK from TI got to [http://elinux.org/Beagleboard:3.2_SDK_On_BeagleBone_Black EZSDK].<br>
+
+===Beaglenmt===
+
+The BeagleBone Network Multitool ([http://vsdev.me/projects/beaglenmt/ beaglenmt]) is a lightweight, X11-free, networking-centric, and IPv6-ready server distribution targeting the BeagleBone platform. beaglenmt supports the BeagleBone Black hardware platform.<br>
+
+==Hardware Files==
+
+=== LATEST PRODUCTION FILES (C) ===
+
+The links below are static links that always point to the latest version of the listed documents. These links can be used by distributors or users to point to the latest documentation. As documents are updated, the links will remain the same, but the actual file will be updated. This insures that you always have the latest documents and your links will always work.
+
+If you have any questions on these files, contact [mailto:jkridner@beagleboard.org Jason Kridner] or 
+
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_SRM.pdf?raw=true System Reference Manual Rev C.1(PDF)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_SCH.pdf?raw=true Schematic (PDF)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_SCH.zip?raw=true Schematic (OrCAD)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_BOM.xls?raw=true BOM (xls)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB_PCB.zip?raw=true PCB Files Rev B6 (Allegro and Gerbers)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/blob/master/BBB.md5?raw=true MD5 Checksum for all files (md5)]<br>
+*[https://github.com/beagleboard/BeagleBone-Black/archive/master.zip All Hardware Documents]<br>
+
+
+If you are interested in an '''Altium''' version, there is a version for the original A5B board they can be found at [https://github.com/Circuitco/-BeagleBone-Black-RevA5/blob/master/BeagleBoardBlack_RevA5_Altium.zip?raw=true Altium A5B]. These files are provided '''AS IS''' with no support.<br>
+
+If you are interested in an '''Mentor''' version of the A5C board they can be found at [https://github.com/CircuitCo/-BeagleBone-Black-RevA5/blob/master/Mentor_BBB_A5C.zip?raw=true Mentor A5C]. These files are provided '''AS IS''' with no support.<br>
+
+Mentor has also recently released a PADS version of the board at [http://www.pads.com/reference-designs/bb-bblk-000 PADS BeagleBone Black].<br>
+
+Upverter has a version uploaded (unverififed) [https://upverter.com/Beagle/afdfe0be7c0bcec5/BeagleBoneBlack/ Upverter BeagleBone Black].<br>
+
+You can find the Solid Works and 3D PDF files provided AS-IS at [https://github.com/lgxlogic 3D Models]<br>
+
+A GitHub repo is available with all revisions of the documentation - https://github.com/beagleboard/BeagleBone-Black
+
+=== PREVIOUS PRODUCTION FILES (B) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_b/BBB_SRM.pdf?raw=true System Reference Manual B (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_b/BBB_SCH.pdf?raw=true Schematic B (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_b/BBB_SCH.zip?raw=true Schematic B (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_b/BBB_BOM.xls?raw=true BOM B (xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_b/BBB_PCB.zip?raw=true PCB Files Rev B (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_b.zip All Hardware Documents B]<br>
+
+=== PREVIOUS PRODUCTION FILES (A6A) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6a/BBB_SRM.pdf?raw=true System Reference Manual A6A (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6a/BBB_SCH.pdf?raw=true Schematic A6A (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6a/BBB_SCH.zip?raw=true Schematic A6A (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6a/BBB_BOM.xls?raw=true BOM A6A (xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6a/BBB_PCB.zip?raw=true PCB Files A6A (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_a6a.zip All Hardware Documents A6A]<br>
+
+=== OLD PRODUCTION FILES (A6) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6/BBB_SRM.pdf?raw=true System Reference Manual A6 (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6/BBB_SCH.pdf?raw=true Schematic A6 (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6/BBB_SCH.zip?raw=true Schematic A6 (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6/BBB_BOM.xls?raw=true BOM A6(xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a6/BBB_PCB.zip?raw=true PCB Files A6 (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_a6.zip All Hardware Documents A6]<br>
+
+=== OLD PRODUCTION FILES (A5C) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5c/BBB_SRM.pdf?raw=true System Reference Manual A5.6 (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5c/BBB_SCH.pdf?raw=true Schematic A5C (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5c/BBB_SCH.zip?raw=true Schematic A5C (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5c/BBB_BOM.xls?raw=true BOM A5C(xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5c/BBB_PCB.zip?raw=true PCB Files A5C (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_a5c.zip All Hardware Documents A5C]<br>
+
+=== OLD PRODUCTION FILES (A5B) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5b/BBB_SRM.pdf?raw=true System Reference Manual A5.5 (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5b/BBB_SCH.pdf?raw=true Schematic A5B (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5b/BBB_SCH.zip?raw=true Schematic A5b (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5b/BBB_BOM.xls?raw=true BOM A5B(xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5b/BBB_PCB.zip?raw=true PCB Files A5B (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_a5b.zip All Hardware Documents A5B]<br>
+
+=== OLD PRODUCTION FILES (A5A) ===
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5a/BBB_SRM.pdf?raw=true System Reference Manual A5.3 (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5a/BBB_SCH.pdf?raw=true Schematic A5A (PDF)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5a/BBB_SCH.zip?raw=true Schematic A5A (OrCAD]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5a/BBB_BOM.xls?raw=true BOM A5A(xls)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/blob/rev_a5a/BBB_PCB.zip?raw=true PCB Files A5A (Allegro and Gerbers)]<br>
+*[https://github.com/CircuitCo/BeagleBone-Black/archive/rev_a5a.zip All Hardware Documents A5A]<br>
+
+===REV A4===
+
+*[https://github.com/CircuitCo/-BeagleBone-Black-RevA4/blob/master/BeagleBone_Black_BOM_A4G.zip?raw=true Bill of Materials]
+*[https://github.com/CircuitCo/-BeagleBone-Black-RevA4/blob/master/BeagleBone_Black_SRM_A4.pdf?raw=true System Reference Manual (PDF)]
+*[https://github.com/CircuitCo/-BeagleBone-Black-RevA4/blob/master/BeagleBone_Black_Schem_A4.pdf?raw=true Schematic (PDF)]
+
+==BeagleBone Capes==
+
+BeagleBone capes are add on boards that can be connected to the BeagleBone Black to add functionality. These capes are made by a lot of different companies and individuals.<br> 
+A list of capes that are in production are listed at [https://beagleboard.org/cape BeagleBone Capes].<br> 
+
+If you have a cape that is in production and can be purchased and you would like it listed, please contact [mailto:jkridner@beagleboard.org Jason Kridner] or the [mailto:beagleboard@googlegroups.com BeagleBoard Google Group mailing list]. More information regarding the Cape Expansion Headers can be found at [http://elinux.org/Beagleboard:Cape_Expansion_Headers Cape Expansion Headers].
+
+Most of the current capes will work with the BeagleBone Black at some point. However, the kernel is 3.8 on the BeagleBone Black, so work is required to get the drivers updated for most of the capes to work.<br>
+Some may not work or may require some hardware changes due to some differences in the design of the BeagleBone Black as described below.<br>
+
+For a list of the ones that are currently identified as compatible and incompatible, go to [http://elinux.org/Beagleboard:BeagleBone_Black_Capes BeagleBone Black Capes].<br>
+
+===Onboard HDMI===
+The onboard HDMI driver uses the LCD pins. They are still connected to the expansion header, but in some cases, they could cause an LCD cape to have some noise issues unless the cape has a buffer.<br>
+A buffer should take care of this issue. If you want to use these pins as GPIO pins, you may be limited in speed due to the capacitance caused by the loading of the pins by the HDMI driver.<br>
+They should function fine in most applications.<br>
+
+===Onboard eMMC===
+The onboard eMMC uses the MMC1 signals. They are also connected to the expansion header.<br>
+The expectation is that in order to use these signals, the eMMC device on the BeagleBone Black will need to be disabled by activating the reset line to the eMMC device.<br>
+It is not clear that this will work as you have to write to the eMMC first and tell it to enable the reset. 
+At this point in time, it is not totally clear that the reset line will do the trick. Further investigation is ongoing. This will also require booting from the uSD port.<br>
+Best option is to not use the MMC1_CLK and MMC1_CMD signals at all and tie them low.<BR>
+Do not use these signals for anything else will trying to use the other eMMC1 lines on the expansion header.<BR>
+
+===10Pin Connector===     
+The 10 pin power expansion header has been removed. Any cape needing this connector will not be 100% compatible.
+
+==Regulatory Compliance Documents==
+
+*[https://github.com/CircuitCo/-BeagleBone-Black/blob/master/10238105EUS1.pdf?raw=true FCC]
+*[https://github.com/CircuitCo/-BeagleBone-Black/blob/master/10238105EEU1.pdf?raw=true CE]
+*[https://github.com/CircuitCo/-BeagleBone-Black/blob/master/BeagleBoneBlack-REACHCertification.pdf?raw=true REACH]
+
+==Export Information==
+
+ECCN: 5A002A1
+
+CCATS: G141473
+
+*[https://github.com/CircuitCo/-BeagleBone-Black/blob/master/BeagleBone-Export-Info.pdf?raw=true Documents]
+
+==RMA Support==
+
+If you feel the board is defective and you want to get it looked at go to [http://beagleboard.org/support/RMA RMA Request]
+You will need the serial number. It is located on the expansion header in the form of a white label.<br>
+
+ We only accept RMA requests for those boards purchased through authorized BeagleBoard.org
+ distributors.<br>
+ You can find  a list of authorized distributors on the buy pages at BeagleBoard.org <br>
+ 
+ If you purchase a board from an unauthorized distributor, you need to return the board to them for
+ replacement or repair.<br>
+ Shipping to the repair depot is covered by the requester. Return shipping is paid by the repair
+ depot.<br>
+
+==Books==
+===Books specifically on BeagleBone===
+* [https://www.amazon.com/dp/1491905395 BeagleBone Cookbook: Software and Hardware Problems and Solutions] [http://beagleboard.org/cookbook examples]
+* [https://www.amazon.com/dp/1118935128 Exploring BeagleBone: Tools and Techniques for Building with Embedded Linux] [http://exploringbeaglebone.com/ examples]
+* [https://www.amazon.com/dp/1627051376 Bad to the Bone: Crafting Electronics Systems with Beaglebone and BeagleBone Black] [http://beagleboard.org/bad-to-the-bone examples]
+* [https://www.amazon.com/dp/1449345379 Getting Started with BeagleBone: Linux-Powered Electronic Projects With Python and JavaScript]
+* [https://www.amazon.com/dp/B00IFMPZLE BeagleBone für Einsteiger (German Edition)]
+* [https://www.amazon.com/dp/0071832122 Programming the BeagleBone Black: Getting Started with JavaScript and BoneScript] [http://beaglebonebook.com examples]
+* [https://www.amazon.com/dp/1784399701 Learning BeagleBone Python Programming] 
+* [https://www.amazon.com/dp/178398290X Learning BeagleBone]
+* [https://www.amazon.com/dp/1783285737 BeagleBone Home Automation]
+* [https://www.amazon.com/dp/B00HDDMI98 Building a Home Security System with BeagleBone]
+* [https://www.amazon.com/dp/1783559322 BeagleBone Robotic Projects]
+* [https://www.amazon.com/dp/1783986042 BeagleBone for Secret Agents]
+* [https://www.amazon.com/dp/1118992911 BeagleBone for Dummies]
+* [https://www.amazon.com/dp/0071839283 30 BeagleBone Black Projects for the Evil Genius]
+* [https://www.amazon.com/dp/0789753863 The BeagleBone Black Primer]
+* [https://www.amazon.com/dp/1783989440 Building a BeagleBone Black Super Cluster]
+* [https://www.amazon.com/dp/B00Q1E381M BeagleBone Black Interfacing: hardware and software]
+* [https://www.amazon.com/dp/1783988908 Mastering BeagleBone Robotics]
+* [https://www.amazon.com/dp/B00RD6KCBQ BeagleBone Black Programming by Example]
+* [https://www.amazon.com/dp/B00T0C8EMU BeagleBone Media Center]
+* [https://www.amazon.com/dp/1784392162 Android Hardware Interfacing with the BeagleBone Black]
+* [https://www.amazon.com/dp/1784393525 BeagleBone Essentials]
+* [https://www.amazon.com/dp/1784390208 Building Network and Servers Using BeagleBone]
+* [https://www.amazon.com/dp/178528973X Using Yocto Project with BeagleBone Black]
+* [https://www.amazon.com/dp/B016OZGUN0 BeagleBone Black Programming using Matlab]
+* [https://www.amazon.com/dp/B00YSIKP2I BeagleBone Black Cookbook]
+* [https://www.amazon.com/dp/4899774044 My BeagleBone Black work notes (Japanese)]
+* [https://www.amazon.com/dp/712124697X BeagleBone Robot Development Guide (Chinese Edition)]
+* [https://www.amazon.com/dp/B012O8S20U Programming the BeagleBone]
+* [https://www.amazon.com/dp/1783986026 BeagleBone Home Automation Blueprints]
+* [https://www.amazon.com/dp/B016OZGUN0 BeagleBone Black Programming using Matlab]
+
+===Recommended books on hot topics around BeagleBone===
+* [https://www.amazon.com/dp/0128007516 Hacking and Penetration Testing with Low Power Devices]
+* [https://www.amazon.com/dp/0071835202 The Internet of Things: DIY Projects with Arduino, Raspberry Pi, and BeagleBone Black]
+* [https://www.amazon.com/dp/1457186950 Make: JavaScript Robotics: Building NodeBots with Raspberry Pi, Arduino, and BeagleBone]
+* [https://www.amazon.com/dp/1449308295 Embedded Android: Porting, Extending, and Customizing]
+* [https://www.amazon.com/dp/B00LO2GFM0 Embedded Linux Development with the Yocto Project]
+* [https://www.amazon.com/dp/0133443248 Embedded Linux Systems with the Yocto Project]
+* [https://www.amazon.com/dp/0124159176 Software Engineering for Embedded Systems: Methods, Practical Techniques, and Applications]
+* [https://www.amazon.com/dp/1449372066 Beginning NFC: Near Field Communication with Arduino, Android, and PhoneGap]
+* [https://www.amazon.com/dp/1449356435 Zero to Maker: Learn (Just Enough) to Make (Just About) Anything]
+* [https://www.amazon.com/dp/111843062X Designing the Internet of Things]
+* [https://www.amazon.com/dp/B00S7YOS7M Getting Started with Electronic Projects]
+* [https://www.amazon.com/dp/1498712436 Operating System Design: The Xinu Approach, Second Edition]
+* [https://www.amazon.com/dp/1783987588 Learning ROS for Robotics Programming - Second Edition]
+* [https://www.amazon.com/dp/0789755386 Hacking Your LEGO Mindstorms EV3 Kit]
+* [https://www.amazon.com/dp/0134032837 Motors for Makers: A Guide to Steppers, Servos, and Other Electrical Machines]
+
+===Recommended books on Linux===
+* [https://www.amazon.com/dp/0137017839 Embedded Linux Primer: A Practical Real-World Approach]
+* [https://www.amazon.com/dp/0596529686 Building Embedded Linux Systems]
+* [https://www.amazon.com/dp/0596005903 Linux Device Drivers]
+* [https://www.amazon.com/dp/0470770198 Linux All-in-One For Dummies]
+* [https://www.amazon.com/dp/1447166027 Embedded Operating Systems: A Practical Approach (Undergraduate Topics in Computer Science)]
+
+===Recommended books on ARM architecture===
+* [https://www.amazon.com/dp/1439806101 ARM Assembly Language: Fundamentals and Techniques]
+* [https://www.amazon.com/dp/0201737191 ARM Architecture Reference Manual] - may be available as a free download
