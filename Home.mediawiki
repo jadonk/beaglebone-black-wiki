@@ -143,7 +143,7 @@ You can also use a dongle with a real antenna on it such as [http:// http://www.
 
 ===Serial Debug Cable===
 
-For information on the serial debug cables go to [[Beagleboard:BeagleBone_Black_Serial | Serial Debug Cables]]<br>
+For information on the serial debug cables go to [http://elinux.org/Beagleboard:BeagleBone_Black_Serial Serial Debug Cables]<br>
 
 ==Board Revisions and Changes==
 
