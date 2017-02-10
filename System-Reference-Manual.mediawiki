@@ -1,4 +1,4 @@
-[[File:media/image1.jpg|598x400px]]
+[[media/image1.jpg|598x400px]]
 
 <blockquote>'''BeagleBone Black'''
 
