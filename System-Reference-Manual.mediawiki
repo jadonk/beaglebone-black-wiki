@@ -155,12 +155,10 @@ GC
 |
 A5.1
 |
-1.
-
+1.<br>
 2.
 |
-Added information on Power button and the battery access points.
-
+Added information on Power button and the battery access points.<br>
 Final production released version.
 |
 April 1 2013
@@ -168,12 +166,10 @@ April 1 2013
 |
 A5.2
 |
-1.
-
+1.<br>
 2.
 |
-Edited version.
-
+Edited version.<br>
 Added numerous pictures of the Rev A5A board.
 |
 April 23 2013
@@ -181,16 +177,12 @@ April 23 2013
 |
 A5.3
 |
-1.
-
-2.
-
+1.<br>
+2.<br>
 3.
 |
-Updated serial number locations.
-
-Corrected the feature table for 4 UARTS
-
+Updated serial number locations.<br>
+Corrected the feature table for 4 UARTS<br>
 Corrected eMMC pin table to match other tables in the manual.
 |
 April 30, 2013
@@ -199,29 +191,29 @@ April 30, 2013
 A5.4
 |
 1.
-
+<br>
 2.
-
+<br>
 3.
-
+<br>
 4.
-
+<br>
 5.
-
+<br>
 6.
-
+<br>
 7.
 |
 Corrected revision listed in section 2. Rev A5A is the initial production release.
-
+<br>
 Added all the locations of the serial numbers Made additions to the compatibility list.
-
+<br>
 Corrected Table 7 for LED GPIO pins.
-
+<br>
 Fixed several typos.
-
+<br>
 Added some additional information about LDOs and StepDown converters.
-
+<br>
 Added short section on HDMI.
 |
 May 12, 2013
@@ -230,15 +222,15 @@ May 12, 2013
 A5.5
 |
 1.
-
+<br>
 2.
-
+<br>
 3.
 |
 Release of the A5B version.
-
+<br>
 The LEDS were dimmed by changing the resistors.
-
+<br>
 The serial termination mode was incorporated into the PCB.
 |
 May 20, 2013
@@ -247,18 +239,20 @@ May 20, 2013
 A5.6
 |
 1.
-
+<br>
 2.
-
+<br>
 3.
-
+<br>
 4.
-
-5.
 |
 Added information on Rev A5C
-
-Added PRU/ICSS options to tables for P8 and P9. Added section on USB Host Correct modes on Table 15. Fixed a few typos
+<br>
+Added PRU/ICSS options to tables for P8 and P9.
+<br>
+Added section on USB Host Correct modes on Table 15.
+<br>
+Fixed a few typos
 |
 June 16, 2013
 |-
@@ -266,15 +260,15 @@ June 16, 2013
 A5.7
 |
 1.
-
+<br>
 2.
-
+<br>
 3.
 |
 Updated assembly revision to A6.
-
+<br>
 PCB change to add buffer to the reset line and ground the oscillator GND pin.
-
+<br>
 Added resistor on PCB for connection of OSC_GND to board GND.
 |
 August 9, 2013
@@ -307,11 +301,11 @@ January 20, 2013
 C
 |
 1.
-
+<br>
 2.
 |
 Changed the eMMC from 2GB to 4GB.
-
+<br>
 Added additional supplier to DDR2 and eMMC.
 |
 March 21,2014
