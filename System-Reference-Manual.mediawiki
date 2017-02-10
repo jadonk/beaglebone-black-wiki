@@ -847,7 +847,7 @@ In the box you will find three main items as shown in '''Figure 1'''.
 
 This is sufficient for the tethered scenario and creates an out of box experience where the board can be used immediately with no other equipment needed.
 
-[[File:media/image7.jpg|574x399px]]
+[[media/image7.jpg|574x399px]]
 
 '''Figure 1. In The Box '''
 
@@ -870,7 +870,7 @@ For an up-to-date list of confirmed working accessories please go to [http://cir
 
 In this configuration, the board is powered by the PC via the provided USB cable--no other cables are required. The board is accessed either as a USB storage drive or via the browser on the PC. You need to use either Firefox or Chrome on the PC, IEx will not work properly. '''Figure 2''' shows this configuration.
 
-[[File:media/image8.jpg|632x166px]]
+[[media/image8.jpg|632x166px]]
 
 ======  Figure 2. Tethered Configuration  ======
 
@@ -880,7 +880,7 @@ All the power for the board is provided by the PC via the USB cable. In some ins
 
 <blockquote>1. Connect the small connector on the USB cable to the board as shown in '''Figure 4'''. The connector is on the bottom side of the board.
 </blockquote>
-[[File:media/image9.jpg|451x206px]]
+[[media/image9.jpg|451x206px]]
 
 ======  Figure 3. USB Connection to the Board  ======
 
@@ -888,13 +888,13 @@ All the power for the board is provided by the PC via the USB cable. In some ins
 <li><p>Connect the large connector of the USB cable to your PC or laptop USB port.</p></li>
 <li><p>The board will power on and the power LED will be on as shown in '''Figure 4''' below.</p></li></ol>
 
-[[File:media/image10.jpg|401x267px]]
+[[media/image10.jpg|401x267px]]
 
 ======  Figure 4. Board Power LED  ======
 
 <blockquote>4. When the board starts to the booting process started by the process of applying power, the LEDs will come on in sequence as shown in '''Figure 5''' below. It will take a few seconds for the status LEDs to come on, so be patient. The LEDs will be flashing in an erratic manner as it begins to boot the Linux kernel.
 </blockquote>
-[[File:media/image11.jpg|541x254px]]
+[[media/image11.jpg|541x254px]]
 
 ======  Figure 5. Board Boot Status  ======
 
@@ -911,7 +911,7 @@ The board will appear around a USB Storage drive on your PC after the kernel has
 
 In this configuration, the board works more like a PC, totally free from any connection to a PC as shown in '''Figure 6'''. It allows you to create your code to make the board do whatever you need it to do. It will however require certain common PC accessories. These accessories and instructions are described in the following section.
 
-<blockquote>[[File:media/image12.jpg|356x409px]]
+<blockquote>[[media/image12.jpg|356x409px]]
 </blockquote>
 ======  Figure 6. Desktop Configuration  ======
 
@@ -933,29 +933,29 @@ For an up-to-date list of confirmed working accessories please go to [http://cir
 
 <blockquote>1. Connect the big end of the HDMI cable as shown in '''Figure 7''' to your HDMI monitor. Refer to your monitor Owner’s Manual for the location of your HDMI port. If you have a DVI-D Monitor go to '''Step 3''', otherwise proceed to '''Step 4.'''
 </blockquote>
-[[File:media/image13.jpg|260x95px]]
+[[media/image13.jpg|260x95px]]
 
 ======  Figure 7. Connect microHDMI Cable to the Monitor  ======
 
 <ol start="2" style="list-style-type: decimal;">
 <li><p>If you have a DVI-D monitor you must use a DVI-D to HDMI adapter in addition to your HDMI cable. An example is shown in '''Figure 8''' below from two perspectives. If you use this configuration, you will not have audio support.</p></li></ol>
 
-<blockquote>[[File:media/image14.jpg|486x281px]]
+<blockquote>[[media/image14.jpg|486x281px]]
 </blockquote>
 <ol start="2" style="list-style-type: decimal;">
 <li><p>If you have a single wireless keyboard and mouse combination such as seen in Figure '''9''' below, you need to plug the receiver in the USB host port of the board as shown in '''Figure 10'''.</p></li></ol>
 
-[[File:media/image16.jpg|237x108px]]
+[[media/image16.jpg|237x108px]]
 
 ======  Figure 9. Wireless Keyboard and Mouse Combo  ======
 
-[[File:media/image17.jpg|279x222px]]
+[[media/image17.jpg|279x222px]]
 
 ====== Figure 10. Connect Keyboard and Mouse Receiver to the Board  ======
 
 If you have a wired USB keyboard requiring two USB ports, you will need a HUB similar to the ones shown in '''Figure 11'''. You may want to have more than one port for other devices. Note that the board can only supply up to 500mA, so if you plan to load it down, it will need to be externally powered.
 
-[[File:media/image18.jpg|509x152px]]
+[[media/image18.jpg|509x152px]]
 
 ====== Figure 11. Keyboard and Mouse Hubs  ======
 
@@ -963,7 +963,7 @@ If you have a wired USB keyboard requiring two USB ports, you will need a HUB si
 </blockquote>
 If you decide you want to connect to your local area network, an Ethernet cable can be used. Connect the Ethernet Cable to the Ethernet port as shown in '''Figure 12'''. Any standard 100M Ethernet cable should work.
 
-<blockquote>[[File:media/image24.jpg|433x264px]]
+<blockquote>[[media/image24.jpg|433x264px]]
 </blockquote>
 ====== Figure 12. Ethernet Cable Connection  ======
 
@@ -971,13 +971,13 @@ If you decide you want to connect to your local area network, an Ethernet cable 
 
 The final step is to plug in the DC power supply to the DC power jack as shown in '''Figure 13''' below.
 
-[[File:media/image25.jpg|618x298px]]
+[[media/image25.jpg|618x298px]]
 
 ====== Figure 13. External DC Power  ======
 
 <blockquote>5. The cable needed to connect to your display is a microHDMI to HDMI. Connect the microHDMI connector end to the board at this time. The connector is on the bottom side of the board as shown in '''Figure 14''' below.
 </blockquote>
-[[File:media/image26.jpg|540x227px]]
+[[media/image26.jpg|540x227px]]
 
 ====== Figure 14. Connect microHDMI Cable to the Board  ======
 
@@ -987,7 +987,7 @@ The connector is fairly robust, but we suggest that you not use the cable as a l
 
 As soon as the power is applied to the board, it will start the booting up process. When the board starts to boot the LEDs will come on in sequence as shown in '''Figure 15''' below. It will take a few seconds for the status LEDs to come on, so be patient. The LEDs will be flashing in an erratic manner as it boots the Linux kernel.
 </blockquote>
-[[File:media/image11.jpg|541x254px]]
+[[media/image11.jpg|541x254px]]
 
 ====== Figure 15. Board Boot Status  ======
 
@@ -1004,7 +1004,7 @@ While the four user LEDS can be over written and used as desired, they do have s
 # After a minute or two the desktop will appear. It should be similar to the one shown in '''Figure 16'''. HOWEVER, it will change from one release to the next, so do not expect your system to look exactly like the one in the figure, but it will be very similar.
 # And at this point you are ready to go! '''Figure 16''' shows the desktop after booting.
 
-[[File:media/image27.jpg|513x288px]]
+[[media/image27.jpg|513x288px]]
 
 ====== Figure 16. Desktop Screen  ======
 
@@ -1168,7 +1168,7 @@ This section describes the key components on the board. It provides information 
 
 '''Figure 17''' below shows the locations of the connectors, LEDs, and switches on the PCB layout of the board.
 
-[[File:media/image28.jpg|509x340px]]
+[[media/image28.jpg|509x340px]]
 
 ======= Figure 17. Connectors, LEDs and Switches  =======
 
@@ -1188,7 +1188,7 @@ This section describes the key components on the board. It provides information 
 
 '''Figure 18''' below shows the locations of the key components on the PCB layout of the board.
 
-[[File:media/image29.jpg|575x417px]]
+[[media/image29.jpg|575x417px]]
 
 ======= Figure 18. Key Components  =======
 
@@ -1207,7 +1207,7 @@ This section provides the high level specification of the BeagleBone Black.
 
 '''Figure 19''' below is the high level block diagram of the BeagleBone Black.
 
-[[File:media/image30.jpg|512x454px]]
+[[media/image30.jpg|512x454px]]
 
 <blockquote>'''Figure 19. BeagleBone Black Key Components '''
 </blockquote>
@@ -1355,7 +1355,7 @@ This section provides a detailed description of the Hardware design. This can be
 
 '''Figure 20''' below is the high level block diagram of the board. For those who may be concerned, '''Figure 20''' is the same figure as '''Figure 19''' back on page 31'''.''' It is placed here again for convenience so it is closer to the topics to follow.
 
-[[File:media/image30.jpg|512x454px]]
+[[media/image30.jpg|512x454px]]
 
 <blockquote>'''Figure 20. BeagleBone Black Block Diagram '''
 </blockquote>
@@ -1363,7 +1363,7 @@ This section provides a detailed description of the Hardware design. This can be
 
 '''Figure 21''' is the high level block diagram of the power section of the board.
 
-[[File:media/image31.png|417x278px]]
+[[media/image31.png|417x278px]]
 
 ====== Figure 21. High Level Power Block Diagram  ======
 
@@ -1387,7 +1387,7 @@ For more information on the '''TPS65217C''', refer to [http://www.ti.com/product
 
 <blockquote>'''Figure 22''' is the high level block diagram of the '''TPS65217C'''.
 </blockquote>
-[[File:media/image37.png|550x629px]]
+[[media/image37.png|550x629px]]
 
 ====== Figure 22. TPS65217C Block Diagram  ======
 
@@ -1395,7 +1395,7 @@ For more information on the '''TPS65217C''', refer to [http://www.ti.com/product
 
 '''Figure 23''' below shows how the DC input is connected to the '''TPS65217C'''.
 
-<blockquote>[[File:media/image38.png|458x408px]]
+<blockquote>[[media/image38.png|458x408px]]
 </blockquote>
 ====== Figure 23. TPS65217 DC Connection  ======
 
@@ -1558,7 +1558,7 @@ The '''PMIC_INT''' signal is an interrupt signal to the processor. Pressing the 
 
 '''Figure 25''' shows the connections of each of the rails from the '''TPS65217C'''.
 
-[[File:media/image39.jpg|562x505px]]
+[[media/image39.jpg|562x505px]]
 
 ======= Figure 25. Power Rails  =======
 
@@ -1594,13 +1594,13 @@ The '''VDDS_DDR''' rail defaults to '''1.5V''' to support the DDR3L rails and ca
 
 The power up process is consists of several stages and events. '''Figure 26''' describes the events that make up the power up process for the processer from the PMIC. This diagram is used elsewhere to convey additional information. I saw no need to bust it up into smaller diagrams. It is from the processor datasheet supplied by Texas Instruments.
 
-[[File:media/image40.png|547x397px]]
+[[media/image40.png|547x397px]]
 
 ======= Figure 26. Power Rail Power Up Sequencing  =======
 
 '''Figure 27''' the voltage rail sequencing for the '''TPS65217C''' as it powers up and the voltages on each rail. The power sequencing starts at 15 and then goes to one. That is the way the '''TPS65217C''' is configured. You can refer to the TPS65217C datasheet for more information.
 
-[[File:media/image41.png|225x188px]]
+[[media/image41.png|225x188px]]
 
 ======= Figure 27. TPS65217C Power Sequencing Timing  =======
 
@@ -1612,7 +1612,7 @@ The power LED is a blue LED that will turn on once the '''TPS65217C''' has finis
 
 '''Figure 28''' shows the interface between the '''TPS65217C''' and the processor. It is a cut from the PDF form of the schematic and reflects what is on the schematic.
 
-[[File:media/image42.jpg|575x185px]]
+[[media/image42.jpg|575x185px]]
 
 ======= Figure 28. Power Processor Interfaces  =======
 
@@ -1660,7 +1660,7 @@ The board is designed to use the Sitara AM3358BZCZ100 processor in the 15 x 15 p
 
 '''Figure 29''' is a high level block diagram of the processor. For more information on the processor, go to [http://www.ti.com/product/am3358 ''http://www.ti.com/product/am3358''.]
 
-[[File:media/image43.png|503x511px]]
+[[media/image43.png|503x511px]]
 
 ====== Figure 29. Sitara AM3358BZCZ Block Diagram  ======
 
@@ -1785,7 +1785,7 @@ Full documentation for the processor can be found on the TI website at [http://w
 
 '''Figure 30''' is the crystal circuitry for the AM3358 processor.
 
-<blockquote>[[File:media/image44.png|570x223px]]
+<blockquote>[[media/image44.png|570x223px]]
 </blockquote>
 '''Figure 30. Processor Crystals '''
 
@@ -1797,7 +1797,7 @@ The board reset is the SYS_RESETn signal. This is connected to the NRESET_INOUT 
 
 On the revision A5D board, a change was made. On power up, the NRESET_INOUT signal can act as an output. In this instance it can cause the SYS_RESETn line to go high prematurely. In order to prevent this, the PORZn signal from the TPS65217C is connected to the SYS_RESETn line using an open drain buffer. These ensure that the line does not momentarily go high on power up.
 
-[[File:media/image45.png|568x333px]]
+[[media/image45.png|568x333px]]
 
 ====== Figure 31. Board Reset Circuitry  ======
 
@@ -1829,7 +1829,7 @@ PRECHARGE command determines whether the PRECHARGE applies to one bank (A10 LOW,
 
 '''''Clock Enable Line:''''' CKE enables (registered HIGH) and disables (registered LOW) internal circuitry and clocks on the DRAM. The specific circuitry that is enabled/disabled is dependent upon the DDR3 SDRAM configuration and operating mode. Taking CKE LOW provides PRECHARGE power-down and SELF REFRESH operations (all banks idle) or active power-down (row active in any bank). CKE is synchronous for powerdown entry and exit and for self refresh entry. CKE is asynchronous for self refresh exit. Input buffers (excluding CK, CK#, CKE, RESET#, and ODT) are disabled during powerdown. Input buffers (excluding CKE and RESET#) are disabled during SELF REFRESH. CKE is referenced to VREFCA.
 
-<blockquote>[[File:media/image46.png|566x525px]]
+<blockquote>[[media/image46.png|566x525px]]
 </blockquote>
 ====== Figure 32. DDR3L Memory Design  ======
 
@@ -1847,7 +1847,7 @@ The '''DDR3L''' memory device and the DDR3 rails on the processor are supplied b
 
 The '''VREF''' signal is generated from a voltage divider on the '''VDDS_DDR''' rail that powers the processor DDR rail and the DDR3L device itself. '''Figure 33''' below shows the configuration of this signal and the connection to the DDR3L memory device and the processor.
 
-<blockquote>[[File:media/image47.jpg|376x269px]]
+<blockquote>[[media/image47.jpg|376x269px]]
 </blockquote>
 '''Figure 33. DDR3L VREF Design '''
 
@@ -1877,7 +1877,7 @@ The device runs at 3.3V both internally and the external I/O rails. The VCCI is 
 
 Pullup resistors are used to increase the rise time on the signals to compensate for any capacitance on the board.
 
-[[File:media/image48.png|542x224px]]
+[[media/image48.png|542x224px]]
 
 '''Figure 34. eMMC Memory Design '''
 
@@ -1885,7 +1885,7 @@ The pins used by the eMMC1 in the boot mode are listed below in '''Table 6'''.
 
 ======  Table 6. eMMC Boot Pins  ======
 
-[[File:media/image49.png|528x112px]]
+[[media/image49.png|528x112px]]
 
 For eMMC devices the ROM will only support raw mode. The ROM Code reads out raw sectors from image or the booting file within the file system and boots from it. In raw mode the booting image can be located at one of the four consecutive locations in the main area: offset 0x0 / 0x20000 (128 KB) / 0x40000 (256 KB) / 0x60000 (384 KB). For this reason, a booting image shall not exceed 128KB in size. However it is possible to flash a device with an image greater than 128KB starting at one of the aforementioned locations. Therefore the ROM Code does not check the image size. The only drawback is that the image will cross the subsequent image boundary. The raw mode is detected by reading sectors #0, #256, #512, #768. The content of these sectors is then verified for presence of a TOC structure. In the case of a '''GP Device''', a Configuration Header (CH) '''must''' be located in the first sector followed by a '''GP header'''. The CH might be void (only containing a CHSETTINGS item for which the Valid field is zero).
 
@@ -1959,7 +1959,7 @@ The BeagleBone is equipped with a single 32Kbit(4KB) 24LC32AT-I/OT EEPROM to all
 
 '''Figure 35''' shows the new design on the EEPROM interface'''.'''
 
-[[File:media/image50.png|473x194px]]
+[[media/image50.png|473x194px]]
 
 ====== Figure 35. EEPROM Design Rev A5  ======
 
@@ -1975,7 +1975,7 @@ The microSD connector on the board will support a microSD card that can be used 
 
 '''Figure 36''' below is the design of the microSD interface on the board.
 
-[[File:media/image51.png|550x216px]]
+[[media/image51.png|550x216px]]
 
 ======= Figure 36. microSD Design  =======
 
@@ -1995,7 +1995,7 @@ Power is provided from the '''VDD_3V3B''' rail and a 10uF capacitor is provided 
 
 There are four user LEDs on the BeagleBone Black. These are connected to GPIO pins on the processor. '''Figure 37''' shows the interfaces for the user LEDs.
 
-<blockquote>[[File:media/image52.png|570x290px]]
+<blockquote>[[media/image52.png|570x290px]]
 </blockquote>
 ======= Figure 37. User LEDs  =======
 
@@ -2047,7 +2047,7 @@ In most applications, including those that use the provided demo distributions a
 
 '''Figure 38''' shows the circuitry that is involved in the boot configuration process. On power up, these pins are read by the processor to determine the boot order. S2 is used to change the level of one bit from HI to LO which changes the boot order.
 
-<blockquote>[[File:media/image53.png|448x367px]]
+<blockquote>[[media/image53.png|448x367px]]
 </blockquote>
 ======= Figure 38. Processor Boot Configuration Design  =======
 
@@ -2057,7 +2057,7 @@ It is possible to override these setting via the expansion headers. But be caref
 
 Based on the selected option found in '''Figure 39''' below, each of the boot sequences for each of the two settings is shown.
 
-[[File:media/image54.jpg|601x130px]]
+[[media/image54.jpg|601x130px]]
 
 ======= Figure 39. Processor Boot Configuration  =======
 
@@ -2073,7 +2073,7 @@ The BeagleBone Black is equipped with a 10/100 Ethernet interface. It uses the s
 
 '''Figure 40''' shows the connections between the processor and the PHY. The interface is in the MII mode of operation.
 
-<blockquote>[[File:media/image55.png|448x312px]]
+<blockquote>[[media/image55.png|448x312px]]
 </blockquote>
 ======= Figure 40. Ethernet Processor Interface  =======
 
@@ -2083,7 +2083,7 @@ This is the same interface as is used on the BeagleBone. No changes were made in
 
 The off board side of the PHY connections are shown in '''Figure 41''' below.
 
-[[File:media/image56.png|570x347px]]
+[[media/image56.png|570x347px]]
 
 ======= Figure 41. Ethernet Connector Interface  =======
 
@@ -2093,7 +2093,7 @@ This is the same interface as is used on the BeagleBone. No changes were made in
 
 '''Figure 42''' shows the power, reset, and lock connections to the '''LAN8710A''' PHY. Each of these areas is discussed in more detail in the following sections.
 
-<blockquote>[[File:media/image57.png|570x367px]]
+<blockquote>[[media/image57.png|570x367px]]
 </blockquote>
 ======= Figure 42. Ethernet PHY, Power, Reset, and Clocks  =======
 
@@ -2264,7 +2264,7 @@ This device provides additional embedded features like CEC (Consumer Electronic 
 
 The '''Figure 44''' shows the connections between the processor and the HDMI framer device. There are 16 bits of display data, 5-6-5 that is used to drive the framer. The reason for 16 bits is that allows for compatibility with display and LCD capes already available on the original BeagleBone. The unused bits on the '''TDA19988''' are tied low. In addition to the data signals are the VSYNC, HSYNC, DE, and PCLK signals that round out the video interface from the processor.
 
-<blockquote>[[File:media/image58.png|449x481px]]
+<blockquote>[[media/image58.png|449x481px]]
 </blockquote>
 ======= Figure 44. HDMI Framer Processor Interface  =======
 
@@ -2274,7 +2274,7 @@ In order to use the '''TDA19988''', the processor needs to setup the device. Thi
 
 =======  Table 10. TDA19988 I2C Address  =======
 
-[[File:media/image59.png|572x72px]]
+[[media/image59.png|572x72px]]
 
 ==== 6.10.5 Interrupt Signal  ====
 
@@ -2290,7 +2290,7 @@ Audio is limited to CEA supported resolutions. LCD panels only activate the audi
 
 In order to create the correct clock frequencies, we had to add an external '''24.576MHZ''' oscillator. Unfortunately this had to be input into the processor using the pin previously used for '''GPIO3_21'''. In order to keep GPIO3_21 functionality, we provided a way to disable the oscillator if the need was there to use the pin on the expansion header. '''Figure 45''' shows the oscillator circuitry.
 
-[[File:media/image60.png|575x169px]]
+[[media/image60.png|575x169px]]
 
 ======= Figure 45. 24.576MHZ Oscillator  =======
 
@@ -2298,7 +2298,7 @@ In order to create the correct clock frequencies, we had to add an external '''2
 
 '''Figure 46''' shows the power connections to the '''TDA19988''' device. All voltage rails for the device are at 1.8V. A filter is provided to minimize any noise from the 1.8V rail getting back into the device.
 
-<blockquote>[[File:media/image64.png|550x315px]]
+<blockquote>[[media/image64.png|550x315px]]
 </blockquote>
 ======= Figure 46. HDMI Power Connections  =======
 
@@ -2308,7 +2308,7 @@ All of the interfaces between the processor and the '''TDA19988''' are 3.3V tole
 
 '''Figure 47''' shows the design of the interface between the HDMI Framer and the connector.
 
-[[File:media/image65.png|521x430px]]
+[[media/image65.png|521x430px]]
 
 ======= Figure 47. Connector Interface Circuitry  =======
 
@@ -2318,7 +2318,7 @@ The connector for the HDMI interface is a microHDMI. It should be noted that thi
 
 The board is equipped with a single USB host interface accessible from a single USB Type A female connector. '''Figure 48''' is the design of the USB Host circuitry.
 
-<blockquote>[[File:media/image66.png|570x205px]]
+<blockquote>[[media/image66.png|570x205px]]
 </blockquote>
 ==== 6.11.1 Power Switch  ====
 
@@ -2358,7 +2358,7 @@ Two independent programmable real-time (PRU) cores:
 
 '''Figure 49''' is a high level block diagram of the PRU-ICSS.
 
-[[File:media/image67.png|427x275px]]
+[[media/image67.png|427x275px]]
 
 ======= Figure 49. PRU-ICSS Block Diagram  =======
 
@@ -2840,7 +2840,7 @@ The expansion interface on the board is comprised of two 46 pin connectors. All 
 </blockquote>
 '''Figure 50''' shows the location of the expansion connectors.
 
-[[File:media/image68.jpg|286x394px]]
+[[media/image68.jpg|286x394px]]
 
 ====== Figure 50. Expansion Connector Location  ======
 
@@ -3399,7 +3399,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 
 |}
 
-<blockquote>[[File:media/image2.jpg|563x48px]]
+<blockquote>[[media/image2.jpg|563x48px]]
 </blockquote>
 |}
 
@@ -4099,7 +4099,7 @@ In the table are the following notations:
 
 The DC power jack is located next to the RJ45 Ethernet connector as shown in '''Figure 51'''. This uses the same power connector as is used on the original BeagleBone. The connector has a 2.1mm diameter center post (5VDC) and a 5.5mm diameter outer dimension on the barrel (GND).
 
-[[File:media/image69.jpg|579x411px]]
+[[media/image69.jpg|579x411px]]
 
 ====== Figure 51. 5VDC Power Jack  ======
 
@@ -4109,7 +4109,7 @@ The board requires a regulated 5VDC +/-.25V supply at 1A. A higher current ratin
 
 The USB Client connector is accessible on the bottom side of the board under the row of four LEDs as shown in '''Figure 52'''. It uses a 5 pin miniUSB cable, the same as is used on the original BeagleBone. The cable is provided with the board. The cable can also be used to power the board.
 
-[[File:media/image71.jpg|633x454px]]
+[[media/image71.jpg|633x454px]]
 
 This port is a USB Client only interface and is intended for connection to a PC.
 
@@ -4117,7 +4117,7 @@ This port is a USB Client only interface and is intended for connection to a PC.
 
 There is a single USB Host connector on the board and is shown in '''Figure 53''' below.
 
-[[File:media/image71.jpg|593x387px]]
+[[media/image71.jpg|593x387px]]
 
 ====== Figure 53. USB Host Connector  ======
 
@@ -4127,13 +4127,13 @@ The port is USB 2.0 HS compatible and can supply up to 500mA of current. If more
 
 Each board has a debug serial interface that can be accessed by using a special serial cable that is plugged into the serial header as shown in '''Figure 54''' below.
 
-<blockquote>[[File:media/image71.jpg|527x351px]]
+<blockquote>[[media/image71.jpg|527x351px]]
 </blockquote>
 ====== Figure 54. Serial Debug Header  ======
 
 Two signals are provided, TX and RX on this connector. The levels on these signals are 3.3V. In order to access these signals, a FTDI USB to Serial cable is recommended as shown in '''Figure 55''' below.
 
-<blockquote>[[File:media/image73.jpg|428x162px]]
+<blockquote>[[media/image73.jpg|428x162px]]
 </blockquote>
 The cable can be purchased from several different places and must be the 3.3V version TTL-232R-3V3. Information on the cable itself can be found direct from FTDI at:
 
@@ -4181,7 +4181,7 @@ FTDI cable which can be found at
 
 '''Figure 56''' shows the pin location on the board.
 
-<blockquote>[[File:media/image75.jpg|373x374px]]
+<blockquote>[[media/image75.jpg|373x374px]]
 </blockquote>
 '''Figure 56. Serial Header '''
 
@@ -4189,13 +4189,13 @@ FTDI cable which can be found at
 
 Access to the HDMI interface is through the HDMI connector that is located on the bottom side of the board as shown in '''Figure 57''' below.
 
-<blockquote>[[File:media/image71.jpg|579x387px]]
+<blockquote>[[media/image71.jpg|579x387px]]
 </blockquote>
 ====== Figure 57. HDMI Connector  ======
 
 The connector is microHDMI connector. This was done due to the space limitations we had in finding a place to fit the connector. It requires a microHDMI to HDMI cable as shown in '''Figure 58''' below. The cable can be purchased from several different sources.
 
-<blockquote>[[File:media/image77.jpg|196x196px]]
+<blockquote>[[media/image77.jpg|196x196px]]
 </blockquote>
 '''Figure 58. HDMI Cable '''
 
@@ -4203,7 +4203,7 @@ The connector is microHDMI connector. This was done due to the space limitations
 
 A microSD connector is located on the back or bottom side of the board as shown in '''Figure 59''' below. The microSD card is not supplied with the board.
 
-[[File:media/image71.jpg|579x438px]]
+[[media/image71.jpg|579x438px]]
 
 ====== Figure 59. microSD Connector  ======
 
@@ -4215,7 +4215,7 @@ Do not pull the SD card out or you could damage the connector.
 
 The board comes with a single 10/100 Ethernet interface located next to the power jack as shown in '''Figure 60'''.
 
-<blockquote>[[File:media/image71.jpg|579x387px]]
+<blockquote>[[media/image71.jpg|579x387px]]
 </blockquote>
 '''Figure 60. Ethernet Connector '''
 
@@ -4557,7 +4557,7 @@ The address of the EEPROM will be set via either jumpers or a dipswitch on each 
 
 The EEPROM used is the same one as is used on the BeagleBone and the BeagleBone Black, a CAT24C256. The CAT24C256 is a 256 kb Serial CMOS EEPROM, internally organized as 32,768 words of 8 bits each. It features a 64−byte page write buffer and supports the Standard (100 kHz), Fast (400 kHz) and Fast−Plus (1 MHz) I2C protocol.
 
-<blockquote>[[File:media/image78.png|509x228px]]
+<blockquote>[[media/image78.png|509x228px]]
 </blockquote>
 ====== Figure 61. Expansion Board EEPROM Without Write Protect  ======
 
@@ -4589,7 +4589,7 @@ When not grounded, the pin is HI via pullup resistor R210 and therefore write pr
 </blockquote>
 VDD_3V3B
 
-<blockquote>[[File:media/image79.png|567x189px]]
+<blockquote>[[media/image79.png|567x189px]]
 </blockquote>
 ====== Figure 62. Expansion Board EEPROM Write Protect  ======
 
@@ -7193,7 +7193,7 @@ This section covers things to watch for when hooking up to certain pins on the e
 
 There are 16 pins that control the boot mode of the processor that are exposed on the expansion headers. '''Figure 63''' below shows those signals as they appear on the BeagleBone Black.:
 
-<blockquote>[[File:media/image80.png|530x468px]]
+<blockquote>[[media/image80.png|530x468px]]
 </blockquote>
 If you plan to use any of these signals, then on power up, these pins should not be driven. If you do, it can affect the boot mode of the processor and could keep the processor from booting or working correctly.
 
@@ -7215,13 +7215,13 @@ The following sections describe how the connectors are to be implemented and use
 
 For non-stacking capes single configurations or where the cape can be the last board on the stack, the two 46 pin expansion headers use the same connectors. '''Figure 64''' is a picture of the connector. These are dual row 23 position 2.54mm x 2.54mm connectors.
 
-<blockquote>[[File:media/image81.jpg|65x90px]]
+<blockquote>[[media/image81.jpg|65x90px]]
 </blockquote>
 ====== Figure 64. Single Expansion Connector  ======
 
 The connector is typically mounted on the bottom side of the board as shown in '''Figure 65'''. These are very common connectors and should be easily located. You can also use two single row 23 pin headers for each of the dual row headers.
 
-[[File:media/image82.jpg|575x54px]]
+[[media/image82.jpg|575x54px]]
 
 ====== Figure 65. Single Cape Expansion Connector  ======
 
@@ -7287,13 +7287,13 @@ The G in the part number is a plating option. Other options may be used as well 
 
 For stacking configuration, the two 46 pin expansion headers use the same connectors. '''Figure 66''' is a picture of the connector. These are dual row 23 position 2.54mm x 2.54mm connectors.
 
-[[File:media/image83.jpg|69x90px]]
+[[media/image83.jpg|69x90px]]
 
 ====== Figure 66. Expansion Connector  ======
 
 The connector is mounted on the top side of the board with longer tails to allow insertion into the BeagleBone Black. '''Figure 67''' is the connector configuration for the connector.
 
-[[File:media/image84.jpg|575x65px]]
+[[media/image84.jpg|575x65px]]
 
 ====== Figure 67. Stacked Cape Expansion Connector  ======
 
@@ -7353,7 +7353,7 @@ Other possible sources are Sullins and Samtec but make sure you select one that 
 
 '''Figure 68''' is the connector configuration for stackable capes that does not provide all of the signals upwards for use by other boards. This is useful if there is an expectation that other boards could interfere with the operation of your board by exposing those signals for expansion. This configuration consists of a combination of the stacking and nonstacking style connectors.
 
-[[File:media/image85.jpg|575x71px]]
+[[media/image85.jpg|575x71px]]
 
 ====== Figure 68. Stacked w/Signal Stealing Expansion Connector  ======
 
@@ -7367,7 +7367,7 @@ This section will attempt to describe the tradeoffs and things to consider when 
 
 '''Figure 69''' shows the key measurements used in calculating how much the pin extends past the contact point on the connector, what we call overhang.
 
-[[File:media/image86.jpg|552x314px]]
+[[media/image86.jpg|552x314px]]
 
 ====== Figure 69. Connector Pin Insertion Depth  ======
 
@@ -7584,7 +7584,7 @@ This section provides the guidelines for the creation of expansion boards from a
 
 '''Figure 70''' is the outline of the standard cape. The dimensions are in inches.
 
-[[File:media/image87.jpg|575x369px]]
+[[media/image87.jpg|575x369px]]
 
 ====== Figure 70. Cape Board Dimensions  ======
 
@@ -7624,25 +7624,25 @@ Weight: 1.4 oz
 
 === 9.2 Silkscreen and Component Locations  ===
 
-[[File:media/image88.jpg|530x782px]]
+[[media/image88.jpg|530x782px]]
 
 ====== Figure 71. Board Dimensions  ======
 
-[[File:media/image89.jpg|493x818px]]
+[[media/image89.jpg|493x818px]]
 
 ====== Figure 72. Component Side Silkscreen  ======
 
-[[File:media/image90.jpg|501x772px]]
+[[media/image90.jpg|501x772px]]
 
 '''Figure 73. Circuit Side Silkscreen '''
 
 = '''10.0 Pictures ''' =
 
-[[File:media/image91.jpg|476x768px]]
+[[media/image91.jpg|476x768px]]
 
 '''Figure 74. Top Side '''
 
-[[File:media/image92.jpg|486x764px]]
+[[media/image92.jpg|486x764px]]
 
 '''Figure 75. Bottom Side '''
 
@@ -7661,7 +7661,7 @@ Design documentation can be found on the eMMC of the board under the documents/h
 * Schematic in PDF
 * Schematic in OrCAD (Cadence Design Entry CIS 16.3)
 * PCB Gerber
-* PCB Layout File (Allegro)
+* PCB Layout (Allegro)
 * Bill of Material
 * System Reference Manual (This document).
 
@@ -7681,15 +7681,15 @@ It is a good idea to always use the latest software. Instructions for how to upd
 
 If you feel your board is defective or has issues, request an RMA by filling out the form at [http://beagleboard.org/support/rma ''http://beagleboard.org/support/rma''] . You will need the serial number and revision of the board. The serial numbers and revisions keep moving. Different boards can have different locations depending on when they were made. The following figures show the three locations of the serial and revision number.
 
-[[File:media/image93.jpg|518x308px]]
+[[media/image93.jpg|518x308px]]
 
 ====== Figure 76. Initial Serial Number and Revision Locations  ======
 
-[[File:media/image94.jpg|518x230px]]
+[[media/image94.jpg|518x230px]]
 
 ====== Figure 77. Second Phase Serial Number and Revision Location  ======
 
-[[File:media/image95.jpg|575x222px]]
+[[media/image95.jpg|575x222px]]
 
 <blockquote>'''Figure 78. Third Phase Serial Number and Revision Location '''
 </blockquote>
