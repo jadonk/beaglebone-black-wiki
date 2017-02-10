@@ -8,7 +8,7 @@ If you have any questions or issues with the content on this Wiki, contact [mail
 ==BeagleBone Black Description==
 The BeagleBone Black is the newest member of the BeagleBoard family. It is a lower-cost, high-expansion focused BeagleBoard using a low cost Sitara XAM3359AZCZ100 Cortex A8 ARM processor from Texas Instruments. It is similar to the Beaglebone,but with some features removed and some features added. The table below gives the high points on the differences between the BeagleBone and BeagleBone Black.<br>
 
-[[Image:BBvsBBB.jpg]]
+[[File:images/BBvsBBB.jpg|caption]]
 
 ===BeagleBone Black Features===
 
