@@ -1,5 +1,4 @@
-![](docs/media/image1.jpg){width="6.236805555555556in"
-height="4.170138888888889in"}
+![](docs/media/image1.jpg =6.236805555555556inx4.170138888888889in)
 
 > **BeagleBone Black**
 >
