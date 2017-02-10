@@ -8,13 +8,13 @@ If you have any questions or issues with the content on this Wiki, contact [mail
 ==BeagleBone Black Description==
 The BeagleBone Black is the newest member of the BeagleBoard family. It is a lower-cost, high-expansion focused BeagleBoard using a low cost Sitara XAM3359AZCZ100 Cortex A8 ARM processor from Texas Instruments. It is similar to the Beaglebone,but with some features removed and some features added. The table below gives the high points on the differences between the BeagleBone and BeagleBone Black.<br>
 
-[[File:BBvsBBB.jpg]]
+[[Image:BBvsBBB.jpg]]
 
 ===BeagleBone Black Features===
 
 The following table lists the key features of the BeagleBone Black.
 
-[[File:Features.jpg]]
+[[Image:Features.jpg]]
 
 
 In the box is (1)BeagleBone Black board, (1)USB cable, and (1)card that should be read.
@@ -23,20 +23,20 @@ In the box is (1)BeagleBone Black board, (1)USB cable, and (1)card that should b
 
 Here is a picture of the Rev A5A board.
 
-[[File:REV_A5A.jpg]]
+[[Image:REV_A5A.jpg]]
 
 ===BeagleBone Black Key Component Locations===
 
 Here are the locations of the key components on the Rev A5A.
 
-[[File:COMP_A5A.jpg]]
+[[Image:COMP_A5A.jpg]]
 
 ===BeagleBone Black Connector and Switch Locations===
 
 Below is the location of the connectors and switches on the Rev A5A board.<br>
 The Power Button and Battery Connections are new additions to the Rev A5A.
 
-[[File:CONN_REVA5A.jpg]]
+[[Image:CONN_REVA5A.jpg]]
 
 ==Frequently Asked Questions (FAQ)==
 
