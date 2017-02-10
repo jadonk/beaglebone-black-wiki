@@ -352,7 +352,7 @@ change will always result in a document change.
 
 #### 2.2.1 Rev C 
 
->  Changed the eMMC from 2GB to 4GB.
+ Changed the eMMC from 2GB to 4GB.
 
 2GB devices are getting harder to get as they are being phased out. This
 required us to move to 4GB. We now have two sources for the device. This
@@ -360,7 +360,7 @@ will however, require an increase in the price of the board.
 
 #### 2.2.2 Rev B 
 
->  Changed the processor to the AM3358BZCZ100.
+ Changed the processor to the AM3358BZCZ100.
 
 #### 2.2.3 Rev A6A 
 
@@ -465,7 +465,7 @@ Guide card that comes in the box.
 
 -   Standalone desktop o Display o Keyboard and mouse
 
-> o External 5V power supply
+o External 5V power supply
 
 Each of these configurations is discussed in general terms in the
 following sections.
@@ -492,8 +492,8 @@ this should rarely be necessary.
 
 #### 3.3.1 Connect the Cable to the Board 
 
-> 1\. Connect the small connector on the USB cable to the board as shown in
-> **Figure 4**. The connector is on the bottom side of the board.
+1\. Connect the small connector on the USB cable to the board as shown in
+**Figure 4**. The connector is on the bottom side of the board.
 
 ![](docs/media/image9.jpg)
 
@@ -509,11 +509,11 @@ this should rarely be necessary.
 
 ######  Figure 4. Board Power LED 
 
-> 4\. When the board starts to the booting process started by the process
-> of applying power, the LEDs will come on in sequence as shown in
-> **Figure 5** below. It will take a few seconds for the status LEDs to
-> come on, so be patient. The LEDs will be flashing in an erratic manner
-> as it begins to boot the Linux kernel.
+4\. When the board starts to the booting process started by the process
+of applying power, the LEDs will come on in sequence as shown in
+**Figure 5** below. It will take a few seconds for the status LEDs to
+come on, so be patient. The LEDs will be flashing in an erratic manner
+as it begins to boot the Linux kernel.
 
 ![](docs/media/image11.jpg)
 
@@ -544,7 +544,7 @@ your code to make the board do whatever you need it to do. It will
 however require certain common PC accessories. These accessories and
 instructions are described in the following section.
 
-> ![](docs/media/image12.jpg)
+![](docs/media/image12.jpg)
 
 ######  Figure 6. Desktop Configuration 
 
@@ -572,10 +572,10 @@ For an up-to-date list of confirmed working accessories please go to
 
 #### 3.4.2 Connecting Up the Board 
 
-> 1\. Connect the big end of the HDMI cable as shown in **Figure 7** to
-> your HDMI monitor. Refer to your monitor Owner’s Manual for the location
-> of your HDMI port. If you have a DVI-D Monitor go to **Step 3**,
-> otherwise proceed to **Step 4.**
+1\. Connect the big end of the HDMI cable as shown in **Figure 7** to
+your HDMI monitor. Refer to your monitor Owner’s Manual for the location
+of your HDMI port. If you have a DVI-D Monitor go to **Step 3**,
+otherwise proceed to **Step 4.**
 
 ![](docs/media/image13.jpg)
 
@@ -586,7 +586,7 @@ For an up-to-date list of confirmed working accessories please go to
     below from two perspectives. If you use this configuration, you will
     not have audio support.
 
-> ![](docs/media/image14.jpg)
+![](docs/media/image14.jpg)
 
 2.  If you have a single wireless keyboard and mouse combination such as
     seen in Figure **9** below, you need to plug the receiver in the USB
@@ -610,14 +610,14 @@ externally powered.
 
 ###### Figure 11. Keyboard and Mouse Hubs 
 
-> 4\. Connect the Ethernet Cable
+4\. Connect the Ethernet Cable
 
 If you decide you want to connect to your local area network, an
 Ethernet cable can be used. Connect the Ethernet Cable to the Ethernet
 port as shown in **Figure 12**. Any standard 100M Ethernet cable should
 work.
 
-> ![](docs/media/image24.jpg)
+![](docs/media/image24.jpg)
 
 ###### Figure 12. Ethernet Cable Connection 
 
@@ -630,10 +630,10 @@ shown in **Figure 13** below.
 
 ###### Figure 13. External DC Power 
 
-> 5\. The cable needed to connect to your display is a microHDMI to HDMI.
-> Connect the microHDMI connector end to the board at this time. The
-> connector is on the bottom side of the board as shown in **Figure 14**
-> below.
+5\. The cable needed to connect to your display is a microHDMI to HDMI.
+Connect the microHDMI connector end to the board at this time. The
+connector is on the bottom side of the board as shown in **Figure 14**
+below.
 
 ![](docs/media/image26.jpg)
 
@@ -643,13 +643,13 @@ The connector is fairly robust, but we suggest that you not use the
 cable as a leash for your Beagle. Take proper care not to put too much
 stress on the connector or cable.
 
-> 6\. Booting the Board
->
-> As soon as the power is applied to the board, it will start the
-> booting up process. When the board starts to boot the LEDs will come
-> on in sequence as shown in **Figure 15** below. It will take a few
-> seconds for the status LEDs to come on, so be patient. The LEDs will
-> be flashing in an erratic manner as it boots the Linux kernel.
+6\. Booting the Board
+
+As soon as the power is applied to the board, it will start the
+booting up process. When the board starts to boot the LEDs will come
+on in sequence as shown in **Figure 15** below. It will take a few
+seconds for the status LEDs to come on, so be patient. The LEDs will
+be flashing in an erratic manner as it boots the Linux kernel.
 
 ![](docs/media/image11.jpg)
 
@@ -667,7 +667,7 @@ from the Linux kernel.
 
 -   **USER3** turns on when the onboard eMMC is being accessed.
 
-> 7\. A Booted System
+7\. A Booted System
 
 1.  The board will have a mouse pointer appear on the screen as it
     enters the Linux boot step. You may have to move the physical mouse
@@ -689,7 +689,7 @@ from the Linux kernel.
 
 ###### Figure 16. Desktop Screen 
 
-> 8\. Powering Down
+8\. Powering Down
 >
 > 1\. Press the power button momentarily 2. The system will power down
 > automatically.
