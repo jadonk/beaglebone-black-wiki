@@ -1,15 +1,15 @@
 [[media/image1.jpg|598x400px]]
 
-<blockquote>'''BeagleBone Black'''
+'''BeagleBone Black'''
 
 '''System Reference Manual '''
-</blockquote>
+
 '''Revision C.1'''
 
 '''May 22, 2014'''
 
-<blockquote>'''Author: Gerald Coley ''gerald@beagleboard.org'''''
-</blockquote>
+'''Author: Gerald Coley ''gerald@beagleboard.org'''''
+
 '''Contributing Editor: Robert P J Day'''
 
 '''THIS DOCUMENT '''
@@ -28,8 +28,8 @@
 
 '''Texas Instruments '''
 
-<blockquote>'''12500 TI Blvd. Dallas, Tx 75243 ''g-coley1@ti.com'' '''
-</blockquote>
+'''12500 TI Blvd. Dallas, Tx 75243 ''g-coley1@ti.com'' '''
+
 '''All information in this document is subject to change without notice. '''
 
 '''For an up to date version of this document refer to: '''
@@ -46,7 +46,7 @@ THERE IS NO WARRANTY FOR THE DESIGN MATERIALS, TO THE EXTENT PERMITTED BY APPLIC
 
 This board was designed as an evaluation and development tool. It was not designed with any other application in mind. As such, the design materials that are provided which include schematic, BOM, and PCB files, may or may not be suitable for any other purposes. If used, the design material becomes your responsibility as to whether or not it meets your specific needs or your specific applications and may require changes to meet your requirements.
 
-<blockquote>'''BEAGLEBONE BLACK ADDITIONAL TERMS '''
+'''BEAGLEBONE BLACK ADDITIONAL TERMS '''
 
 BeagleBoard.org, Circuitco, LLC, and BeagleBoard.org (Supplier) provide the enclosed BeagleBone under the following conditions:
 
@@ -57,29 +57,29 @@ Should the BeagleBone not meet the specifications indicated in the System Refere
 Please read the System Reference Manual and, specifically, the Warnings and Restrictions notice in the Systems Reference Manual prior to handling the product. This notice contains important safety information about temperatures and voltages.
 
 No license is granted under any patent right or other intellectual property right of Supplier covering or relating to any machine, process, or combination in which such Supplier products or services might be or are used. The Supplier currently deals with a variety of customers for products, and therefore our arrangement with the user is not exclusive. The Supplier assume no liability for applications assistance, customer product design, software performance, or infringement of patents or services described herein.
-</blockquote>
-===== '''UNITED STATES FCC AND CANADA IC REGULATORY COMPLIANCE INFORMATION'''  =====
 
-<blockquote>'''The BeagleBone is annotated to comply with Part 15 of the FCC Rules'''. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation. Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.
+'''UNITED STATES FCC AND CANADA IC REGULATORY COMPLIANCE INFORMATION'''
+
+'''The BeagleBone is annotated to comply with Part 15 of the FCC Rules'''. Operation is subject to the following two conditions: (1) This device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation. Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment.
 
 This Class A or B digital apparatus complies with Canadian ICES-003. Changes or modifications not expressly approved by the party responsible for compliance could void the user’s authority to operate the equipment. Cet appareil numérique de la classe A ou B est conforme à la norme NMB-003 du Canada. Les changements ou les modifications pas expressément approuvés par la partie responsible de la conformité ont pu vider l’autorité de l'utilisateur pour actionner l'équipement.
-</blockquote>
+
 '''BEAGLEBONE WARNINGS, RESTRICTIONS AND DISCLAIMERS'''
 
-<blockquote>'''''For Feasibility Evaluation Only, in Laboratory/Development Environments'''. The'' ''BeagleBone Black is not a complete product. It is intended solely for use for preliminary'' ''feasibility evaluation in laboratory/development environments by technically qualified'' ''electronics experts who are familiar with the dangers and application risks associated with'' ''handling electrical mechanical components, systems and subsystems. It should not be'' ''used as all or part of a finished end product.''
-</blockquote>
+'''''For Feasibility Evaluation Only, in Laboratory/Development Environments'''. The'' ''BeagleBone Black is not a complete product. It is intended solely for use for preliminary'' ''feasibility evaluation in laboratory/development environments by technically qualified'' ''electronics experts who are familiar with the dangers and application risks associated with'' ''handling electrical mechanical components, systems and subsystems. It should not be'' ''used as all or part of a finished end product.''
+
 '''Your Sole Responsibility and Ris'''k you acknowledge, represent, and agree that:
 
 # You have unique knowledge concerning Federal, State and local regulatory requirements (including but not limited to Food and Drug Administration regulations, if applicable) which relate to your products and which relate to your use (and/or that of your employees, affiliates, contractors or designees) of the BeagleBone for evaluation, testing and other purposes.
 # You have full and exclusive responsibility to assure the safety and compliance of your products with all such laws and other applicable regulatory requirements, and also to assure the safety of any activities to be conducted by you and/or your employees, affiliates, contractors or designees, using the BeagleBone. Further, you are responsible to assure that any interfaces (electronic and/or mechanical) between the BeagleBone and any human body are designed with suitable isolation and means to safely limit accessible leakage currents to minimize the risk of electrical shock hazard.
 # Since the BeagleBone is not a completed product, it may not meet all applicable regulatory and safety compliance standards which may normally be associated with similar items. You assume full responsibility to determine and/or assure compliance with any such standards and related certifications as may be applicable. You will employ reasonable safeguards to ensure that your use of the BeagleBone will not result in any property damage, injury or death, even if the BeagleBone should fail to perform as described or expected.
 
-<blockquote>'''''Certain Instructions'''. It is important to operate the BeagleBone Black within Supplier’s'' ''recommended specifications and environmental considerations per the user guidelines.'' ''Exceeding the specified BeagleBone ratings (including but not limited to input and output'' ''voltage, current, power, and environmental ranges) may cause property damage, personal'' ''injury or death. If there are questions concerning these ratings please contact the Supplier'' ''representative prior to connecting interface electronics including input power and intended'' ''loads. Any loads applied outside of the specified output range may result in unintended'' ''and/or inaccurate operation and/or possible permanent damage to the BeagleBone and/or'' ''interface electronics. Please consult the System Reference Manual prior to connecting any'' ''load to the BeagleBone output. If there is uncertainty as to the load specification, please'' ''contact the Supplier representative. During normal operation, some circuit components'' ''may have case temperatures greater than 60 C as long as the input and output are'' ''maintained at a normal ambient operating temperature. These components include but are'' ''not limited to linear regulators, switching transistors, pass transistors, and current sense'' ''resistors which can be identified using the BeagleBone schematic located at the link in the'' ''BeagleBone System Reference Manual. When placing measurement probes near these'' ''devices during normal operation, please be aware that these devices may be very warm to'' ''the touch. As with all electronic evaluation tools, only qualified personnel knowledgeable in'' ''electronic measurement and diagnostics normally found in development environments'' ''should use the BeagleBone.''
+'''''Certain Instructions'''. It is important to operate the BeagleBone Black within Supplier’s'' ''recommended specifications and environmental considerations per the user guidelines.'' ''Exceeding the specified BeagleBone ratings (including but not limited to input and output'' ''voltage, current, power, and environmental ranges) may cause property damage, personal'' ''injury or death. If there are questions concerning these ratings please contact the Supplier'' ''representative prior to connecting interface electronics including input power and intended'' ''loads. Any loads applied outside of the specified output range may result in unintended'' ''and/or inaccurate operation and/or possible permanent damage to the BeagleBone and/or'' ''interface electronics. Please consult the System Reference Manual prior to connecting any'' ''load to the BeagleBone output. If there is uncertainty as to the load specification, please'' ''contact the Supplier representative. During normal operation, some circuit components'' ''may have case temperatures greater than 60 C as long as the input and output are'' ''maintained at a normal ambient operating temperature. These components include but are'' ''not limited to linear regulators, switching transistors, pass transistors, and current sense'' ''resistors which can be identified using the BeagleBone schematic located at the link in the'' ''BeagleBone System Reference Manual. When placing measurement probes near these'' ''devices during normal operation, please be aware that these devices may be very warm to'' ''the touch. As with all electronic evaluation tools, only qualified personnel knowledgeable in'' ''electronic measurement and diagnostics normally found in development environments'' ''should use the BeagleBone.''
 
 '''''Agreement to Defend, Indemnify and Hold Harmless'''. You agree to defend, indemnify'' ''and hold the Suppliers, its licensors and their representatives harmless from and against'' ''any and all claims, damages, losses, expenses, costs and liabilities (collectively,'' ''&quot;Claims&quot;) arising out of or in connection with any use of the BeagleBone that is not in'' ''accordance with the terms of the agreement. This obligation shall apply whether Claims'' ''arise under law of tort or contract or any other legal theory, and even if the BeagleBone'' ''fails to perform as described or expected.''
 
 '''''Safety-Critical or Life-Critical Applications'''. If you intend to evaluate the components for possible'' ''use in safety critical applications (such as life support) where a failure of the Supplier’s product'' ''would reasonably be expected to cause severe personal injury or death, such as devices which are'' ''classified as FDA Class III or similar classification, then you must specifically notify Suppliers of'' ''such intent and enter into a separate Assurance and Indemnity Agreement.''
-</blockquote>
+
 Mailing Address:
 
 BeagleBoard.org
@@ -102,9 +102,7 @@ To return a defective board for repair, please request an RMA at [http://beagleb
 
 '''Please DO NOT return the board without approval from the RMA team first. '''
 
-<blockquote>All boards received without RMA approval will not be worked on.
-</blockquote>
-= Table of Contents =
+All boards received without RMA approval will not be worked on.
 
 __TOC__
 
@@ -128,86 +126,66 @@ This section describes the change history of this document and board. Document c
 
 {|
 !
-<blockquote>'''Rev '''
-</blockquote>
+'''Rev '''
 !
-<blockquote>'''Changes '''
-</blockquote>
+'''Changes '''
 !
-<blockquote>'''Date '''
-</blockquote>
+'''Date '''
 !
-<blockquote>'''By '''
-</blockquote>
+'''By '''
 |-
 |
-<blockquote>A4
-</blockquote>
+A4
 |
-<blockquote>Preliminary
-</blockquote>
+Preliminary
 |
-<blockquote>January 4, 2013
-</blockquote>
+January 4, 2013
 |
-<blockquote>GC
-</blockquote>
+GC
 |-
 |
-<blockquote>A5
-</blockquote>
+A5
 |
-<blockquote>Production release
-</blockquote>
+Production release
 |
-<blockquote>January 8.2013
-</blockquote>
+January 8.2013
 |
-<blockquote>GC
-</blockquote>
+GC
 |-
 |
-<blockquote>A5.1
-</blockquote>
+A5.1
 |
-<blockquote>1.
+1.
 
 2.
-</blockquote>
 |
 Added information on Power button and the battery access points.
 
 Final production released version.
 |
-<blockquote>April 1 2013
-</blockquote>
+April 1 2013
 |-
 |
-<blockquote>A5.2
-</blockquote>
+A5.2
 |
-<blockquote>1.
+1.
 
 2.
-</blockquote>
 |
 Edited version.
 
 Added numerous pictures of the Rev A5A board.
 |
-<blockquote>April 23 2013
-</blockquote>
+April 23 2013
 |-
 |
-<blockquote>A5.3
-</blockquote>
+A5.3
 |
-<blockquote>1.
+1.
 
 2.
 
 3.
-</blockquote>
 |
 Updated serial number locations.
 
@@ -215,14 +193,12 @@ Corrected the feature table for 4 UARTS
 
 Corrected eMMC pin table to match other tables in the manual.
 |
-<blockquote>April 30, 2013
-</blockquote>
+April 30, 2013
 |-
 |
-<blockquote>A5.4
-</blockquote>
+A5.4
 |
-<blockquote>1.
+1.
 
 2.
 
@@ -230,10 +206,11 @@ Corrected eMMC pin table to match other tables in the manual.
 
 4.
 
-5. 6.
+5.
+
+6.
 
 7.
-</blockquote>
 |
 Corrected revision listed in section 2. Rev A5A is the initial production release.
 
@@ -247,19 +224,16 @@ Added some additional information about LDOs and StepDown converters.
 
 Added short section on HDMI.
 |
-<blockquote>May 12, 2013
-</blockquote>
+May 12, 2013
 |-
 |
-<blockquote>A5.5
-</blockquote>
+A5.5
 |
-<blockquote>1.
+1.
 
 2.
 
 3.
-</blockquote>
 |
 Release of the A5B version.
 
@@ -267,14 +241,12 @@ The LEDS were dimmed by changing the resistors.
 
 The serial termination mode was incorporated into the PCB.
 |
-<blockquote>May 20, 2013
-</blockquote>
+May 20, 2013
 |-
 |
-<blockquote>A5.6
-</blockquote>
+A5.6
 |
-<blockquote>1.
+1.
 
 2.
 
@@ -283,23 +255,21 @@ The serial termination mode was incorporated into the PCB.
 4.
 
 5.
-</blockquote>
 |
 Added information on Rev A5C
 
 Added PRU/ICSS options to tables for P8 and P9. Added section on USB Host Correct modes on Table 15. Fixed a few typos
 |
-<blockquote>June 16, 2013
-</blockquote>
+June 16, 2013
 |-
 |
-<blockquote>A5.7
-</blockquote>
+A5.7
 |
-<blockquote>1. 2.
+1.
+
+2.
 
 3.
-</blockquote>
 |
 Updated assembly revision to A6.
 
@@ -307,82 +277,66 @@ PCB change to add buffer to the reset line and ground the oscillator GND pin.
 
 Added resistor on PCB for connection of OSC_GND to board GND.
 |
-<blockquote>August 9, 2013
-</blockquote>
+August 9, 2013
 |-
 |
-<blockquote>A6
-</blockquote>
+A6
 |
-<blockquote>1.
-</blockquote>
+1.
 | Added Rev A6 changes.
 |
-<blockquote>October 11, 2013
-</blockquote>
+October 11, 2013
 |-
 |
-<blockquote>A6A
-</blockquote>
+A6A
 |
-<blockquote>1.
-</blockquote>
+1.
 | Added Rev A6A changes
 |
-<blockquote>December 17, 2013
-</blockquote>
+December 17, 2013
 |-
 |
-<blockquote>B
-</blockquote>
+B
 |
-<blockquote>1.
-</blockquote>
+1.
 | Changed the processor to the AM3358BZCZ
 |
-<blockquote>January 20, 2013
-</blockquote>
+January 20, 2013
 |-
 |
-<blockquote>C
-</blockquote>
+C
 |
-<blockquote>1.
+1.
 
 2.
-</blockquote>
 |
 Changed the eMMC from 2GB to 4GB.
 
 Added additional supplier to DDR2 and eMMC.
 |
-<blockquote>March 21,2014
-</blockquote>
+March 21,2014
 |-
 |
-<blockquote>C.1
-</blockquote>
+C.1
 |
-<blockquote>1.
-</blockquote>
+1.
 | Added note to recommend powering off the board with the power button.
 |
-<blockquote>March 22.2014
-</blockquote>
+March 22.2014
 |}
 
 === 2.2 Board Changes  ===
 
 ==== 2.2.1 Rev C  ====
 
-<blockquote> Changed the eMMC from 2GB to 4GB.
-</blockquote>
+ Changed the eMMC from 2GB to 4GB.
+
 2GB devices are getting harder to get as they are being phased out. This required us to move to 4GB. We now have two sources for the device. This will however, require an increase in the price of the board.
 
 ==== 2.2.2 Rev B  ====
 
-<blockquote> Changed the processor to the AM3358BZCZ100.
-</blockquote>
+ Changed the processor to the AM3358BZCZ100.
+
 ==== 2.2.3 Rev A6A  ====
 
 * Added connection from 32KHz OSC_GND to system ground and changed C106 to 1uF.
@@ -445,8 +399,8 @@ The board can be configured in several different ways, but we will discuss the t
 * Tethered to a PC via the USB cable o Board is accessed as a storage drive o Or a RNDIS Ethernet connection.
 * Standalone desktop o Display o Keyboard and mouse
 
-<blockquote>o External 5V power supply
-</blockquote>
+o External 5V power supply
+
 Each of these configurations is discussed in general terms in the following sections.
 
 For an up-to-date list of confirmed working accessories please go to [http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories ''http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories'']
@@ -463,8 +417,8 @@ All the power for the board is provided by the PC via the USB cable. In some ins
 
 ==== 3.3.1 Connect the Cable to the Board  ====
 
-<blockquote>1. Connect the small connector on the USB cable to the board as shown in '''Figure 4'''. The connector is on the bottom side of the board.
-</blockquote>
+1. Connect the small connector on the USB cable to the board as shown in '''Figure 4'''. The connector is on the bottom side of the board.
+
 [[media/image9.jpg|451x206px]]
 
 ======  Figure 3. USB Connection to the Board  ======
@@ -477,8 +431,8 @@ All the power for the board is provided by the PC via the USB cable. In some ins
 
 ======  Figure 4. Board Power LED  ======
 
-<blockquote>4. When the board starts to the booting process started by the process of applying power, the LEDs will come on in sequence as shown in '''Figure 5''' below. It will take a few seconds for the status LEDs to come on, so be patient. The LEDs will be flashing in an erratic manner as it begins to boot the Linux kernel.
-</blockquote>
+4. When the board starts to the booting process started by the process of applying power, the LEDs will come on in sequence as shown in '''Figure 5''' below. It will take a few seconds for the status LEDs to come on, so be patient. The LEDs will be flashing in an erratic manner as it begins to boot the Linux kernel.
+
 [[media/image11.jpg|541x254px]]
 
 ======  Figure 5. Board Boot Status  ======
@@ -496,8 +450,8 @@ The board will appear around a USB Storage drive on your PC after the kernel has
 
 In this configuration, the board works more like a PC, totally free from any connection to a PC as shown in '''Figure 6'''. It allows you to create your code to make the board do whatever you need it to do. It will however require certain common PC accessories. These accessories and instructions are described in the following section.
 
-<blockquote>[[media/image12.jpg|356x409px]]
-</blockquote>
+[[media/image12.jpg|356x409px]]
+
 ======  Figure 6. Desktop Configuration  ======
 
 Optionally an Ethernet cable can also be used for network access.
@@ -516,8 +470,8 @@ For an up-to-date list of confirmed working accessories please go to [http://cir
 
 ==== 3.4.2 Connecting Up the Board  ====
 
-<blockquote>1. Connect the big end of the HDMI cable as shown in '''Figure 7''' to your HDMI monitor. Refer to your monitor Owner’s Manual for the location of your HDMI port. If you have a DVI-D Monitor go to '''Step 3''', otherwise proceed to '''Step 4.'''
-</blockquote>
+1. Connect the big end of the HDMI cable as shown in '''Figure 7''' to your HDMI monitor. Refer to your monitor Owner’s Manual for the location of your HDMI port. If you have a DVI-D Monitor go to '''Step 3''', otherwise proceed to '''Step 4.'''
+
 [[media/image13.jpg|260x95px]]
 
 ======  Figure 7. Connect microHDMI Cable to the Monitor  ======
@@ -525,8 +479,8 @@ For an up-to-date list of confirmed working accessories please go to [http://cir
 <ol start="2" style="list-style-type: decimal;">
 <li><p>If you have a DVI-D monitor you must use a DVI-D to HDMI adapter in addition to your HDMI cable. An example is shown in '''Figure 8''' below from two perspectives. If you use this configuration, you will not have audio support.</p></li></ol>
 
-<blockquote>[[media/image14.jpg|486x281px]]
-</blockquote>
+[[media/image14.jpg|486x281px]]
+
 <ol start="2" style="list-style-type: decimal;">
 <li><p>If you have a single wireless keyboard and mouse combination such as seen in Figure '''9''' below, you need to plug the receiver in the USB host port of the board as shown in '''Figure 10'''.</p></li></ol>
 
@@ -544,12 +498,12 @@ If you have a wired USB keyboard requiring two USB ports, you will need a HUB si
 
 ====== Figure 11. Keyboard and Mouse Hubs  ======
 
-<blockquote>4. Connect the Ethernet Cable
-</blockquote>
+4. Connect the Ethernet Cable
+
 If you decide you want to connect to your local area network, an Ethernet cable can be used. Connect the Ethernet Cable to the Ethernet port as shown in '''Figure 12'''. Any standard 100M Ethernet cable should work.
 
-<blockquote>[[media/image24.jpg|433x264px]]
-</blockquote>
+[[media/image24.jpg|433x264px]]
+
 ====== Figure 12. Ethernet Cable Connection  ======
 
 ==== 3.4.3 Apply Power  ====
@@ -560,18 +514,18 @@ The final step is to plug in the DC power supply to the DC power jack as shown i
 
 ====== Figure 13. External DC Power  ======
 
-<blockquote>5. The cable needed to connect to your display is a microHDMI to HDMI. Connect the microHDMI connector end to the board at this time. The connector is on the bottom side of the board as shown in '''Figure 14''' below.
-</blockquote>
+5. The cable needed to connect to your display is a microHDMI to HDMI. Connect the microHDMI connector end to the board at this time. The connector is on the bottom side of the board as shown in '''Figure 14''' below.
+
 [[media/image26.jpg|540x227px]]
 
 ====== Figure 14. Connect microHDMI Cable to the Board  ======
 
 The connector is fairly robust, but we suggest that you not use the cable as a leash for your Beagle. Take proper care not to put too much stress on the connector or cable.
 
-<blockquote>6. Booting the Board
+6. Booting the Board
 
 As soon as the power is applied to the board, it will start the booting up process. When the board starts to boot the LEDs will come on in sequence as shown in '''Figure 15''' below. It will take a few seconds for the status LEDs to come on, so be patient. The LEDs will be flashing in an erratic manner as it boots the Linux kernel.
-</blockquote>
+
 [[media/image11.jpg|541x254px]]
 
 ====== Figure 15. Board Boot Status  ======
@@ -582,8 +536,8 @@ While the four user LEDS can be over written and used as desired, they do have s
 * '''USER2''' is an activity indicator. It turns on when the kernel is not in the idle loop.
 * '''USER3''' turns on when the onboard eMMC is being accessed.
 
-<blockquote>7. A Booted System
-</blockquote>
+7. A Booted System
+
 # The board will have a mouse pointer appear on the screen as it enters the Linux boot step. You may have to move the physical mouse to get the mouse pointer to appear. The system can come up in the suspend mode with the HDMI port in a sleep mode.
 # After a minute or two a login screen will appear. You do not have to do anything at this point.
 # After a minute or two the desktop will appear. It should be similar to the one shown in '''Figure 16'''. HOWEVER, it will change from one release to the next, so do not expect your system to look exactly like the one in the figure, but it will be very similar.
@@ -593,12 +547,12 @@ While the four user LEDS can be over written and used as desired, they do have s
 
 ====== Figure 16. Desktop Screen  ======
 
-<blockquote>8. Powering Down
+8. Powering Down
 
 1. Press the power button momentarily 2. The system will power down automatically.
 
 3. Remove the power jack.
-</blockquote>
+
 = '''4.0 BeagleBone Black Overview ''' =
 
 The BeagleBone Black is the latest addition to the BeagleBoard.org family and like its predecessors, is designed to address the Open Source Community, early adopters, and anyone interested in a low cost ARM Cortex-A8 based processor.
@@ -647,8 +601,8 @@ The board is intended to be compatible with the original BeagleBone as much as p
 * No three function USB cable o ''Cost reduction''
 * GPIO3_21 has a 24.576 MHZ clock on it.
 
-<blockquote>o This is required by the HDMI Framer for Audio purposes. We needed to run a clock into the processor to generate the correct clock frequency. The pin on the processor was already routed to the expansion header. In order not to remove this feature on the expansion header, it was left connected. In order to use the pin as a GPIO pin, you need to disable the clock. While this disables audio to the HDMI, the fact that you want to use this pin for something else, does the same thing.
-</blockquote>
+o This is required by the HDMI Framer for Audio purposes. We needed to run a clock into the processor to generate the correct clock frequency. The pin on the processor was already routed to the expansion header. In order not to remove this feature on the expansion header, it was left connected. In order to use the pin as a GPIO pin, you need to disable the clock. While this disables audio to the HDMI, the fact that you want to use this pin for something else, does the same thing.
+
 === 4.2 BeagleBone Black Features and Specification  ===
 
 This section covers the specifications and features of the board and provides a high level description of the major components and interfaces that make up the board.
@@ -664,8 +618,7 @@ This section covers the specifications and features of the board and provides a 
 |-
 | '''Processor '''
 |
-<blockquote>Sitara AM3358BZCZ100 1GHz, 2000 MIPS
-</blockquote>
+Sitara AM3358BZCZ100 1GHz, 2000 MIPS
 |-
 | '''Graphics Engine '''
 | SGX530 3D, 20M Polygons/S
@@ -684,8 +637,7 @@ This section covers the specifications and features of the board and provides a 
 |-
 | '''Power Source '''
 |
-<blockquote>miniUSB USB or DC Jack
-</blockquote>
+miniUSB USB or DC Jack
 |-
 | '''PCB '''
 | 3.4” x 2.1”
@@ -720,8 +672,7 @@ Power Button
 |
 16b HDMI, 1280x1024 (MAX)
 
-<blockquote>1024x768,1280x720,1440x900 ,1920x1080@24Hz w/EDID Support
-</blockquote>
+1024x768,1280x720,1440x900 ,1920x1080@24Hz w/EDID Support
 |-
 | '''Audio '''
 | Via HDMI Interface, Stereo
@@ -794,8 +745,8 @@ This section provides the high level specification of the BeagleBone Black.
 
 [[media/image30.jpg|512x454px]]
 
-<blockquote>'''Figure 19. BeagleBone Black Key Components '''
-</blockquote>
+'''Figure 19. BeagleBone Black Key Components '''
+
 === 5.2 Processor  ===
 
 The revision B board has moved to the Sitara AM3358BZCZ100 device.
@@ -942,8 +893,8 @@ This section provides a detailed description of the Hardware design. This can be
 
 [[media/image30.jpg|512x454px]]
 
-<blockquote>'''Figure 20. BeagleBone Black Block Diagram '''
-</blockquote>
+'''Figure 20. BeagleBone Black Block Diagram '''
+
 === 6.1 Power Section  ===
 
 '''Figure 21''' is the high level block diagram of the power section of the board.
@@ -970,8 +921,8 @@ By default only LDO1 is always ON but any rail can be configured to remain up in
 
 For more information on the '''TPS65217C''', refer to [http://www.ti.com/product/tps65217C ''http://www.ti.com/product/tps65217C''.]
 
-<blockquote>'''Figure 22''' is the high level block diagram of the '''TPS65217C'''.
-</blockquote>
+'''Figure 22''' is the high level block diagram of the '''TPS65217C'''.
+
 [[media/image37.png|550x629px]]
 
 ====== Figure 22. TPS65217C Block Diagram  ======
@@ -980,8 +931,8 @@ For more information on the '''TPS65217C''', refer to [http://www.ti.com/product
 
 '''Figure 23''' below shows how the DC input is connected to the '''TPS65217C'''.
 
-<blockquote>[[media/image38.png|458x408px]]
-</blockquote>
+[[media/image38.png|458x408px]]
+
 ====== Figure 23. TPS65217 DC Connection  ======
 
 A 5VDC supply can be used to provide power to the board. The power supply current depends on how many and what type of add-on boards are connected to the board. For typical use, a 5VDC supply rated at 1A should be sufficient. If heavier use of the expansion headers or USB host port is expected, then a higher current supply will be required.
@@ -1024,28 +975,23 @@ Four pads are provided on the board to allow access to the battery pins on the '
 | '''BAT '''
 | TP5
 |
-<blockquote>Battery connection point.
-</blockquote>
+Battery connection point.
 |-
 |
-<blockquote>'''SENSE '''
-</blockquote>
+'''SENSE '''
 | TP6
 |
-<blockquote>Battery voltage sense input, connect to BAT directly at the battery terminal.
-</blockquote>
+Battery voltage sense input, connect to BAT directly at the battery terminal.
 |-
 | '''TS '''
 | TP7
 |
-<blockquote>Temperature sense input. Connect to NTC thermistor to sense battery temperature.
-</blockquote>
+Temperature sense input. Connect to NTC thermistor to sense battery temperature.
 |-
 | '''GND '''
 | TP8
 |
-<blockquote>System ground.
-</blockquote>
+System ground.
 |}
 
 There is no fuel gauge function provided by the '''TPS65217C'''. That would need to be added if that function was required. If you want to add a fuel gauge, and option is to use 1-wire SPI or I2C device. You will need to add this using the expansion headers and place it on an expansion board.
@@ -1259,11 +1205,9 @@ The board is designed to use the Sitara AM3358BZCZ100 processor in the 15 x 15 p
 
 {|
 !
-<blockquote>Operating Systems
-</blockquote>
+Operating Systems
 !
-<blockquote>Linux, Android, Windows
-</blockquote>
+Linux, Android, Windows
 Embedded CE,QNX,
 
 ThreadX
@@ -1278,13 +1222,11 @@ ThreadX
 | ARM CPU
 | 1 ARM Cortex-A8
 |
-<blockquote>UART (SCI)
-</blockquote>
+UART (SCI)
 | 6
 |-
 |
-<blockquote>ARM MHz (Max.)
-</blockquote>
+ARM MHz (Max.)
 | 275,500,600,800,1000
 | ADC
 | 8-ch 12-bit
@@ -1308,17 +1250,14 @@ Accelerator
 | 3
 |-
 |
-<blockquote>On-Chip L1 Cache
-</blockquote>
+On-Chip L1 Cache
 |
-<blockquote>64 KB (ARM Cortex-A8)
-</blockquote>
+64 KB (ARM Cortex-A8)
 | RTC
 | 1
 |-
 |
-<blockquote>On-Chip L2 Cache
-</blockquote>
+On-Chip L2 Cache
 |
 256 KB (ARM Cortex-
 
@@ -1340,8 +1279,7 @@ A8)
 | 1 16-bit (GPMC, NAND flash, NOR Flash, SRAM)
 | DMA (Ch)
 |
-<blockquote>64-Ch EDMA
-</blockquote>
+64-Ch EDMA
 |-
 | DRAM
 |
@@ -1349,8 +1287,7 @@ A8)
 
 DDR2-532, DDR3-400)
 |
-<blockquote>IO Supply (V)
-</blockquote>
+IO Supply (V)
 | 1.8V(ADC),3.3V
 |-
 | USB Ports
@@ -1370,8 +1307,7 @@ Full documentation for the processor can be found on the TI website at [http://w
 
 '''Figure 30''' is the crystal circuitry for the AM3358 processor.
 
-<blockquote>[[media/image44.png|570x223px]]
-</blockquote>
+[[media/image44.png|570x223px]]
 '''Figure 30. Processor Crystals '''
 
 ==== 6.2.5 Reset Circuitry  ====
@@ -1414,8 +1350,8 @@ PRECHARGE command determines whether the PRECHARGE applies to one bank (A10 LOW,
 
 '''''Clock Enable Line:''''' CKE enables (registered HIGH) and disables (registered LOW) internal circuitry and clocks on the DRAM. The specific circuitry that is enabled/disabled is dependent upon the DDR3 SDRAM configuration and operating mode. Taking CKE LOW provides PRECHARGE power-down and SELF REFRESH operations (all banks idle) or active power-down (row active in any bank). CKE is synchronous for powerdown entry and exit and for self refresh entry. CKE is asynchronous for self refresh exit. Input buffers (excluding CK, CK#, CKE, RESET#, and ODT) are disabled during powerdown. Input buffers (excluding CKE and RESET#) are disabled during SELF REFRESH. CKE is referenced to VREFCA.
 
-<blockquote>[[media/image46.png|566x525px]]
-</blockquote>
+[[media/image46.png|566x525px]]
+
 ====== Figure 32. DDR3L Memory Design  ======
 
 '''''Chip Select Line:''''' CS# enables (registered LOW) and disables (registered HIGH) the command decoder. All commands are masked when CS# is registered HIGH. CS# provides for external rank selection on systems with multiple ranks. CS# is considered part of the command code. CS# is referenced to VREFCA.
@@ -1432,8 +1368,8 @@ The '''DDR3L''' memory device and the DDR3 rails on the processor are supplied b
 
 The '''VREF''' signal is generated from a voltage divider on the '''VDDS_DDR''' rail that powers the processor DDR rail and the DDR3L device itself. '''Figure 33''' below shows the configuration of this signal and the connection to the DDR3L memory device and the processor.
 
-<blockquote>[[media/image47.jpg|376x269px]]
-</blockquote>
+[[media/image47.jpg|376x269px]]
+
 '''Figure 33. DDR3L VREF Design '''
 
 === 6.3 4GB eMMC Memory  ===
@@ -1450,8 +1386,8 @@ The following sections describe the design and device that is used on the board 
 
 The device used is one of two different devices:
 
-<blockquote> Micron '''MTFC4GLDEA 0M WT'''  Kingston '''KE4CN2H5A-A58'''
-</blockquote>
+ Micron '''MTFC4GLDEA 0M WT'''  Kingston '''KE4CN2H5A-A58'''
+
 The package is a 153 ball WFBGA device on both devices.
 
 ==== 6.3.2 eMMC Circuit Design  ====
@@ -1485,8 +1421,7 @@ The BeagleBone is equipped with a single 32Kbit(4KB) 24LC32AT-I/OT EEPROM to all
 {|
 ! '''Name '''
 !
-<blockquote>'''Size (bytes) '''
-</blockquote>
+'''Size (bytes) '''
 ! '''Contents '''
 |-
 | '''Header '''
@@ -1515,8 +1450,7 @@ The BeagleBone is equipped with a single 32Kbit(4KB) 24LC32AT-I/OT EEPROM to all
 
 '''YY = 2 digit year of production '''
 
-<blockquote>'''BBBK = BeagleBone Black nnnn = incrementing board number '''
-</blockquote>
+'''BBBK = BeagleBone Black nnnn = incrementing board number '''
 |-
 | '''Configuration Option '''
 | '''32 '''
@@ -1580,8 +1514,8 @@ Power is provided from the '''VDD_3V3B''' rail and a 10uF capacitor is provided 
 
 There are four user LEDs on the BeagleBone Black. These are connected to GPIO pins on the processor. '''Figure 37''' shows the interfaces for the user LEDs.
 
-<blockquote>[[media/image52.png|570x290px]]
-</blockquote>
+[[media/image52.png|570x290px]]
+
 ======= Figure 37. User LEDs  =======
 
 Resistors R71-R74 were changed to 4.75K on the revision A5B board.
@@ -1597,26 +1531,22 @@ Resistors R71-R74 were changed to 4.75K on the revision A5B board.
 |-
 | USR0
 |
-<blockquote>GPIO1_21
-</blockquote>
+GPIO1_21
 | V15
 |-
 | USR1
 |
-<blockquote>GPIO1_22
-</blockquote>
+GPIO1_22
 | U15
 |-
 | USR2
 |
-<blockquote>GPIO1_23
-</blockquote>
+GPIO1_23
 | T15
 |-
 | USR3
 |
-<blockquote>GPIO1_24
-</blockquote>
+GPIO1_24
 | V16
 |}
 
@@ -1632,8 +1562,8 @@ In most applications, including those that use the provided demo distributions a
 
 '''Figure 38''' shows the circuitry that is involved in the boot configuration process. On power up, these pins are read by the processor to determine the boot order. S2 is used to change the level of one bit from HI to LO which changes the boot order.
 
-<blockquote>[[media/image53.png|448x367px]]
-</blockquote>
+[[media/image53.png|448x367px]]
+
 ======= Figure 38. Processor Boot Configuration Design  =======
 
 It is possible to override these setting via the expansion headers. But be careful not to add too much load such that it could interfere with the operation of the HDMI interface or LCD panels. If you choose to override these settings, it is strongly recommended that you gate these signals with the '''SYS_RESETn''' signal. This ensures that after coming out of reset these signals are removed from the expansion pins.
@@ -1658,8 +1588,8 @@ The BeagleBone Black is equipped with a 10/100 Ethernet interface. It uses the s
 
 '''Figure 40''' shows the connections between the processor and the PHY. The interface is in the MII mode of operation.
 
-<blockquote>[[media/image55.png|448x312px]]
-</blockquote>
+[[media/image55.png|448x312px]]
+
 ======= Figure 40. Ethernet Processor Interface  =======
 
 This is the same interface as is used on the BeagleBone. No changes were made in this design for the board.
@@ -1678,8 +1608,8 @@ This is the same interface as is used on the BeagleBone. No changes were made in
 
 '''Figure 42''' shows the power, reset, and lock connections to the '''LAN8710A''' PHY. Each of these areas is discussed in more detail in the following sections.
 
-<blockquote>[[media/image57.png|570x367px]]
-</blockquote>
+[[media/image57.png|570x367px]]
+
 ======= Figure 42. Ethernet PHY, Power, Reset, and Clocks  =======
 
 ========  ''6.9.3.1 VDD_3V3B Rail '' ========
@@ -1706,8 +1636,8 @@ A crystal is used to create the clock for the LAN8710A. The processor uses the '
 
 There are mode pins on the LAN8710A that sets the operational mode for the PHY when coming out of reset. These signals are also used to communicate between the processor and the LAN8710A. As a result, these signals can be driven by the processor which can cause the PHY not to be initialized correctly. To ensure that this does not happen, three low value pull up resistors are used. '''Figure 43''' below shows the three mode pin resistors.
 
-<blockquote>'''Figure 43. Ethernet PHY Mode Pins '''
-</blockquote>
+'''Figure 43. Ethernet PHY Mode Pins '''
+
 This will set the mode to be 111, which enables all modes and enables auto-negotiation.
 
 === 6.10 HDMI Interface  ===
@@ -1727,109 +1657,95 @@ The maximum resolution supported by the BeagleBone Black is 1280x1024 @ 60Hz. ''
 ! AUDIO
 |-
 |
-<blockquote>800 x 600 @60Hz
-</blockquote>
+800 x 600 @60Hz
 |
 
 |
 
 |-
 |
-<blockquote>800 x 600 @56Hz
-</blockquote>
+800 x 600 @56Hz
 |
 
 |
 
 |-
 |
-<blockquote>640 x 480 @75Hz
-</blockquote>
+640 x 480 @75Hz
 |
 
 |
 
 |-
 |
-<blockquote>640 x 480 @60Hz
-</blockquote>
+640 x 480 @60Hz
 | YES
 |
 
 |-
 |
-<blockquote>720 x 400 @70Hz
-</blockquote>
+720 x 400 @70Hz
 |
 
 |
 
 |-
 |
-<blockquote>1280 x 1024 @75Hz
-</blockquote>
+1280 x 1024 @75Hz
 |
 
 |
 
 |-
 |
-<blockquote>1024 x 768 @75Hz
-</blockquote>
+1024 x 768 @75Hz
 |
 
 |
 
 |-
 |
-<blockquote>1024 x 768 @70Hz
-</blockquote>
+1024 x 768 @70Hz
 |
 
 |
 
 |-
 |
-<blockquote>1024 x 768 @60Hz
-</blockquote>
+1024 x 768 @60Hz
 |
 
 |
 
 |-
 |
-<blockquote>800 x 600 @75Hz
-</blockquote>
+800 x 600 @75Hz
 |
 
 |
 
 |-
 |
-<blockquote>800 x 600 @72Hz
-</blockquote>
+800 x 600 @72Hz
 |
 
 |
 
 |-
 |
-<blockquote>720 x 480 @60Hz
-</blockquote>
+720 x 480 @60Hz
 | YES
 |
 
 |-
 |
-<blockquote>1280 x 720 @60Hz
-</blockquote>
+1280 x 720 @60Hz
 | YES
 |
 
 |-
 |
-<blockquote>1920x1080@24Hz
-</blockquote>
+1920x1080@24Hz
 | YES
 |
 
@@ -1849,8 +1765,8 @@ This device provides additional embedded features like CEC (Consumer Electronic 
 
 The '''Figure 44''' shows the connections between the processor and the HDMI framer device. There are 16 bits of display data, 5-6-5 that is used to drive the framer. The reason for 16 bits is that allows for compatibility with display and LCD capes already available on the original BeagleBone. The unused bits on the '''TDA19988''' are tied low. In addition to the data signals are the VSYNC, HSYNC, DE, and PCLK signals that round out the video interface from the processor.
 
-<blockquote>[[media/image58.png|449x481px]]
-</blockquote>
+[[media/image58.png|449x481px]]
+
 ======= Figure 44. HDMI Framer Processor Interface  =======
 
 ==== 6.10.4 HDMI Control Processor Interface  ====
@@ -1883,8 +1799,8 @@ In order to create the correct clock frequencies, we had to add an external '''2
 
 '''Figure 46''' shows the power connections to the '''TDA19988''' device. All voltage rails for the device are at 1.8V. A filter is provided to minimize any noise from the 1.8V rail getting back into the device.
 
-<blockquote>[[media/image64.png|550x315px]]
-</blockquote>
+[[media/image64.png|550x315px]]
+
 ======= Figure 46. HDMI Power Connections  =======
 
 All of the interfaces between the processor and the '''TDA19988''' are 3.3V tolerant allowing for direct connection.
@@ -1903,8 +1819,8 @@ The connector for the HDMI interface is a microHDMI. It should be noted that thi
 
 The board is equipped with a single USB host interface accessible from a single USB Type A female connector. '''Figure 48''' is the design of the USB Host circuitry.
 
-<blockquote>[[media/image66.png|570x205px]]
-</blockquote>
+[[media/image66.png|570x205px]]
+
 ==== 6.11.1 Power Switch  ====
 
 '''U8''' is a switch that allows the power to the connector to be turned on or off by the processor. It also has an over current detection that can alert the processor if the current gets too high via the '''USB1_OC''' signal. The power is controlled by the '''USB1_DRVBUS''' signal from the processor.
@@ -1968,14 +1884,11 @@ PRU1
 !
 
 !
-<blockquote>'''PIN '''
-</blockquote>
+'''PIN '''
 !
-<blockquote>'''PROC '''
-</blockquote>
+'''PROC '''
 !
-<blockquote>'''NAME '''
-</blockquote>
+'''NAME '''
 !
 
 !
@@ -1987,13 +1900,11 @@ PRU1
 | 11
 | R12
 |
-<blockquote>GPIO1_13
-</blockquote>
+GPIO1_13
 |
 
 |
-<blockquote>'''pr1_pru0_pru_r30_15 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_15 (Output) '''
 |
 
 |-
@@ -2002,13 +1913,11 @@ PRU1
 | 12
 | T12
 |
-<blockquote>GPIO1_12
-</blockquote>
+GPIO1_12
 |
 
 |
-<blockquote>'''pr1_pru0_pru_r30_14 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_14 (Output) '''
 |
 
 |-
@@ -2017,8 +1926,7 @@ PRU1
 | 15
 | U13
 |
-<blockquote>GPIO1_15
-</blockquote>
+GPIO1_15
 |
 
 | '''pr1_pru0_pru_r31_15 (Input) '''
@@ -2030,8 +1938,7 @@ PRU1
 | 16
 | V13
 |
-<blockquote>GPIO1_14
-</blockquote>
+GPIO1_14
 |
 
 | '''pr1_pru0_pru_r31_14 (Input) '''
@@ -2043,11 +1950,9 @@ PRU1
 | 20
 | V9
 |
-<blockquote>GPIO1_31
-</blockquote>
+GPIO1_31
 |
-<blockquote>pr1_pru1_pru_r30_13 (Output)
-</blockquote>
+pr1_pru1_pru_r30_13 (Output)
 | pr1_pru1_pru_r31_13 (INPUT)
 |
 
@@ -2057,11 +1962,9 @@ PRU1
 | 21
 | U9
 |
-<blockquote>GPIO1_30
-</blockquote>
+GPIO1_30
 |
-<blockquote>pr1_pru1_pru_r30_12 (Output)
-</blockquote>
+pr1_pru1_pru_r30_12 (Output)
 | pr1_pru1_pru_r31_12 (INPUT)
 |
 
@@ -2071,11 +1974,9 @@ PRU1
 | 27
 | U5
 |
-<blockquote>GPIO2_22
-</blockquote>
+GPIO2_22
 |
-<blockquote>pr1_pru1_pru_r30_8 (Output)
-</blockquote>
+pr1_pru1_pru_r30_8 (Output)
 | pr1_pru1_pru_r31_8 (INPUT)
 |
 
@@ -2085,11 +1986,9 @@ PRU1
 | 28
 | V5
 |
-<blockquote>GPIO2_24
-</blockquote>
+GPIO2_24
 |
-<blockquote>pr1_pru1_pru_r30_10 (Output)
-</blockquote>
+pr1_pru1_pru_r30_10 (Output)
 | pr1_pru1_pru_r31_10 (INPUT)
 |
 
@@ -2099,11 +1998,9 @@ PRU1
 | 29
 | R5
 |
-<blockquote>GPIO2_23
-</blockquote>
+GPIO2_23
 |
-<blockquote>pr1_pru1_pru_r30_9 (Output)
-</blockquote>
+pr1_pru1_pru_r30_9 (Output)
 | pr1_pru1_pru_r31_9 (INPUT)
 |
 
@@ -2112,14 +2009,11 @@ PRU1
 
 | 39
 |
-<blockquote>T3
-</blockquote>
+T3
 |
-<blockquote>GPIO2_12
-</blockquote>
+GPIO2_12
 |
-<blockquote>pr1_pru1_pru_r30_6 (Output)
-</blockquote>
+pr1_pru1_pru_r30_6 (Output)
 | pr1_pru1_pru_r31_6 (INPUT)
 |
 
@@ -2128,14 +2022,11 @@ PRU1
 
 | 40
 |
-<blockquote>T4
-</blockquote>
+T4
 |
-<blockquote>GPIO2_13
-</blockquote>
+GPIO2_13
 |
-<blockquote>pr1_pru1_pru_r30_7 (Output)
-</blockquote>
+pr1_pru1_pru_r30_7 (Output)
 | pr1_pru1_pru_r31_7 (INPUT)
 |
 
@@ -2144,14 +2035,11 @@ PRU1
 
 | 41
 |
-<blockquote>T1
-</blockquote>
+T1
 |
-<blockquote>GPIO2_10
-</blockquote>
+GPIO2_10
 |
-<blockquote>pr1_pru1_pru_r30_4 (Output)
-</blockquote>
+pr1_pru1_pru_r30_4 (Output)
 | pr1_pru1_pru_r31_4 (INPUT)
 |
 
@@ -2160,14 +2048,11 @@ PRU1
 
 | 42
 |
-<blockquote>T2
-</blockquote>
+T2
 |
-<blockquote>GPIO2_11
-</blockquote>
+GPIO2_11
 |
-<blockquote>pr1_pru1_pru_r30_5 (Output)
-</blockquote>
+pr1_pru1_pru_r30_5 (Output)
 | pr1_pru1_pru_r31_5 (INPUT)
 |
 
@@ -2178,8 +2063,7 @@ PRU1
 | R3
 | GPIO2_8
 |
-<blockquote>pr1_pru1_pru_r30_2 (Output)
-</blockquote>
+pr1_pru1_pru_r30_2 (Output)
 | pr1_pru1_pru_r31_2 (INPUT)
 |
 
@@ -2190,8 +2074,7 @@ PRU1
 | R4
 | GPIO2_9
 |
-<blockquote>pr1_pru1_pru_r30_3 (Output)
-</blockquote>
+pr1_pru1_pru_r30_3 (Output)
 | pr1_pru1_pru_r31_3 (INPUT)
 |
 
@@ -2202,8 +2085,7 @@ PRU1
 | R1
 | GPIO2_6
 |
-<blockquote>pr1_pru1_pru_r30_0 (Output)
-</blockquote>
+pr1_pru1_pru_r30_0 (Output)
 | pr1_pru1_pru_r31_0 (INPUT)
 |
 
@@ -2214,8 +2096,7 @@ PRU1
 | R2
 | GPIO2_7
 |
-<blockquote>pr1_pru1_pru_r30_1 (Output)
-</blockquote>
+pr1_pru1_pru_r30_1 (Output)
 | pr1_pru1_pru_r31_1 (INPUT)
 |
 
@@ -2251,8 +2132,7 @@ PRU1
 | B16
 | I2C1_SDA
 |
-<blockquote>pr1_uart0_rxd
-</blockquote>
+pr1_uart0_rxd
 |
 
 |
@@ -2264,8 +2144,7 @@ PRU1
 | D17
 | I2C2_SCL
 |
-<blockquote>pr1_uart0_rts_n
-</blockquote>
+pr1_uart0_rts_n
 |
 
 |
@@ -2277,8 +2156,7 @@ PRU1
 | D18
 | I2C2_SDA
 |
-<blockquote>pr1_uart0_cts_n
-</blockquote>
+pr1_uart0_cts_n
 |
 
 |
@@ -2289,11 +2167,9 @@ PRU1
 | 21
 | B17
 |
-<blockquote>UART2_TXD
-</blockquote>
+UART2_TXD
 |
-<blockquote>pr1_uart0_rts_n
-</blockquote>
+pr1_uart0_rts_n
 |
 
 |
@@ -2304,11 +2180,9 @@ PRU1
 | 22
 | A17
 |
-<blockquote>UART2_RXD
-</blockquote>
+UART2_RXD
 |
-<blockquote>pr1_uart0_cts_n
-</blockquote>
+pr1_uart0_cts_n
 |
 
 |
@@ -2319,8 +2193,7 @@ PRU1
 | 24
 | D15
 |
-<blockquote>UART1_TXD
-</blockquote>
+UART1_TXD
 | pr1_uart0_txd
 | '''pr1_pru0_pru_r31_16 (Input) '''
 |
@@ -2342,8 +2215,7 @@ PRU1
 | 26
 | D16
 |
-<blockquote>UART1_RXD
-</blockquote>
+UART1_RXD
 | pr1_uart0_rxd '''pr1_pru0_pru_r30_7 (Output) '''
 | pr1_pru1_pru_r31_16 '''pr1_pru0_pru_r31_7 (Input) '''
 |
@@ -2368,8 +2240,7 @@ PRU1
 | SPI1_CS0
 | eCAP2_in_PWM2_out
 |
-<blockquote>'''pr1_pru0_pru_r30_3 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_3 (Output) '''
 | '''pr1_pru0_pru_r31_3 (Input) '''
 |-
 |
@@ -2378,8 +2249,7 @@ PRU1
 | B13
 | SPI1_D0
 |
-<blockquote>'''pr1_pru0_pru_r30_1 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_1 (Output) '''
 | '''pr1_pru0_pru_r31_1 (Input) '''
 |
 
@@ -2390,8 +2260,7 @@ PRU1
 | D12
 | SPI1_D1
 |
-<blockquote>'''pr1_pru0_pru_r30_2 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_2 (Output) '''
 | '''pr1_pru0_pru_r31_2 (Input) '''
 |
 
@@ -2402,8 +2271,7 @@ PRU1
 | A13
 | SPI1_SCLK
 |
-<blockquote>'''pr1_pru0_pru_r30_0 (Output) '''
-</blockquote>
+'''pr1_pru0_pru_r30_0 (Output) '''
 | '''pr1_pru0_pru_r31_0 (Input) '''
 |
 
@@ -2419,10 +2287,10 @@ The expansion interface on the board is comprised of two 46 pin connectors. All 
 
 '''''NOTE: Do not connect 5V logic level signals to these pins or the board will be'' ''damaged.'' '''
 
-<blockquote>'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
+'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
 
 '''NO PINS ARE TO BE DRIVEN UNTIL AFTER THE SYS_RESET LINE GOES HIGH. '''
-</blockquote>
+
 '''Figure 50''' shows the location of the expansion connectors.
 
 [[media/image68.jpg|286x394px]]
@@ -2441,25 +2309,23 @@ The '''PIN''' column is the pin number on the expansion header.
 
 The '''MODE''' columns are the mode setting for each pin. Setting each mode to align with the mode column will give that function on that pin.
 
-<blockquote>'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
+'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
 
 '''NO PINS ARE TO BE DRIVEN UNTIL AFTER THE SYS_RESET LINE GOES HIGH. '''
-</blockquote>
+
 {|
 |
 '''REF: BBONEBLK_SRM BeagleBone Black System Rev C.1 '''
 
-<blockquote>'''Reference Manual '''
-</blockquote>
+'''Reference Manual '''
+
 '''Table 12. Expansion Header P8 Pinout '''
 
 {|
 !
-<blockquote>'''PIN '''
-</blockquote>
+'''PIN '''
 !
-<blockquote>'''PROC '''
-</blockquote>
+'''PROC '''
 ! '''NAME '''
 ! '''MODE0 '''
 ! '''MODE1 '''
@@ -2475,8 +2341,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 |
 
 |
-<blockquote>'''GND '''
-</blockquote>
+'''GND '''
 |
 
 |
@@ -2536,8 +2401,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | R7
 | TIMER4
 |
-<blockquote>gpmc_advn_ale
-</blockquote>
+gpmc_advn_ale
 |
 
 | timer4
@@ -2550,8 +2414,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | T7
 | TIMER7
 |
-<blockquote>gpmc_oen_ren
-</blockquote>
+gpmc_oen_ren
 |
 
 | timer7
@@ -2564,8 +2427,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | T6
 | TIMER5
 |
-<blockquote>gpmc_be0n_cle
-</blockquote>
+gpmc_be0n_cle
 |
 
 | timer5
@@ -2607,8 +2469,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 13
 | T10
 |
-<blockquote>EHRPWM2B
-</blockquote>
+EHRPWM2B
 | gpmc_ad9
 | lcd_data22
 | mmc1_dat1
@@ -2655,8 +2516,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | V12
 | GPIO2_1
 |
-<blockquote>gpmc_clk_mux0
-</blockquote>
+gpmc_clk_mux0
 | lcd_memory_clk
 | gpmc_wait1
 | mmc2_clk
@@ -2666,8 +2526,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 19
 | U10
 |
-<blockquote>EHRPWM2A
-</blockquote>
+EHRPWM2A
 | gpmc_ad8
 | lcd_data23
 | mmc1_dat0
@@ -2797,8 +2656,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | R6
 | GPIO2_25
 |
-<blockquote>lcd_ac_bias_en
-</blockquote>
+lcd_ac_bias_en
 | gpmc_a11
 |
 
@@ -2810,8 +2668,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 31
 | V4
 |
-<blockquote>UART5_CTSN
-</blockquote>
+UART5_CTSN
 | lcd_data14
 | gpmc_a18
 | eQEP1_index
@@ -2821,8 +2678,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 32
 | T5
 |
-<blockquote>UART5_RTSN
-</blockquote>
+UART5_RTSN
 | lcd_data15
 | gpmc_a19
 | eQEP1_strobe
@@ -2832,8 +2688,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 33
 | V3
 |
-<blockquote>UART4_RTSN
-</blockquote>
+UART4_RTSN
 | lcd_data13
 | gpmc_a17
 | eQEP1B_in
@@ -2843,8 +2698,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 34
 | U4
 |
-<blockquote>UART3_RTSN
-</blockquote>
+UART3_RTSN
 | lcd_data11
 | gpmc_a15
 | ehrpwm1B
@@ -2854,8 +2708,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 35
 | V2
 |
-<blockquote>UART4_CTSN
-</blockquote>
+UART4_CTSN
 | lcd_data12
 | gpmc_a16
 | eQEP1A_in
@@ -2865,8 +2718,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 36
 | U3
 |
-<blockquote>UART3_CTSN
-</blockquote>
+UART3_CTSN
 | lcd_data10
 | gpmc_a14
 | ehrpwm1A
@@ -2877,8 +2729,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 37
 | U1
 |
-<blockquote>UART5_TXD
-</blockquote>
+UART5_TXD
 | lcd_data8
 | gpmc_a12
 | ehrpwm1_tripzone_in
@@ -2888,8 +2739,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 | 38
 | U2
 |
-<blockquote>UART5_RXD
-</blockquote>
+UART5_RXD
 | lcd_data9
 | gpmc_a13
 | ehrpwm0_synco
@@ -2984,8 +2834,7 @@ The '''MODE''' columns are the mode setting for each pin. Setting each mode to a
 
 |}
 
-<blockquote>[[media/image2.jpg|563x48px]]
-</blockquote>
+[[media/image2.jpg|563x48px]]
 |}
 
 ==== 7.1.2 Connector P9  ====
@@ -3010,10 +2859,9 @@ In the table are the following notations:
 
 @ Both of these signals connect to pin 42 of P11. Resistors are installed that allow for the GPIO3_18 connection to be removed by removing R202. The intent is to allow the SW to use either of these signals, on pin 42. SW should set the unused pin in input mode when using the other pin. This allowed us to get an extra signal out to the expansion header.
 
-<blockquote>'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
+'''NOTE: DO NOT APPLY VOLTAGE TO ANY I/O PIN WHEN POWER IS NOT SUPPLIED TO THE BOARD. IT WILL DAMAGE THE PROCESSOR AND VOID THE WARRANTY. '''
 
 '''NO PINS ARE TO BE DRIVEN UNTIL AFTER THE SYS_RESET LINE GOES HIGH. '''
-</blockquote>
 {|
 |
 '''Table 13. Expansion Header P9 Pinout '''
@@ -3021,8 +2869,7 @@ In the table are the following notations:
 {|
 ! '''PIN '''
 !
-<blockquote>'''PROC '''
-</blockquote>
+'''PROC '''
 ! '''NAME '''
 ! '''MODE0 '''
 ! '''MODE1 '''
@@ -3044,8 +2891,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>GND
-</blockquote>
+GND
 |
 
 |
@@ -3065,8 +2911,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>DC_3.3V
-</blockquote>
+DC_3.3V
 |
 
 |
@@ -3086,8 +2931,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>VDD_5V
-</blockquote>
+VDD_5V
 |
 
 |
@@ -3107,8 +2951,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>SYS_5V
-</blockquote>
+SYS_5V
 |
 
 |
@@ -3128,8 +2971,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>'''PWR_BUT'''
-</blockquote>
+'''PWR_BUT'''
 |
 
 |
@@ -3148,8 +2990,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>SYS_RESETnRESET_OUT
-</blockquote>
+SYS_RESETnRESET_OUT
 |
 
 |
@@ -3246,19 +3087,15 @@ In the table are the following notations:
 | B16
 | I2C1_SDA
 |
-<blockquote>spi0_d1 uart1_rtsn
-</blockquote>
+spi0_d1 uart1_rtsn
 | mmc1_sdwp timer5
 | I2C1_SDA dcan0_rx
 |
-<blockquote>ehrpwm0_tripzone I2C2_SCL
-</blockquote>
+ehrpwm0_tripzone I2C2_SCL
 |
-<blockquote>pr1_uart0_rxd spi1_cs1
-</blockquote>
+pr1_uart0_rxd spi1_cs1
 |
-<blockquote>pr1_uart0_rts_n
-</blockquote>
+pr1_uart0_rts_n
 |
 
 |-
@@ -3402,8 +3239,7 @@ In the table are the following notations:
 | SPI1_D1
 | mcasp0_axr0
 |
-<blockquote>ehrpwm0_tripzone
-</blockquote>
+ehrpwm0_tripzone
 |
 
 | spi1_d1
@@ -3435,8 +3271,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>VADC
-</blockquote>
+VADC
 |
 
 |
@@ -3455,8 +3290,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN4
-</blockquote>
+AIN4
 |
 
 |
@@ -3476,8 +3310,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AGND
-</blockquote>
+AGND
 |
 
 |
@@ -3496,8 +3329,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN6
-</blockquote>
+AIN6
 |
 
 |
@@ -3516,8 +3348,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN5
-</blockquote>
+AIN5
 |
 
 |
@@ -3536,8 +3367,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN2
-</blockquote>
+AIN2
 |
 
 |
@@ -3556,8 +3386,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN3
-</blockquote>
+AIN3
 |
 
 |
@@ -3576,8 +3405,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN0
-</blockquote>
+AIN0
 |
 
 |
@@ -3596,8 +3424,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>AIN1
-</blockquote>
+AIN1
 |
 
 |
@@ -3666,8 +3493,7 @@ In the table are the following notations:
 |
 
 |
-<blockquote>GND
-</blockquote>
+GND
 |
 
 |
@@ -3676,8 +3502,7 @@ In the table are the following notations:
 
 |}
 
-<blockquote>'''''''*GPIO3_21 is also the 24.576MHZ clock input to the processor to enable HDMI audio. To use this pin the oscillator must be disabled.'''''''
-</blockquote>
+'''''''*GPIO3_21 is also the 24.576MHZ clock input to the processor to enable HDMI audio. To use this pin the oscillator must be disabled.'''''''
 |}
 
 === 7.2 Power Jack  ===
@@ -3712,14 +3537,14 @@ The port is USB 2.0 HS compatible and can supply up to 500mA of current. If more
 
 Each board has a debug serial interface that can be accessed by using a special serial cable that is plugged into the serial header as shown in '''Figure 54''' below.
 
-<blockquote>[[media/image71.jpg|527x351px]]
-</blockquote>
+[[media/image71.jpg|527x351px]]
+
 ====== Figure 54. Serial Debug Header  ======
 
 Two signals are provided, TX and RX on this connector. The levels on these signals are 3.3V. In order to access these signals, a FTDI USB to Serial cable is recommended as shown in '''Figure 55''' below.
 
-<blockquote>[[media/image73.jpg|428x162px]]
-</blockquote>
+[[media/image73.jpg|428x162px]]
+
 The cable can be purchased from several different places and must be the 3.3V version TTL-232R-3V3. Information on the cable itself can be found direct from FTDI at:
 
 [http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf ''http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL232R_CABLES.pdf'' ]
@@ -3743,45 +3568,39 @@ FTDI cable which can be found at
 ! SIGNAL
 |-
 |
-<blockquote>'''1 '''
-</blockquote>
+'''1 '''
 |
-<blockquote>Ground
-</blockquote>
+Ground
 |-
 |
-<blockquote>'''4 '''
-</blockquote>
+'''4 '''
 |
-<blockquote>Receive
-</blockquote>
+Receive
 |-
 |
-<blockquote>'''5 '''
-</blockquote>
+'''5 '''
 |
-<blockquote>Transmit
-</blockquote>
+Transmit
 |}
 
 '''Figure 56''' shows the pin location on the board.
 
-<blockquote>[[media/image75.jpg|373x374px]]
-</blockquote>
+[[media/image75.jpg|373x374px]]
+
 '''Figure 56. Serial Header '''
 
 === 7.6 HDMI  ===
 
 Access to the HDMI interface is through the HDMI connector that is located on the bottom side of the board as shown in '''Figure 57''' below.
 
-<blockquote>[[media/image71.jpg|579x387px]]
-</blockquote>
+[[media/image71.jpg|579x387px]]
+
 ====== Figure 57. HDMI Connector  ======
 
 The connector is microHDMI connector. This was done due to the space limitations we had in finding a place to fit the connector. It requires a microHDMI to HDMI cable as shown in '''Figure 58''' below. The cable can be purchased from several different sources.
 
-<blockquote>[[media/image77.jpg|196x196px]]
-</blockquote>
+[[media/image77.jpg|196x196px]]
+
 '''Figure 58. HDMI Cable '''
 
 === 7.7 microSD  ===
@@ -3800,8 +3619,8 @@ Do not pull the SD card out or you could damage the connector.
 
 The board comes with a single 10/100 Ethernet interface located next to the power jack as shown in '''Figure 60'''.
 
-<blockquote>[[media/image71.jpg|579x387px]]
-</blockquote>
+[[media/image71.jpg|579x387px]]
+
 '''Figure 60. Ethernet Connector '''
 
 The PHY supports AutoMDX which means either a straight or a swap cable can be used
@@ -3845,165 +3664,135 @@ The LCD pins are used on the BeagleBone Black to drive the HDMI framer. These si
 {|
 ! '''PIN '''
 !
-<blockquote>'''PROC '''
-</blockquote>
+'''PROC '''
 ! '''NAME '''
 ! '''MODE0 '''
 |-
 |
-<blockquote>27
-</blockquote>
+27
 | U5
 | GPIO2_22
 | lcd_vsync
 |-
 |
-<blockquote>28
-</blockquote>
+28
 | V5
 | GPIO2_24
 | lcd_pclk
 |-
 |
-<blockquote>29
-</blockquote>
+29
 | R5
 | GPIO2_23
 | lcd_hsync
 |-
 |
-<blockquote>30
-</blockquote>
+30
 | R6
 | GPIO2_25
 |
-<blockquote>lcd_ac_bias_en
-</blockquote>
+lcd_ac_bias_en
 |-
 |
-<blockquote>31
-</blockquote>
+31
 | V4
 |
-<blockquote>UART5_CTSN
-</blockquote>
+UART5_CTSN
 | lcd_data14
 |-
 |
-<blockquote>32
-</blockquote>
+32
 | T5
 |
-<blockquote>UART5_RTSN
-</blockquote>
+UART5_RTSN
 | lcd_data15
 |-
 |
-<blockquote>33
-</blockquote>
+33
 | V3
 |
-<blockquote>UART4_RTSN
-</blockquote>
+UART4_RTSN
 | lcd_data13
 |-
 |
-<blockquote>34
-</blockquote>
+34
 | U4
 |
-<blockquote>UART3_RTSN
-</blockquote>
+UART3_RTSN
 | lcd_data11
 |-
 |
-<blockquote>35
-</blockquote>
+35
 | V2
 |
-<blockquote>UART4_CTSN
-</blockquote>
+UART4_CTSN
 | lcd_data12
 |-
 |
-<blockquote>36
-</blockquote>
+36
 | U3
 |
-<blockquote>UART3_CTSN
-</blockquote>
+UART3_CTSN
 | lcd_data10
 |-
 |
-<blockquote>37
-</blockquote>
+37
 | U1
 |
-<blockquote>UART5_TXD
-</blockquote>
+UART5_TXD
 | lcd_data8
 |-
 |
-<blockquote>38
-</blockquote>
+38
 | U2
 |
-<blockquote>UART5_RXD
-</blockquote>
+UART5_RXD
 | lcd_data9
 |-
 |
-<blockquote>39
-</blockquote>
+39
 | T3
 | GPIO2_12
 | lcd_data6
 |-
 |
-<blockquote>40
-</blockquote>
+40
 | T4
 | GPIO2_13
 | lcd_data7
 |-
 |
-<blockquote>41
-</blockquote>
+41
 | T1
 | GPIO2_10
 | lcd_data4
 |-
 |
-<blockquote>42
-</blockquote>
+42
 | T2
 | GPIO2_11
 | lcd_data5
 |-
 |
-<blockquote>43
-</blockquote>
+43
 | R3
 | GPIO2_8
 | lcd_data2
 |-
 |
-<blockquote>44
-</blockquote>
+44
 | R4
 | GPIO2_9
 | lcd_data3
 |-
 |
-<blockquote>45
-</blockquote>
+45
 | R1
 | GPIO2_6
 | lcd_data0
 |-
 |
-<blockquote>46
-</blockquote>
+46
 | R2
 | GPIO2_7
 | lcd_data1
@@ -4032,41 +3821,34 @@ MODE2.
 
 {|
 !
-<blockquote>'''PIN '''
-</blockquote>
+'''PIN '''
 ! '''PROC '''
 ! '''SIGNAL '''
 !
-<blockquote>'''MODE '''
-</blockquote>
+'''MODE '''
 |-
 |
-<blockquote>22
-</blockquote>
+22
 | V8
 | MMC1_DAT5
 | 1
 |-
 |
-<blockquote>23
-</blockquote>
+23
 |
-<blockquote>U8
-</blockquote>
+U8
 | MMC1_DAT4
 | 1
 |-
 |
-<blockquote>24
-</blockquote>
+24
 | V7
 | MMC1_DAT1
 | 1
 |-
 | 5
 |
-<blockquote>R8
-</blockquote>
+R8
 | MMC1_DAT2
 | 1
 |-
@@ -4077,8 +3859,7 @@ MODE2.
 |-
 | 3
 |
-<blockquote>R9
-</blockquote>
+R9
 | MMC1_DAT6
 | 1
 |-
@@ -4088,32 +3869,25 @@ MODE2.
 | 1
 |-
 |
-<blockquote>25
-</blockquote>
+25
 |
-<blockquote>U7
-</blockquote>
+U7
 | MMC1_DAT0
 | 1
 |-
 |
-<blockquote>20
-</blockquote>
+20
 | V9
 |
-<blockquote>MMC1_CMD
-</blockquote>
+MMC1_CMD
 | 2
 |-
 |
-<blockquote>21
-</blockquote>
+21
 |
-<blockquote>U9
-</blockquote>
+U9
 |
-<blockquote>MMC1_CLK
-</blockquote>
+MMC1_CLK
 | 2
 |}
 
@@ -4142,8 +3916,8 @@ The address of the EEPROM will be set via either jumpers or a dipswitch on each 
 
 The EEPROM used is the same one as is used on the BeagleBone and the BeagleBone Black, a CAT24C256. The CAT24C256 is a 256 kb Serial CMOS EEPROM, internally organized as 32,768 words of 8 bits each. It features a 64−byte page write buffer and supports the Standard (100 kHz), Fast (400 kHz) and Fast−Plus (1 MHz) I2C protocol.
 
-<blockquote>[[media/image78.png|509x228px]]
-</blockquote>
+[[media/image78.png|509x228px]]
+
 ====== Figure 61. Expansion Board EEPROM Without Write Protect  ======
 
 The addressing of this device requires two bytes for the address which is not used on smaller size EEPROMs, which only require only one byte. Other compatible devices may be used as well. Make sure the device you select supports 16 bit addressing. The part package used is at the discretion of the cape designer.
@@ -4170,12 +3944,12 @@ The design in '''Figure 62''' has the write protect disabled. If the write prote
 
 When not grounded, the pin is HI via pullup resistor R210 and therefore write protected. Whether or not Write Protect is provided is at the discretion of the cape designer.
 
-<blockquote>'''Variable &amp; MAC Memory'''
-</blockquote>
+'''Variable &amp; MAC Memory'''
+
 VDD_3V3B
 
-<blockquote>[[media/image79.png|567x189px]]
-</blockquote>
+[[media/image79.png|567x189px]]
+
 ====== Figure 62. Expansion Board EEPROM Write Protect  ======
 
 ==== 8.2.4 EEPROM Data Format  ====
@@ -4187,8 +3961,7 @@ VDD_3V3B
 {|
 ! '''Name '''
 !
-<blockquote>'''Offset '''
-</blockquote>
+'''Offset '''
 ! '''Size (bytes) '''
 ! '''Contents '''
 |-
@@ -4211,8 +3984,7 @@ VDD_3V3B
 | '''38 '''
 | '''4 '''
 |
-<blockquote>'''Hardware version code for board in ASCII. Version format is up to the developer. '''
-</blockquote>
+'''Hardware version code for board in ASCII. Version format is up to the developer. '''
 '''i.e. 02.1…00A1....10A0 '''
 |-
 | '''Manufacturer '''
@@ -4242,8 +4014,7 @@ VDD_3V3B
 
 '''YY = 2 digit year of production '''
 
-<blockquote>'''&amp;&amp;&amp;&amp;=Assembly code to let the manufacturer document the assembly number or product. A way to quickly tell from reading the serial number what the board is. Up to the developer to determine. '''
-</blockquote>
+'''&amp;&amp;&amp;&amp;=Assembly code to let the manufacturer document the assembly number or product. A way to quickly tell from reading the serial number what the board is. Up to the developer to determine. '''
 '''nnnn = incrementing board number for that week of production '''
 |-
 | '''Pin Usage '''
@@ -4322,8 +4093,8 @@ VDD_3V3B
 
 '''''Bit 3 PULLUP/DN''''' 0=Pullup/pulldown enabled
 
-<blockquote>1= Pullup/pulldown disabled
-</blockquote>
+1= Pullup/pulldown disabled
+
 '''''Bit 2-0 MUX MODE SELECT''''' Mode 0-7. (refer to TRM)
 
 Refer to the TRM for proper settings of the pin MUX mode based on the signal selection to be used.
@@ -4341,49 +4112,36 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 ! '''15 '''
 !
-<blockquote>'''14 '''
-</blockquote>
+'''14 '''
 !
-<blockquote>'''13 '''
-</blockquote>
+'''13 '''
 !
-<blockquote>'''12 '''
-</blockquote>
+'''12 '''
 !
-<blockquote>'''11 '''
-</blockquote>
+'''11 '''
 !
-<blockquote>'''10 '''
-</blockquote>
+'''10 '''
 !
-<blockquote>'''9 '''
-</blockquote>
+'''9 '''
 !
-<blockquote>'''8 '''
-</blockquote>
+'''8 '''
 !
-<blockquote>'''7 '''
-</blockquote>
+'''7 '''
 !
-<blockquote>'''6 '''
-</blockquote>
+'''6 '''
 !
-<blockquote>'''5 '''
-</blockquote>
+'''5 '''
 |-
 | '''Off set '''
 |
-<blockquote>'''Conn '''
-</blockquote>
+'''Conn '''
 | '''Name '''
 |
 '''Pin '''
 
-<blockquote>'''Usage '''
-</blockquote>
+'''Usage '''
 |
-<blockquote>'''Type '''
-</blockquote>
+'''Type '''
 |
 
 | '''Reserved '''
@@ -4392,20 +4150,19 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |
 
 |
-<blockquote>'''S'''
+'''S'''
 
 '''L'''
 
 '''E'''
-</blockquote>
+
 '''W '''
 |
-<blockquote>'''R'''
+'''R'''
 
 '''X '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
@@ -4414,27 +4171,23 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 '''P'''
 
 '''D '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
 '''/'''
-</blockquote>
+
 '''D E'''
 
-<blockquote>'''N '''
-</blockquote>
+'''N '''
 | '''Mux Mode '''
 |-
 | '''88 '''
 |
-<blockquote>'''P9-22 '''
-</blockquote>
+'''P9-22 '''
 |
-<blockquote>'''UART2_RXD '''
-</blockquote>
+'''UART2_RXD '''
 |
 
 |
@@ -4460,11 +4213,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''90 '''
 |
-<blockquote>'''P9-21 '''
-</blockquote>
+'''P9-21 '''
 |
-<blockquote>'''UART2_TXD '''
-</blockquote>
+'''UART2_TXD '''
 |
 
 |
@@ -4490,8 +4241,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''92 '''
 |
-<blockquote>'''P9-18 '''
-</blockquote>
+'''P9-18 '''
 | '''I2C1_SDA '''
 |
 
@@ -4518,8 +4268,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''94 '''
 |
-<blockquote>'''P9-17 '''
-</blockquote>
+'''P9-17 '''
 | '''I2C1_SCL '''
 |
 
@@ -4546,8 +4295,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''96 '''
 |
-<blockquote>'''P9-42 '''
-</blockquote>
+'''P9-42 '''
 | '''GPIO0_7 '''
 |
 
@@ -4574,11 +4322,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''98 '''
 |
-<blockquote>'''P8-35 '''
-</blockquote>
+'''P8-35 '''
 |
-<blockquote>'''UART4_CTSN '''
-</blockquote>
+'''UART4_CTSN '''
 |
 
 |
@@ -4604,11 +4350,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''100 '''
 |
-<blockquote>'''P8-33 '''
-</blockquote>
+'''P8-33 '''
 |
-<blockquote>'''UART4_RTSN '''
-</blockquote>
+'''UART4_RTSN '''
 |
 
 |
@@ -4634,11 +4378,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''102 '''
 |
-<blockquote>'''P8-31 '''
-</blockquote>
+'''P8-31 '''
 |
-<blockquote>'''UART5_CTSN '''
-</blockquote>
+'''UART5_CTSN '''
 |
 
 |
@@ -4664,11 +4406,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''104 '''
 |
-<blockquote>'''P8-32 '''
-</blockquote>
+'''P8-32 '''
 |
-<blockquote>'''UART5_RTSN '''
-</blockquote>
+'''UART5_RTSN '''
 |
 
 |
@@ -4694,8 +4434,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''106 '''
 |
-<blockquote>'''P9-19 '''
-</blockquote>
+'''P9-19 '''
 | '''I2C2_SCL '''
 |
 
@@ -4722,8 +4461,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''108 '''
 |
-<blockquote>'''P9-20 '''
-</blockquote>
+'''P9-20 '''
 | '''I2C2_SDA '''
 |
 
@@ -4750,11 +4488,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''110 '''
 |
-<blockquote>'''P9-26 '''
-</blockquote>
+'''P9-26 '''
 |
-<blockquote>'''UART1_RXD '''
-</blockquote>
+'''UART1_RXD '''
 |
 
 |
@@ -4780,11 +4516,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''112 '''
 |
-<blockquote>'''P9-24 '''
-</blockquote>
+'''P9-24 '''
 |
-<blockquote>'''UART1_TXD '''
-</blockquote>
+'''UART1_TXD '''
 |
 
 |
@@ -4810,8 +4544,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''114 '''
 |
-<blockquote>'''P9-41 '''
-</blockquote>
+'''P9-41 '''
 | '''CLKOUT2 '''
 |
 
@@ -4838,11 +4571,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''116 '''
 |
-<blockquote>'''P8-19 '''
-</blockquote>
+'''P8-19 '''
 |
-<blockquote>'''EHRPWM2A '''
-</blockquote>
+'''EHRPWM2A '''
 |
 
 |
@@ -4868,11 +4599,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''118 '''
 |
-<blockquote>'''P8-13 '''
-</blockquote>
+'''P8-13 '''
 |
-<blockquote>'''EHRPWM2B '''
-</blockquote>
+'''EHRPWM2B '''
 |
 
 |
@@ -4898,8 +4627,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''120 '''
 |
-<blockquote>'''P8-14 '''
-</blockquote>
+'''P8-14 '''
 | '''GPIO0_26 '''
 |
 
@@ -4926,8 +4654,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''122 '''
 |
-<blockquote>'''P8-17 '''
-</blockquote>
+'''P8-17 '''
 | '''GPIO0_27 '''
 |
 
@@ -4954,11 +4681,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''124 '''
 |
-<blockquote>'''P9-11 '''
-</blockquote>
+'''P9-11 '''
 |
-<blockquote>'''UART4_RXD '''
-</blockquote>
+'''UART4_RXD '''
 |
 
 |
@@ -4984,11 +4709,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''126 '''
 |
-<blockquote>'''P9-13 '''
-</blockquote>
+'''P9-13 '''
 |
-<blockquote>'''UART4_TXD '''
-</blockquote>
+'''UART4_TXD '''
 |
 
 |
@@ -5014,8 +4737,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''128 '''
 |
-<blockquote>'''P8-25 '''
-</blockquote>
+'''P8-25 '''
 | '''GPIO1_0 '''
 |
 
@@ -5042,8 +4764,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''130 '''
 |
-<blockquote>'''P8-24 '''
-</blockquote>
+'''P8-24 '''
 | '''GPIO1_1 '''
 |
 
@@ -5122,8 +4843,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''136 '''
 |
-<blockquote>'''P8-23 '''
-</blockquote>
+'''P8-23 '''
 | '''GPIO1_4 '''
 |
 
@@ -5150,8 +4870,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''138 '''
 |
-<blockquote>'''P8-22 '''
-</blockquote>
+'''P8-22 '''
 | '''GPIO1_5 '''
 |
 
@@ -5230,8 +4949,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''144 '''
 |
-<blockquote>'''P8-12 '''
-</blockquote>
+'''P8-12 '''
 | '''GPIO1_12 '''
 |
 
@@ -5258,8 +4976,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''146 '''
 |
-<blockquote>'''P8-11 '''
-</blockquote>
+'''P8-11 '''
 | '''GPIO1_13 '''
 |
 
@@ -5286,8 +5003,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''148 '''
 |
-<blockquote>'''P8-16 '''
-</blockquote>
+'''P8-16 '''
 | '''GPIO1_14 '''
 |
 
@@ -5314,8 +5030,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''150 '''
 |
-<blockquote>'''P8-15 '''
-</blockquote>
+'''P8-15 '''
 | '''GPIO1_15 '''
 |
 
@@ -5342,8 +5057,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''152 '''
 |
-<blockquote>'''P9-15 '''
-</blockquote>
+'''P9-15 '''
 | '''GPIO1_16 '''
 |
 
@@ -5378,49 +5092,36 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 ! '''15 '''
 !
-<blockquote>'''14 '''
-</blockquote>
+'''14 '''
 !
-<blockquote>'''13 '''
-</blockquote>
+'''13 '''
 !
-<blockquote>'''12 '''
-</blockquote>
+'''12 '''
 !
-<blockquote>'''11 '''
-</blockquote>
+'''11 '''
 !
-<blockquote>'''10 '''
-</blockquote>
+'''10 '''
 !
-<blockquote>'''9 '''
-</blockquote>
+'''9 '''
 !
-<blockquote>'''8 '''
-</blockquote>
+'''8 '''
 !
-<blockquote>'''7 '''
-</blockquote>
+'''7 '''
 !
-<blockquote>'''6 '''
-</blockquote>
+'''6 '''
 !
-<blockquote>'''5 '''
-</blockquote>
+'''5 '''
 |-
 | '''Off set '''
 |
-<blockquote>'''Conn '''
-</blockquote>
+'''Conn '''
 | '''Name '''
 |
 '''Pin '''
 
-<blockquote>'''Usage '''
-</blockquote>
+'''Usage '''
 |
-<blockquote>'''Type '''
-</blockquote>
+'''Type '''
 |
 
 | '''Reserved '''
@@ -5429,20 +5130,19 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |
 
 |
-<blockquote>'''S'''
+'''S'''
 
 '''L'''
 
 '''E'''
-</blockquote>
+
 '''W '''
 |
-<blockquote>'''R'''
+'''R'''
 
 '''X '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
@@ -5451,24 +5151,21 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 '''P'''
 
 '''D '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
 '''/'''
-</blockquote>
+
 '''D E'''
 
-<blockquote>'''N '''
-</blockquote>
+'''N '''
 | '''Mux Mode '''
 |-
 | '''154 '''
 |
-<blockquote>'''P9-23 '''
-</blockquote>
+'''P9-23 '''
 | '''GPIO1_17 '''
 |
 
@@ -5495,11 +5192,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''156 '''
 |
-<blockquote>'''P9-14 '''
-</blockquote>
+'''P9-14 '''
 |
-<blockquote>'''EHRPWM1A '''
-</blockquote>
+'''EHRPWM1A '''
 |
 
 |
@@ -5525,11 +5220,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''158 '''
 |
-<blockquote>'''P9-16 '''
-</blockquote>
+'''P9-16 '''
 |
-<blockquote>'''EHRPWM1B '''
-</blockquote>
+'''EHRPWM1B '''
 |
 
 |
@@ -5555,8 +5248,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''160 '''
 |
-<blockquote>'''P9-12 '''
-</blockquote>
+'''P9-12 '''
 | '''GPIO1_28 '''
 |
 
@@ -5583,8 +5275,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''162 '''
 |
-<blockquote>'''P8-26 '''
-</blockquote>
+'''P8-26 '''
 | '''GPIO1_29 '''
 |
 
@@ -5611,8 +5302,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''164 '''
 |
-<blockquote>'''P8-21 '''
-</blockquote>
+'''P8-21 '''
 | '''GPIO1_30 '''
 |
 
@@ -5639,8 +5329,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''166 '''
 |
-<blockquote>'''P8-20 '''
-</blockquote>
+'''P8-20 '''
 | '''GPIO1_31 '''
 |
 
@@ -5667,8 +5356,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''168 '''
 |
-<blockquote>'''P8-18 '''
-</blockquote>
+'''P8-18 '''
 | '''GPIO2_1 '''
 |
 
@@ -5747,8 +5435,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''174 '''
 |
-<blockquote>'''P8-10 '''
-</blockquote>
+'''P8-10 '''
 | '''TIMER6 '''
 |
 
@@ -5801,8 +5488,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''178 '''
 |
-<blockquote>'''P8-45 '''
-</blockquote>
+'''P8-45 '''
 | '''GPIO2_6 '''
 |
 
@@ -5829,8 +5515,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''180 '''
 |
-<blockquote>'''P8-46 '''
-</blockquote>
+'''P8-46 '''
 | '''GPIO2_7 '''
 |
 
@@ -5857,8 +5542,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''182 '''
 |
-<blockquote>'''P8-43 '''
-</blockquote>
+'''P8-43 '''
 | '''GPIO2_8 '''
 |
 
@@ -5885,8 +5569,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''184 '''
 |
-<blockquote>'''P8-44 '''
-</blockquote>
+'''P8-44 '''
 | '''GPIO2_9 '''
 |
 
@@ -5913,8 +5596,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''186 '''
 |
-<blockquote>'''P8-41 '''
-</blockquote>
+'''P8-41 '''
 | '''GPIO2_10 '''
 |
 
@@ -5941,8 +5623,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''188 '''
 |
-<blockquote>'''P8-42 '''
-</blockquote>
+'''P8-42 '''
 | '''GPIO2_11 '''
 |
 
@@ -5969,8 +5650,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''190 '''
 |
-<blockquote>'''P8-39 '''
-</blockquote>
+'''P8-39 '''
 | '''GPIO2_12 '''
 |
 
@@ -5997,8 +5677,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''192 '''
 |
-<blockquote>'''P8-40 '''
-</blockquote>
+'''P8-40 '''
 | '''GPIO2_13 '''
 |
 
@@ -6025,11 +5704,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''194 '''
 |
-<blockquote>'''P8-37 '''
-</blockquote>
+'''P8-37 '''
 |
-<blockquote>'''UART5_TXD '''
-</blockquote>
+'''UART5_TXD '''
 |
 
 |
@@ -6055,11 +5732,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''196 '''
 |
-<blockquote>'''P8-38 '''
-</blockquote>
+'''P8-38 '''
 |
-<blockquote>'''UART5_RXD '''
-</blockquote>
+'''UART5_RXD '''
 |
 
 |
@@ -6085,11 +5760,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''198 '''
 |
-<blockquote>'''P8-36 '''
-</blockquote>
+'''P8-36 '''
 |
-<blockquote>'''UART3_CTSN '''
-</blockquote>
+'''UART3_CTSN '''
 |
 
 |
@@ -6115,11 +5788,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''200 '''
 |
-<blockquote>'''P8-34 '''
-</blockquote>
+'''P8-34 '''
 |
-<blockquote>'''UART3_RTSN '''
-</blockquote>
+'''UART3_RTSN '''
 |
 
 |
@@ -6145,8 +5816,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''202 '''
 |
-<blockquote>'''P8-27 '''
-</blockquote>
+'''P8-27 '''
 | '''GPIO2_22 '''
 |
 
@@ -6173,8 +5843,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''204 '''
 |
-<blockquote>'''P8-29 '''
-</blockquote>
+'''P8-29 '''
 | '''GPIO2_23 '''
 |
 
@@ -6201,8 +5870,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''206 '''
 |
-<blockquote>'''P8-28 '''
-</blockquote>
+'''P8-28 '''
 | '''GPIO2_24 '''
 |
 
@@ -6228,11 +5896,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''208 '''
-</blockquote>
+'''208 '''
 |
-<blockquote>'''P8-30 '''
-</blockquote>
+'''P8-30 '''
 | '''GPIO2_25 '''
 |
 
@@ -6258,11 +5924,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''210 '''
-</blockquote>
+'''210 '''
 |
-<blockquote>'''P9-29 '''
-</blockquote>
+'''P9-29 '''
 | '''SPI1_D0 '''
 |
 
@@ -6289,8 +5953,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''212 '''
 |
-<blockquote>'''P9-30 '''
-</blockquote>
+'''P9-30 '''
 | '''SPI1_D1 '''
 |
 
@@ -6317,8 +5980,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''214 '''
 |
-<blockquote>'''P9-28 '''
-</blockquote>
+'''P9-28 '''
 | '''SPI1_CS0 '''
 |
 
@@ -6345,8 +6007,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''216 '''
 |
-<blockquote>'''P9-27 '''
-</blockquote>
+'''P9-27 '''
 | '''GPIO3_19 '''
 |
 
@@ -6373,8 +6034,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''218 '''
 |
-<blockquote>'''P9-31 '''
-</blockquote>
+'''P9-31 '''
 | '''SPI1_SCLK '''
 |
 
@@ -6401,8 +6061,7 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |-
 | '''220 '''
 |
-<blockquote>'''P9-25 '''
-</blockquote>
+'''P9-25 '''
 | '''GPIO3_21 '''
 |
 
@@ -6435,49 +6094,36 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 | '''15 '''
 |
-<blockquote>'''14 '''
-</blockquote>
+'''14 '''
 |
-<blockquote>'''13 '''
-</blockquote>
+'''13 '''
 |
-<blockquote>'''12 '''
-</blockquote>
+'''12 '''
 |
-<blockquote>'''11 '''
-</blockquote>
+'''11 '''
 |
-<blockquote>'''10 '''
-</blockquote>
+'''10 '''
 |
-<blockquote>'''9 '''
-</blockquote>
+'''9 '''
 |
-<blockquote>'''8 '''
-</blockquote>
+'''8 '''
 |
-<blockquote>'''7 '''
-</blockquote>
+'''7 '''
 |
-<blockquote>'''6 '''
-</blockquote>
+'''6 '''
 |
-<blockquote>'''5 '''
-</blockquote>
+'''5 '''
 |-
 | '''Off set '''
 |
-<blockquote>'''Conn '''
-</blockquote>
+'''Conn '''
 | '''Name '''
 |
 '''Pin '''
 
-<blockquote>'''Usage '''
-</blockquote>
+'''Usage '''
 |
-<blockquote>'''Type '''
-</blockquote>
+'''Type '''
 |
 
 | '''Reserved '''
@@ -6486,20 +6132,19 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |
 
 |
-<blockquote>'''S'''
+'''S'''
 
 '''L'''
 
 '''E'''
-</blockquote>
+
 '''W '''
 |
-<blockquote>'''R'''
+'''R'''
 
 '''X '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
@@ -6508,18 +6153,16 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 '''P'''
 
 '''D '''
-</blockquote>
 |
-<blockquote>'''P'''
+'''P'''
 
 '''U'''
 
 '''/'''
-</blockquote>
+
 '''D E'''
 
-<blockquote>'''N '''
-</blockquote>
+'''N '''
 | '''Mux Mode '''
 |-
 |
@@ -6531,40 +6174,29 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 |
 
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 | '''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |
-<blockquote>'''0 '''
-</blockquote>
+'''0 '''
 |-
 |
-<blockquote>'''222 '''
-</blockquote>
+'''222 '''
 |
-<blockquote>'''P9-39 '''
-</blockquote>
+'''P9-39 '''
 | '''AIN0 '''
 |
 
@@ -6590,11 +6222,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''224 '''
-</blockquote>
+'''224 '''
 |
-<blockquote>'''P9-40 '''
-</blockquote>
+'''P9-40 '''
 | '''AIN1 '''
 |
 
@@ -6620,11 +6250,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''226 '''
-</blockquote>
+'''226 '''
 |
-<blockquote>'''P9-37 '''
-</blockquote>
+'''P9-37 '''
 | '''AIN2 '''
 |
 
@@ -6650,11 +6278,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''228 '''
-</blockquote>
+'''228 '''
 |
-<blockquote>'''P9-38 '''
-</blockquote>
+'''P9-38 '''
 | '''AIN3 '''
 |
 
@@ -6680,11 +6306,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''230 '''
-</blockquote>
+'''230 '''
 |
-<blockquote>'''P9-33 '''
-</blockquote>
+'''P9-33 '''
 | '''AIN4 '''
 |
 
@@ -6710,11 +6334,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''232 '''
-</blockquote>
+'''232 '''
 |
-<blockquote>'''P9-36 '''
-</blockquote>
+'''P9-36 '''
 | '''AIN5 '''
 |
 
@@ -6740,11 +6362,9 @@ The '''AIN0-6''' pins do not have a pin mux setting, but they need to be set to 
 
 |-
 |
-<blockquote>'''234 '''
-</blockquote>
+'''234 '''
 |
-<blockquote>'''P9-35 '''
-</blockquote>
+'''P9-35 '''
 | '''AIN6 '''
 |
 
@@ -6778,8 +6398,8 @@ This section covers things to watch for when hooking up to certain pins on the e
 
 There are 16 pins that control the boot mode of the processor that are exposed on the expansion headers. '''Figure 63''' below shows those signals as they appear on the BeagleBone Black.:
 
-<blockquote>[[media/image80.png|530x468px]]
-</blockquote>
+[[media/image80.png|530x468px]]
+
 If you plan to use any of these signals, then on power up, these pins should not be driven. If you do, it can affect the boot mode of the processor and could keep the processor from booting or working correctly.
 
 If you are designing a cape that is intended to be used as a boot source, such as a NAND board, then you should drive the pins to reconfigure the boot mode, but only at reset. After the reset phase, the signals should not be driven to allow them to be used for the other functions found on those pins. You will need to override the resistor values in order to change the settings. The DC pull-up requirement should be based on the AM3358 Vih min voltage of 2 volts and AM3358 maximum input leakage current of 18uA. Also take into account any other current leakage paths on these signals which could be caused by your specific cape design.
@@ -6800,8 +6420,8 @@ The following sections describe how the connectors are to be implemented and use
 
 For non-stacking capes single configurations or where the cape can be the last board on the stack, the two 46 pin expansion headers use the same connectors. '''Figure 64''' is a picture of the connector. These are dual row 23 position 2.54mm x 2.54mm connectors.
 
-<blockquote>[[media/image81.jpg|65x90px]]
-</blockquote>
+[[media/image81.jpg|65x90px]]
+
 ====== Figure 64. Single Expansion Connector  ======
 
 The connector is typically mounted on the bottom side of the board as shown in '''Figure 65'''. These are very common connectors and should be easily located. You can also use two single row 23 pin headers for each of the dual row headers.
@@ -6820,50 +6440,37 @@ For convenience listed in '''Table 19''' are some possible choices for part numb
 
 {|
 !
-<blockquote>'''SUPPLIER '''
-</blockquote>
+'''SUPPLIER '''
 !
-<blockquote>'''PARTNUMBER '''
-</blockquote>
+'''PARTNUMBER '''
 !
-<blockquote>'''TAIL LENGTH(in) '''
-</blockquote>
+'''TAIL LENGTH(in) '''
 !
-<blockquote>'''OVERHANG(in) '''
-</blockquote>
+'''OVERHANG(in) '''
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | TSHC-123-D-03-145-G-LF
 |
-<blockquote>.145
-</blockquote>
+.145
 |
-<blockquote>.004
-</blockquote>
+.004
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | TSHC-123-D-03-240-G-LF
 |
-<blockquote>.240
-</blockquote>
+.240
 |
-<blockquote>.099
-</blockquote>
+.099
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | TSHC-123-D-03-255-G-LF
 |
-<blockquote>.255
-</blockquote>
+.255
 |
-<blockquote>.114
-</blockquote>
+.114
 |}
 
 The G in the part number is a plating option. Other options may be used as well as long as the contact area is gold. Other possible sources are Sullins and Samtec for these connectors. You will need to ensure the depth into the connector is sufficient
@@ -6890,44 +6497,34 @@ The third part listed in '''Table 20''' will have insertion force issues.
 
 {|
 !
-<blockquote>'''SUPPLIER '''
-</blockquote>
+'''SUPPLIER '''
 !
-<blockquote>'''PARTNUMBER '''
-</blockquote>
+'''PARTNUMBER '''
 !
-<blockquote>'''TAIL LENGTH(in) '''
-</blockquote>
+'''TAIL LENGTH(in) '''
 !
-<blockquote>'''OVERHANG(in) '''
-</blockquote>
+'''OVERHANG(in) '''
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | SSHQ-123-D-06-G-LF
 | .190
 |
-<blockquote>0.049
-</blockquote>
+0.049
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | SSHQ-123-D-08-G-LF
 | .390
 |
-<blockquote>0.249
-</blockquote>
+0.249
 |-
 |
-<blockquote>[http://www.mlelectronics.com/ ''Major League'' ]
-</blockquote>
+[http://www.mlelectronics.com/ ''Major League'' ]
 | SSHQ-123-D-10-G-LF
 | .560
 |
-<blockquote>0.419
-</blockquote>
+0.419
 |}
 
 There are also different plating options on each of the connectors above. Gold plating on the contacts is the minimum requirement. If you choose to use a different part number for plating or availability purposes, make sure you do not select the “LT” option.
@@ -6986,115 +6583,87 @@ The '''Table 1''' describes the voltages from the main board that are available 
 
 {|
 !
-<blockquote>'''Current '''
-</blockquote>
+'''Current '''
 !
-<blockquote>'''Name '''
-</blockquote>
+'''Name '''
 !
 
 ! '''P9 '''
 !
-<blockquote>'''Name '''
-</blockquote>
+'''Name '''
 !
-<blockquote>'''Current '''
-</blockquote>
+'''Current '''
 |-
 |
 
 |
-<blockquote>GND
-</blockquote>
+GND
 |
-<blockquote>1
-</blockquote>
+1
 |
 
 |
-<blockquote>2
-</blockquote>
+2
 |
-<blockquote>GND
-</blockquote>
+GND
 |
 
 |-
 |
-<blockquote>250mA
-</blockquote>
+250mA
 |
-<blockquote>VDD_3V3B
-</blockquote>
+VDD_3V3B
 |
-<blockquote>3
-</blockquote>
+3
 |
 
 |
-<blockquote>4
-</blockquote>
+4
 |
-<blockquote>VDD_3V3B
-</blockquote>
+VDD_3V3B
 |
-<blockquote>250mA
-</blockquote>
+250mA
 |-
 |
-<blockquote>1000mA
-</blockquote>
+1000mA
 |
-<blockquote>VDD_5V
-</blockquote>
+VDD_5V
 |
-<blockquote>5
-</blockquote>
+5
 |
 
 |
-<blockquote>6
-</blockquote>
+6
 |
-<blockquote>VDD_5V
-</blockquote>
+VDD_5V
 |
-<blockquote>1000mA
-</blockquote>
+1000mA
 |-
 |
-<blockquote>250mA
-</blockquote>
+250mA
 |
-<blockquote>SYS_5V
-</blockquote>
+SYS_5V
 |
-<blockquote>7
-</blockquote>
+7
 |
 
 |
-<blockquote>8
-</blockquote>
+8
 |
-<blockquote>SYS_5V
-</blockquote>
+SYS_5V
 |
-<blockquote>250mA
-</blockquote>
+250mA
 |-
 |
 
 |
 
 |
-<blockquote>:
-</blockquote>
+:
 |
 
 |
-<blockquote>:
-</blockquote>
+:
 |
 
 |
@@ -7103,38 +6672,30 @@ The '''Table 1''' describes the voltages from the main board that are available 
 |
 
 |
-<blockquote>GND
-</blockquote>
+GND
 |
-<blockquote>43
-</blockquote>
+43
 |
 
 |
-<blockquote>44
-</blockquote>
+44
 |
-<blockquote>GND
-</blockquote>
+GND
 |
 
 |-
 |
 
 |
-<blockquote>GND
-</blockquote>
+GND
 |
-<blockquote>45
-</blockquote>
+45
 |
 
 |
-<blockquote>46
-</blockquote>
+46
 |
-<blockquote>GND
-</blockquote>
+GND
 |
 
 |}
@@ -7233,12 +6794,12 @@ Weight: 1.4 oz
 
 = '''11.0 Support Information ''' =
 
-<blockquote>All support for this design is through the BeagleBoard.org community at:
+All support for this design is through the BeagleBoard.org community at:
 
 ''beagleboard@googlegroups.com'' or
 
 [http://beagleboard.org/discuss ''http://beagleboard.org/discuss''] .
-</blockquote>
+
 === 11.1 Hardware Design  ===
 
 Design documentation can be found on the eMMC of the board under the documents/hardware directory when connected using the USB cable. Provided there is:
@@ -7276,8 +6837,8 @@ If you feel your board is defective or has issues, request an RMA by filling out
 
 [[media/image95.jpg|575x222px]]
 
-<blockquote>'''Figure 78. Third Phase Serial Number and Revision Location '''
-</blockquote>
+'''Figure 78. Third Phase Serial Number and Revision Location '''
+
 === 11.4 Trouble Shooting HDMI Issues  ===
 
 Many people are having issues with getting HDMI to work on their TV/Display. Unfortunately, we do not have the resources to buy all the TVs and Monitors on the market today nor go to eBay and buy all of the TVs and monitors made over the last five years to thoroughly test each and every one. We are depending on community members to help us get these tested and information provided on how to get them to work.
