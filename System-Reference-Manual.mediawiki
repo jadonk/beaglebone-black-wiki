@@ -10,7 +10,7 @@
 
 '''Maintaining author: Jason Kridner ''jkridner@beagleboard.org'''''
 
-'''Original author (latest May 22, 2014): Gerald Coley ''gerald@beagleboard.org'''''
+'''Original author (latest May 22, 2014): Gerald Coley ''gcoley1@emprodesign.com'''''
 
 '''Contributing Editor: Robert P J Day'''
 
@@ -22,15 +22,7 @@
 
 ''''For more information, see [http://creativecommons.org/license/results-one?license_code=by-sa http://creativecommons.org/license/resultsone?license_code=by-sa]''''
 
-'''Send all comments and errors concerning this document to the author at ''gerald@beagleboard.org'' '''
-
-'''For other questions you may contact Gerald at: '''
-
-'''Gerald Coley '''
-
-'''Texas Instruments '''
-
-'''12500 TI Blvd. Dallas, Tx 75243 ''g-coley1@ti.com'' '''
+'''Supply comments and errors via https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual'''
 
 '''All information in this document is subject to change without notice. '''
 
