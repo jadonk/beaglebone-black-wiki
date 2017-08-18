@@ -4,11 +4,13 @@
 
 '''System Reference Manual '''
 
-'''Revision C.1'''
+'''Revision C.x (on-line wiki edition)'''
 
-'''May 22, 2014'''
+'''August 18, 2017'''
 
-'''Author: Gerald Coley ''gerald@beagleboard.org'''''
+'''Maintaining author: Jason Kridner ''jkridner@beagleboard.org'''''
+
+'''Original author (latest May 22, 2014): Gerald Coley ''gerald@beagleboard.org'''''
 
 '''Contributing Editor: Robert P J Day'''
 
