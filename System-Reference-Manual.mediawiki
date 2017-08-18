@@ -34,9 +34,7 @@
 
 '''For an up to date version of this document refer to: '''
 
-[http://circuitco.com/support/index.php?title=BeagleBoneBlack#LATEST_PRODUCTION_FILES_.28A5A.29 '''''http://circuitco.com/support/index.php?title=BeagleBoneBlack#LATEST_PRODUC''''']
-
-[http://circuitco.com/support/index.php?title=BeagleBoneBlack#LATEST_PRODUCTION_FILES_.28A5A.29 '''''TION_FILES_.28A5A.29''''' ]
+[https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual '''''https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual''''']
 
 '''BEAGLEBONE DESIGN '''
 
@@ -94,11 +92,11 @@ Before returning the board, please visit
 
 ''BeagleBoard.org/support''
 
-For up to date SW images and technical information refer to [http://circuitco.com/support/index.php?title=BeagleBoneBlack ''http://circuitco.com/support/index.php?title=BeagleBoneBlack'' ]
+For up to date SW images and technical information refer to [https://beagleboard.org/latest-images ''https://beagleboard.org/latest-images'' ]
 
-All support for this board is provided via community support at [http://www.beagleboard.org/discuss ''www.beagleboard.org/discuss'']
+All support for this board is provided via community support at [https://beagleboard.org/discuss ''beagleboard.org/discuss'']
 
-To return a defective board for repair, please request an RMA at [http://beagleboard.org/support/rma ''http://beagleboard.org/support/rma'']
+To return a defective board for repair, please request an RMA at [https://beagleboard.org/support/rma ''beagleboard.org/support/rma'']
 
 '''Please DO NOT return the board without approval from the RMA team first. '''
 
@@ -114,7 +112,7 @@ This design is subject to change without notice as we will work to keep improvin
 
 Make sure you check the support Wiki frequently for the most up to date information.
 
-[http://circuitco.com/support/index.php?title=BeagleBoneBlack ''http://circuitco.com/support/index.php?title=BeagleBoneBlack'' ]
+[http://elinux.org/BeagleBoneBlack ''elinux.org/BeagleBoneBlack'' ]
 
 = '''2.0 Change History ''' =
 
@@ -397,7 +395,7 @@ o External 5V power supply
 
 Each of these configurations is discussed in general terms in the following sections.
 
-For an up-to-date list of confirmed working accessories please go to [http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories ''http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories'']
+For an up-to-date list of confirmed working accessories please go to [http://elinux.org/BeagleBone_Black_Accessories ''http://elinux.org/BeagleBone_Black_Accessories'']
 
 === 3.3 Tethered To A PC  ===
 
@@ -460,7 +458,7 @@ In order to use the board in this configuration, you will need the following acc
 * (1) USB wireless keyboard and mouse combo.
 * (1) USB HUB (OPTIONAL). The board has only one USB host port, so you may need to use a USB Hub if your keyboard and mouse requires two ports.
 
-For an up-to-date list of confirmed working accessories please go to [http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories ''http://circuitco.com/support/index.php?title=BeagleBone_Black_Accessories'']
+For an up-to-date list of confirmed working accessories please go to [http://elinux.org/BeagleBone_Black_Accessories ''http://elinux.org/BeagleBone_Black_Accessories'']
 
 ==== 3.4.2 Connecting Up the Board  ====
 
@@ -555,11 +553,11 @@ It has been equipped with a minimum set of features to allow the user to experie
 
 It also offers access to many of the interfaces and allows for the use of add-on boards called capes, to add many different combinations of features. A user may also develop their own board or add their own circuitry.
 
-BeagleBone Black is manufactured and warranted by Circuitco LLC in Richardson Texas for the benefit of the community and its supporters. In addition, Circuitco provides the RMA support for the BeagleBone Black.
+BeagleBone Black is manufactured and warranted by partners listed at https://beagleboard.org/logo for the benefit of the community and its supporters.
 
 Jason Kridner of Texas Instruments handles the community promotions and is the spokesman for BeagleBoard.org.
 
-The board is designed by Gerald Coley, an employee of Texas Instruments and a charter member of the BeagleBoard.org community.
+The board is designed by Gerald Coley of EmProDesign, a charter member of the BeagleBoard.org community.
 
 The PCB layout was done by Circuitco and Circuitco is the sole funder of its development and transition to production.
 
@@ -3545,7 +3543,7 @@ The cable can be purchased from several different places and must be the 3.3V ve
 
 Pin 1 of the cable is the black wire. That must align with the pin 1 on the board which is designated by the white dot next to the connector on the board.
 
-Refer to the support WIKI [http://circuitco.com/support/index.php?title=BeagleBoneBlack ''http://circuitco.com/support/index.php?title=BeagleBoneBlack''] for more sources of this cable and other options that will work.
+Refer to the support WIKI [http://elinux.org/BeagleBoneBlack ''http://elinux.org/BeagleBoneBlack''] for more sources of this cable and other options that will work.
 
 Table is the pinout of the connector as reflected in the schematic. It is the same as the
 
@@ -6805,17 +6803,17 @@ Design documentation can be found on the eMMC of the board under the documents/h
 * Bill of Material
 * System Reference Manual (This document).
 
-This directory is not always kept up to date in every SW release due to the frequency of changes of the SW. The best solution is to download the files from the Circuitco WIKI at [http://circuitco.com/support/index.php?title=BeagleBoneBlack ''http://circuitco.com/support/index.php?title=BeagleBoneBlack'']
+This directory is not always kept up to date in every SW release due to the frequency of changes of the SW. The best solution is to download the files from [https://beagleboard.org/latest-images ''beagleboard.org/latest-images'']
 
 We do not track SW revision of what is in the eMMC. SW is tracked separately from the HW due to the frequency of changes which would require massive relabeling of boards due to the frequent SW changes. You should always use the latest SW revision.
 
-To see what SW revision is loaded into the eMMC follow the instructions at [http://circuitco.com/support/index.php?title=Updating_The_Software#Checking_The_Angstrom_Image_Version ''http://circuitco.com/support/index.php?title=Updating_The_Software#Checking_The_An gstrom_Image_Version'' ]
+To see what SW revision is loaded into the eMMC follow the instructions at [http://elinux.org/Beagleboard:Updating_The_Software#Checking_The_Angstrom_Image_Version ''http://elinux.org/Beagleboard:Updating_The_Software#Checking_The_Angstrom_Image_Version'' ]
 
 === 11.2 Software Updates  ===
 
 It is a good idea to always use the latest software. Instructions for how to update your software to the latest version can be found at:
 
-[http://circuitco.com/support/index.php?title=BeagleBoneBlack#Updating_the_eMMC_Software ''http://circuitco.com/support/index.php?title=BeagleBoneBlack#Updating_the_eMMC_S oftware'' ]
+[http://elinux.org/BeagleBoneBlack#Updating_the_eMMC_Software ''http://elinux.org/BeagleBoneBlack#Updating_the_eMMC_S oftware'' ]
 
 === 11.3 RMA Support  ===
 
@@ -6879,5 +6877,5 @@ Audio will only work on TV resolutions. This is due to the the way the specifica
 
 == 11.4.7 Getting Help  ==
 
-If you need some up to date troubleshooting techniques, we have a Wiki set up at [http://circuitco.com/support/index.php?title=BeagleBoneBlack_HDMI ''http://circuitco.com/support/index.php?title=BeagleBoneBlack_HDMI'' ]
+If you need some up to date troubleshooting techniques, we have a Wiki set up at [http://elinux.org/Beagleboard:BeagleBoneBlack_HDMI ''http://elinux.org/Beagleboard:BeagleBoneBlack_HDMI'' ]
 
