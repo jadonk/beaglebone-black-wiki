@@ -74,11 +74,11 @@ This Class A or B digital apparatus complies with Canadian ICES-003. Changes or 
 
 Mailing Address:
 
-BeagleBoard.org
+BeagleBoard.org Foundation
 
-1380 Presidential Dr. #100
+4467 Ascot Ct
 
-Richardson, TX 75081 U.S.A.
+Oakland Twp, MI 48306 U.S.A.
 
 '''WARRANTY:''' ''The BeagleBone Black Assembly as purchased is warranted against defects in materials and workmanship for a period of 90 days from purchase. This warranty does not cover any problems occurring as a result of improper use, modifications, exposure to water, excessive voltages, abuse, or accidents. All boards will be returned via standard mail if an issue is found. If no issue is found or express return is needed, the customer will pay all shipping costs''.
 
@@ -403,7 +403,7 @@ All the power for the board is provided by the PC via the USB cable. In some ins
 
 ==== 3.3.1 Connect the Cable to the Board  ====
 
-1. Connect the small connector on the USB cable to the board as shown in '''Figure 4'''. The connector is on the bottom side of the board.
+1. Connect the small connector on the USB cable to the board as shown in '''Figure 3'''. The connector is on the bottom side of the board.
 
 [[media/image9.jpg|451x206px]]
 
@@ -467,7 +467,7 @@ For an up-to-date list of confirmed working accessories please go to [http://eli
 
 [[media/image14.jpg|486x281px]]
 
-<ol start="2" style="list-style-type: decimal;">
+<ol start="3" style="list-style-type: decimal;">
 <li><p>If you have a single wireless keyboard and mouse combination such as seen in Figure '''9''' below, you need to plug the receiver in the USB host port of the board as shown in '''Figure 10'''.</p></li></ol>
 
 [[media/image16.jpg|237x108px]]
@@ -516,8 +516,9 @@ As soon as the power is applied to the board, it will start the booting up proce
 
 ====== Figure 15. Board Boot Status  ======
 
-While the four user LEDS can be over written and used as desired, they do have specific meanings in the image that is shipped with the board once the Linux kernel has booted.  '''USER0''' is the heartbeat indicator from the Linux kernel.
+While the four user LEDS can be over written and used as desired, they do have specific meanings in the image that is shipped with the board once the Linux kernel has booted.
 
+* '''USER0''' is the heartbeat indicator from the Linux kernel.
 * '''USER1''' turns on when the microSD card is being accessed
 * '''USER2''' is an activity indicator. It turns on when the kernel is not in the idle loop.
 * '''USER3''' turns on when the onboard eMMC is being accessed.
@@ -535,8 +536,8 @@ While the four user LEDS can be over written and used as desired, they do have s
 
 8. Powering Down
 
-1. Press the power button momentarily 2. The system will power down automatically.
-
+1. Press the power button momentarily. 
+2. The system will power down automatically.
 3. Remove the power jack.
 
 = '''4.0 BeagleBone Black Overview ''' =
@@ -566,28 +567,41 @@ The board is intended to be compatible with the original BeagleBone as much as p
 * Sitara AM3358BZCZ100, 1GHZ, processor.
 ** Sorry, we just had to make it faster.
 * 512MB DDR3L
-** ''Cost reduction'' o Performance boost o Memory size increase o Lower power
+** ''Cost reduction''
+** Performance boost
+** Memory size increase
+** Lower power
 * No Serial port by default.
 ** ''Cost reduction''
-** Can be added by buying a TTL to USB Cable that is widely available o Single largest cost reduction action taken
-* No JTAG emulation over USB. o ''Cost reduction.'' JTAG header is not populated, but can easily be mounted.
-* EEPROM Reduced from 32KB to 4KB o Cost Reduction
-* Onboard Managed NAND (eMMC) o 4GB
+** Can be added by buying a TTL to USB Cable that is widely available
+** Single largest cost reduction action taken
+* No JTAG emulation over USB.
+** ''Cost reduction.'' JTAG header is not populated, but can easily be mounted.
+* EEPROM Reduced from 32KB to 4KB
+** ''Cost Reduction''
+* Onboard Managed NAND (eMMC)
+** 4GB
 ** ''Cost reduction''
 ** Performance boost x8 vs. x4 bits
 ** Performance boost due to deterministic properties vs. microSD card
-* GPMC bus may not be accessible from the expansion headers in some cases o Result of eMMC on the main board o Signals are still routed to the expansion connector
+* GPMC bus may not be accessible from the expansion headers in some cases
+** Result of eMMC on the main board
+** Signals are still routed to the expansion connector
 ** If eMMC is not used, signals can be used via expansion if eMMC is held in reset
-* There may be 10 less GPIO pins available o Result of eMMC
+* There may be 10 less GPIO pins available
+** Result of eMMC
 ** If eMMC is not used, could still be used
-* The power expansion header, for battery and backlight, has been removed o ''Cost reduction, s''pace reduction o Four pins were added to provide access to the battery charger function.
-* HDMI interface onboard o Feature addition
+* The power expansion header, for battery and backlight, has been removed
+** ''Cost reduction,''space reduction
+** Four pins were added to provide access to the battery charger function.
+* HDMI interface onboard
+** Feature addition
 ** Audio and video capable
 ** Micro HDMI
-* No three function USB cable o ''Cost reduction''
+* No three function USB cable
+** ''Cost reduction''
 * GPIO3_21 has a 24.576 MHZ clock on it.
-
-o This is required by the HDMI Framer for Audio purposes. We needed to run a clock into the processor to generate the correct clock frequency. The pin on the processor was already routed to the expansion header. In order not to remove this feature on the expansion header, it was left connected. In order to use the pin as a GPIO pin, you need to disable the clock. While this disables audio to the HDMI, the fact that you want to use this pin for something else, does the same thing.
+** This is required by the HDMI Framer for Audio purposes. We needed to run a clock into the processor to generate the correct clock frequency. The pin on the processor was already routed to the expansion header. In order not to remove this feature on the expansion header, it was left connected. In order to use the pin as a GPIO pin, you need to disable the clock. While this disables audio to the HDMI, the fact that you want to use this pin for something else, does the same thing.
 
 === 4.2 BeagleBone Black Features and Specification  ===
 
@@ -735,7 +749,7 @@ This section provides the high level specification of the BeagleBone Black.
 
 === 5.2 Processor  ===
 
-The revision B board has moved to the Sitara AM3358BZCZ100 device.
+The revision B and later boards have moved to the Sitara AM3358BZCZ100 device.
 
 === 5.3 Memory  ===
 
@@ -856,7 +870,8 @@ A single HDMI interface is connected to the 16 bit LCD interface on the processo
 The HDMI device does not support HDCP copy protection. Support is provided via EDID to allow the SW to identify the compatible resolutions. Currently the following resolutions are supported via the software:
 
 * 1280 x 1024
-* 1440 x 900  1024 x 768
+* 1440 x 900
+* 1024 x 768
 * 1280 x 720
 
 === 5.14 Cape Board Support  ===
@@ -1190,15 +1205,15 @@ The board is designed to use the Sitara AM3358BZCZ100 processor in the 15 x 15 p
 ======  Table 5. Processor Features  ======
 
 {|
-!
+|
 Operating Systems
-!
+|
 Linux, Android, Windows
 Embedded CE,QNX,
 
 ThreadX
-! MMC/SD
-! 3
+| MMC/SD
+| 3
 |-
 | Standby Power
 | 7 mW
@@ -1372,7 +1387,8 @@ The following sections describe the design and device that is used on the board 
 
 The device used is one of two different devices:
 
- Micron '''MTFC4GLDEA 0M WT'''  Kingston '''KE4CN2H5A-A58'''
+* Micron '''MTFC4GLDEA 0M WT'''
+* Kingston '''KE4CN2H5A-A58'''
 
 The package is a 153 ball WFBGA device on both devices.
 
@@ -1400,7 +1416,7 @@ The ROM only supports the 4-bit mode. After the initial boot, the switch can be 
 
 === 6.4 Board ID EEPROM  ===
 
-The BeagleBone is equipped with a single 32Kbit(4KB) 24LC32AT-I/OT EEPROM to allow the SW to identify the board. '''Table 7''' below defined the contents of the EERPOM.
+The BeagleBone is equipped with a single 32Kbit(4KB) 24LC32AT-I/OT EEPROM to allow the SW to identify the board. '''Table 7''' below defined the contents of the EEPROM.
 
 ======  Table 7. EEPROM Contents  ======
 
@@ -1504,7 +1520,7 @@ There are four user LEDs on the BeagleBone Black. These are connected to GPIO pi
 
 ======= Figure 37. User LEDs  =======
 
-Resistors R71-R74 were changed to 4.75K on the revision A5B board.
+Resistors R71-R74 were changed to 4.75K on the revision A5B and later boards.
 
 '''Table 8''' shows the signals used to control the four LEDs from the processor.
 
@@ -1737,7 +1753,7 @@ The maximum resolution supported by the BeagleBone Black is 1280x1024 @ 60Hz. ''
 
 |}
 
-NOTE: The updated software image used on the Rev A5B board added support for 1920x1080@24HZ.
+NOTE: The updated software image used on the Rev A5B and later boards added support for 1920x1080@24HZ.
 
 Audio is limited to CEA supported resolutions. LCD panels only activate the audio in CEA modes. This is a function of the specification and is not something that can be fixed on the board via a hardware change or a software change.
 
@@ -1831,8 +1847,10 @@ The features of the PRU-ICSS include:
 
 Two independent programmable real-time (PRU) cores:
 
-======== – 32-Bit Load/Store RISC architecture – 8K Byte instruction RAM (2K instructions) per core – 8K Bytes data RAM per core – 12K Bytes shared RAM  ========
-
+* 32-Bit Load/Store RISC architecture
+* 8K Byte instruction RAM (2K instructions) per core
+* 8K Bytes data RAM per core
+* 12K Bytes shared RAM
 * Operating frequency of 200 MHz
 * PRU operation is little endian similar to ARM processor
 * All memories within PRU-ICSS support parity
@@ -3543,9 +3561,9 @@ Table is the pinout of the connector as reflected in the schematic. It is the sa
 
 FTDI cable which can be found at
 
-[http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf ''http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-'']
+[http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf ''http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf'']
 
-[http://www.ftdichip.com/Support/Documents/DataSheets/Cables/DS_TTL-232R_CABLES.pdf ''232R_CABLES.pdf''] with the exception that only three pins are used on the board. The pin numbers are defined in '''Table 14'''. The signals are from the perspective of the board.
+with the exception that only three pins are used on the board. The pin numbers are defined in '''Table 14'''. The signals are from the perspective of the board.
 
 ======  Table 14. J1 Serial Header Pins  ======
 
@@ -6698,7 +6716,7 @@ A cape can have a jack or terminals to bring in whatever voltages may be needed 
 
 It is possible to provide 5V to the main board from an expansion board. By supplying a 5V signal into the '''VDD_5V''' rail, the main board can be supplied. This voltage must not exceed 5V. You should not supply any voltage into any other pin of the expansion connectors. Based on the board design, this rail is limited to 1A per pin to the BeagleBone Black.
 
-'''There are several precautions that need to me taken when working with the expansion headers to prevent damage to the board. '''
+'''There are several precautions that need to be taken when working with the expansion headers to prevent damage to the board. '''
 
 # '''Do not apply any voltages to any I/O pins when the board is not powered on. '''
 # '''Do not drive any external signals into the I/O pins until after the VDD_3V3B rail is up. '''
@@ -6750,7 +6768,9 @@ Max height: .187” (4.76mm)
 
 PCB Layers: 6
 
-PCB thickness: .062” RoHS Compliant: Yes
+PCB thickness: .062”
+
+RoHS Compliant: Yes
 
 Weight: 1.4 oz
 
