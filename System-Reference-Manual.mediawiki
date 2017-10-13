@@ -1,6 +1,6 @@
 [[media/image1.jpg|598x400px]]
 
-'''BeagleBone Black'''
+**BeagleBone Black**
 
 '''System Reference Manual '''
 
