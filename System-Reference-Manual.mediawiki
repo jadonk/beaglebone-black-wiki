@@ -6,7 +6,7 @@
 
 '''Revision C.x (on-line wiki edition)'''
 
-'''August 18, 2017'''
+'''October 13, 2017'''
 
 '''Maintaining author: Jason Kridner ''jkridner@beagleboard.org'''''
 
@@ -315,13 +315,13 @@ March 22.2014
 
 ==== 2.2.1 Rev C  ====
 
- Changed the eMMC from 2GB to 4GB.
+* Changed the eMMC from 2GB to 4GB.
 
 2GB devices are getting harder to get as they are being phased out. This required us to move to 4GB. We now have two sources for the device. This will however, require an increase in the price of the board.
 
 ==== 2.2.2 Rev B  ====
 
- Changed the processor to the AM3358BZCZ100.
+* Changed the processor to the AM3358BZCZ100.
 
 ==== 2.2.3 Rev A6A  ====
 
