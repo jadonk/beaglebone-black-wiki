@@ -6,7 +6,7 @@
 
 '''Revision C.x (on-line wiki edition)'''
 
-'''August 18, 2017'''
+'''October 13, 2017'''
 
 '''Maintaining author: Jason Kridner ''jkridner@beagleboard.org'''''
 
@@ -60,7 +60,7 @@ This Class A or B digital apparatus complies with Canadian ICES-003. Changes or 
 
 '''''For Feasibility Evaluation Only, in Laboratory/Development Environments'''. The'' ''BeagleBone Black is not a complete product. It is intended solely for use for preliminary'' ''feasibility evaluation in laboratory/development environments by technically qualified'' ''electronics experts who are familiar with the dangers and application risks associated with'' ''handling electrical mechanical components, systems and subsystems. It should not be'' ''used as all or part of a finished end product.''
 
-'''Your Sole Responsibility and Ris'''k you acknowledge, represent, and agree that:
+'''Your Sole Responsibility and Risk''' you acknowledge, represent, and agree that:
 
 # You have unique knowledge concerning Federal, State and local regulatory requirements (including but not limited to Food and Drug Administration regulations, if applicable) which relate to your products and which relate to your use (and/or that of your employees, affiliates, contractors or designees) of the BeagleBone for evaluation, testing and other purposes.
 # You have full and exclusive responsibility to assure the safety and compliance of your products with all such laws and other applicable regulatory requirements, and also to assure the safety of any activities to be conducted by you and/or your employees, affiliates, contractors or designees, using the BeagleBone. Further, you are responsible to assure that any interfaces (electronic and/or mechanical) between the BeagleBone and any human body are designed with suitable isolation and means to safely limit accessible leakage currents to minimize the risk of electrical shock hazard.
@@ -315,13 +315,13 @@ March 22.2014
 
 ==== 2.2.1 Rev C  ====
 
- Changed the eMMC from 2GB to 4GB.
+* Changed the eMMC from 2GB to 4GB.
 
 2GB devices are getting harder to get as they are being phased out. This required us to move to 4GB. We now have two sources for the device. This will however, require an increase in the price of the board.
 
 ==== 2.2.2 Rev B  ====
 
- Changed the processor to the AM3358BZCZ100.
+* Changed the processor to the AM3358BZCZ100.
 
 ==== 2.2.3 Rev A6A  ====
 
@@ -558,7 +558,7 @@ The PCB layout was done by Circuitco and Circuitco is the sole funder of its dev
 
 The Software is written and supported by the thousands of community members, including Jason Kridner, employees of Texas Instruments, DigiKey, and Circuitco.
 
-.
+
 
 === 4.1 BeagleBone Compatibility  ===
 
@@ -1375,9 +1375,7 @@ The '''VREF''' signal is generated from a voltage divider on the '''VDDS_DDR''' 
 
 === 6.3 4GB eMMC Memory  ===
 
-The eMMC is a communication and mass data storage device that includes a Multi-
-
-MediaCard (MMC) interface, a NAND Flash component, and a controller on an advanced 11-signal bus, which is compliant with the MMC system specification. The nonvolatile eMMC draws no power to maintain stored data, delivers high performance across a wide range of operating temperatures, and resists shock and vibration disruption.
+The eMMC is a communication and mass data storage device that includes a Multi-MediaCard (MMC) interface, a NAND Flash component, and a controller on an advanced 11-signal bus, which is compliant with the MMC system specification. The nonvolatile eMMC draws no power to maintain stored data, delivers high performance across a wide range of operating temperatures, and resists shock and vibration disruption.
 
 One of the issues faced with SD cards is that across the different brands and even within the same brand, performance can vary. Cards use different controllers and different memories, all of which can have bad locations that the controller handles. But the controllers may be optimized for reads or writes. You never know what you will be getting. This can lead to varying rates of performance. The eMMC card is a known controller and when coupled with the 8bit mode, 8 bits of data instead of 4, you get double the performance which should result in quicker boot times.
 
