@@ -16,11 +16,11 @@
 
 '''THIS DOCUMENT '''
 
-''''This work is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/3.0/ http://creativecommons.org/licenses/bysa/3.0/]'''' ''''or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. ''''
+'''''This work is licensed under the Creative Commons Attribution-Share Alike 3.0 Unported License. To view a copy of this license, visit [http://creativecommons.org/licenses/by-sa/3.0/ http://creativecommons.org/licenses/bysa/3.0/] or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. '''''
 
-''''All derivative works are to be attributed to Gerald Coley of BeagleBoard.org. ''''
+'''''All derivative works are to be attributed to Gerald Coley of BeagleBoard.org. '''''
 
-''''For more information, see [http://creativecommons.org/license/results-one?license_code=by-sa http://creativecommons.org/license/resultsone?license_code=by-sa]''''
+'''''For more information, see [http://creativecommons.org/license/results-one?license_code=by-sa http://creativecommons.org/license/resultsone?license_code=by-sa]'''''
 
 '''Supply comments and errors via https://github.com/beagleboard/beaglebone-black/wiki/System-Reference-Manual'''
 
